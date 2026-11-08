@@ -1,0 +1,21 @@
+{
+  "corpus_version": "ml-rag-minutes-2021-2025-minilm-reference-v1",
+  "model_name": "sentence-transformers/all-MiniLM-L12-v2",
+  "model_revision": "main",
+  "passage_prefix": "",
+  "query_prefix": "",
+  "device": "cpu",
+  "cpu_threads": 2,
+  "chunk_tokens": 80,
+  "overlap_tokens": 16,
+  "max_model_tokens": 128,
+  "batch_size": 32,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "rrf_constant": 60,
+  "top_k": 20,
+  "repetitions": 3,
+  "seed": 42,
+  "html_selector": "#article",
+  "pdf_drop_lines": []
+}

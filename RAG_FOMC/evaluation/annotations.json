@@ -1,0 +1,11 @@
+{
+  "chunks_sha256": "146254888475a93af32d6ce66bc463b13e3fd3ebdf8ffb4c544cb6f799297cd7",
+  "questions_sha256": "356cfce147d2224b3fc11b6e505234083f69dedf038dd6237c6ae77c560b1e30",
+  "draft_sha256": "92ea6945e19f9a58613ada6ebc16b21cc6591857aa72969f2105bdd84de1b19a",
+  "reviewers": [
+    "project_user"
+  ],
+  "validation_date": "2026-11-06",
+  "validation_statement": "c'est bon, j'ai bien verifie maintenant tu peux proceder au test, a la comparaison des strategies !",
+  "note": "Validation declared by user in conversation. Drafts preserved; exact evidence audit retained. No claim of exhaustive relevance annotations."
+}

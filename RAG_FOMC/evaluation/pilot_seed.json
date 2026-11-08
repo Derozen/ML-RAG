@@ -1,0 +1,78 @@
+[
+  {
+    "qid": "P001", "family_id": "jan2021_target", "question": "What target range for the federal funds rate did the Committee keep at the January 26–27, 2021 meeting?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "0 to 1/4 percent.",
+    "evidence": [{"evidence_id": "target", "doc_id": "FOMC_2021-01-27", "page": 19,
+      "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to ¼ percent"}]
+  },
+  {
+    "qid": "P002", "family_id": "jan2021_purchases", "question": "What minimum monthly increases in Treasury and agency mortgage-backed securities holdings were specified in January 2021?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "At least $80 billion per month in Treasury securities and $40 billion per month in agency mortgage-backed securities.",
+    "evidence": [
+      {"evidence_id": "treasuries", "doc_id": "FOMC_2021-01-27", "page": 19, "quote": "Treasury securities by at least $80 billion per month"},
+      {"evidence_id": "mbs", "doc_id": "FOMC_2021-01-27", "page": 19, "quote": "of agency mortgage-backed securi- ties by at least $40 billion per month"}
+    ]
+  },
+  {
+    "qid": "P003", "family_id": "jan2021_dissent", "question": "Did any member vote against the monetary policy action in January 2021?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "No. The minutes report no votes against the action.",
+    "evidence": [{"evidence_id": "vote", "doc_id": "FOMC_2021-01-27", "page": 19, "quote": "Voting against this action: None."}]
+  },
+  {
+    "qid": "P004", "family_id": "sep2024_target", "question": "What federal funds target range did the Committee decide on at its September 17–18, 2024 meeting?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "4-3/4 to 5 percent.",
+    "evidence": [{"evidence_id": "target", "doc_id": "FOMC_2024-09-18", "page": 11, "quote": "range for the federal funds rate to 4¾ to 5 percent."}]
+  },
+  {
+    "qid": "P005", "family_id": "sep2024_dissent", "question": "Who voted against the monetary policy action in September 2024?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "Michelle W. Bowman.",
+    "evidence": [{"evidence_id": "vote", "doc_id": "FOMC_2024-09-18", "page": 13, "quote": "Voting against this action: Michelle W. Bowman."}]
+  },
+  {
+    "qid": "P006", "family_id": "sep2024_dissent_reason", "question": "Why did Governor Bowman prefer a smaller rate cut at the September 2024 meeting?",
+    "type": "explanatory", "split": "dev", "answerable": true,
+    "reference_answer": "She cited core inflation above target, a labor market near full employment and solid growth, and worried that the larger action could signal a premature declaration of victory on price stability.",
+    "evidence": [
+      {"evidence_id": "conditions", "doc_id": "FOMC_2024-09-18", "page": 13,
+       "quote": "core inflation remaining well above the Committee’s objective, a labor market that is near full employment, and solid underlying growth."},
+      {"evidence_id": "signal", "doc_id": "FOMC_2024-09-18", "page": 13,
+       "quote": "a premature declaration of victory on the price-stability part of the dual mandate."}
+    ]
+  },
+  {
+    "qid": "P007", "family_id": "sep2024_fx", "question": "Were there any foreign currency intervention operations for the System’s account during the intermeeting period described in the September 2024 minutes?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "No intervention operations in foreign currencies were reported for the System’s account.",
+    "evidence": [{"evidence_id": "negation", "doc_id": "FOMC_2024-09-18", "page": 3,
+      "quote": "There were no intervention operations in foreign currencies for the System’s account during the intermeeting period."}]
+  },
+  {
+    "qid": "P008", "family_id": "nov2024_target", "question": "By how much did the Committee lower the target range in November 2024, and what range resulted?",
+    "type": "factual", "split": "dev", "answerable": true,
+    "reference_answer": "By 25 basis points, to 4-1/2 to 4-3/4 percent.",
+    "evidence": [{"evidence_id": "decision", "doc_id": "FOMC_2024-11-07", "page": 12,
+      "quote": "the target range for the federal funds rate by 25 basis points to 4½ to 4¾ percent."}]
+  },
+  {
+    "qid": "P009", "family_id": "sep_nov2024_comparison", "question": "How did the size of the federal funds rate cut and the resulting target range differ between the September and November 2024 meetings?",
+    "type": "comparative", "split": "dev", "answerable": true,
+    "reference_answer": "September: a 50 basis point cut to 4-3/4–5 percent. November: a 25 basis point cut to 4-1/2–4-3/4 percent.",
+    "evidence": [
+      {"evidence_id": "september", "doc_id": "FOMC_2024-09-18", "page": 12,
+       "quote": "the target range for the federal funds rate by ½ percentage point to 4¾ to 5 percent."},
+      {"evidence_id": "november", "doc_id": "FOMC_2024-11-07", "page": 12,
+       "quote": "the target range for the federal funds rate by 25 basis points to 4½ to 4¾ percent."}
+    ]
+  },
+  {
+    "qid": "P010", "family_id": "outside_corpus_2035", "question": "What federal funds target range was decided at the meeting ending January 31, 2035?",
+    "type": "unanswerable", "split": "dev", "answerable": false,
+    "reference_answer": null, "evidence": [],
+    "absence_reason": "The selected corpus contains only Minutes for meetings ending in 2021–2025, with no report for a meeting in 2035."
+  }
+]

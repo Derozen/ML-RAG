@@ -1,0 +1,43 @@
+{
+  "archive_name": "ML-RAG-master.zip",
+  "archive_sha256": "385c453c05d06952ee66539146800a32dd2ca52d69cbfda61eaa1e67148e0ea5",
+  "pdf_count": 93,
+  "document_types": {
+    "minutes": 46,
+    "statements": 47
+  },
+  "included_minutes": 40,
+  "included_by_year": {
+    "2021": 8,
+    "2022": 8,
+    "2023": 8,
+    "2024": 8,
+    "2025": 8
+  },
+  "excluded_by_reason": {
+    "excluded_meeting_year": 6,
+    "excluded_document_type_statement": 47
+  },
+  "missing_years": [
+    2020
+  ],
+  "reference_sources": [
+    "references/ML-RAG-master/__init__.py",
+    "references/ML-RAG-master/test.py",
+    "references/ML-RAG-master/utils/TxtExtraction/Pdf2Txt.py",
+    "references/ML-RAG-master/utils/TxtExtraction/__init__.py",
+    "references/ML-RAG-master/utils/__init__.py",
+    "references/ML-RAG-master/utils/database/StockVectors.py",
+    "references/ML-RAG-master/utils/database/__init__.py",
+    "references/ML-RAG-master/utils/database/test.py",
+    "references/ML-RAG-master/utils/main.py",
+    "references/ML-RAG-master/utils/test.py"
+  ],
+  "excluded_local_configuration": [
+    ".env",
+    "__pycache__",
+    ".vscode"
+  ],
+  "dates": "Dates de réunion confirmées par titre/première page ; publication non déduite des métadonnées PDF.",
+  "urls": "URLs officielles construites depuis les noms de fichiers ; import sans téléchargement de rapports supplémentaires."
+}

@@ -1,0 +1,30 @@
+{
+  "questions": 200,
+  "types": {
+    "factual": 80,
+    "paraphrase": 40,
+    "explanatory": 40,
+    "comparative": 30,
+    "unanswerable": 10
+  },
+  "splits": {
+    "test": 150,
+    "dev": 50
+  },
+  "proof_groups_checked": 220,
+  "original_pdf_pages_checked": 116,
+  "pdf_quote_failures": 0,
+  "documents_covered": 40,
+  "families": 160,
+  "cross_split_families": 0,
+  "cross_split_evidence_documents": 0,
+  "checks": "Exact quotes in paragraphs/chunks; alphanumeric-normalized quotes on original physical PDF pages; document IDs and page metadata. Normalization ignores punctuation and PDF word-break hyphens.",
+  "limitations": [
+    "Independent human review pending.",
+    "No claim of exhaustive relevance judgments.",
+    "Unanswerability requires independent corpus review.",
+    "Rate and unemployment comparisons are deliberately controlled; broader economic diversity can be added after review."
+  ],
+  "chunks_sha256": "146254888475a93af32d6ce66bc463b13e3fd3ebdf8ffb4c544cb6f799297cd7",
+  "questions_sha256": "92ea6945e19f9a58613ada6ebc16b21cc6591857aa72969f2105bdd84de1b19a"
+}

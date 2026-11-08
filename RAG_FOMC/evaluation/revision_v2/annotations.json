@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "status": "assistant_reviewed_not_human_validated",
+  "questions_sha256": "99f392a3d86da46be28ef8d569d9bb1ed418c280697f6778ae0abec743529677",
+  "chunks_sha256": "146254888475a93af32d6ce66bc463b13e3fd3ebdf8ffb4c544cb6f799297cd7",
+  "original_questions_sha256": "356cfce147d2224b3fc11b6e505234083f69dedf038dd6237c6ae77c560b1e30",
+  "original_annotations_sha256": "37fe16fdca5e39b5e92b36b8c89e7149aa0dfc92a7ea2ab6f961f387585420b8",
+  "candidate_decisions_sha256": "eda42be5aee6c933ca408a5e9b2b1f2093fdb3b84e8130d9d01fadedea61f217",
+  "source_variants": 221,
+  "physical_pdf_pages_checked": 166,
+  "questions_with_added_chunks": 89,
+  "added_question_group_chunk_links": 222,
+  "pool_unique_pairs": 7108,
+  "pool_decisions": {
+    "pending_same_document": 1255,
+    "accepted_by_assistant": 319,
+    "unjudged_other_document": 5167,
+    "pending_absence_review": 367
+  },
+  "pending_candidate_ids": [
+    "A143"
+  ],
+  "contextual_candidates_not_added": [
+    "A033",
+    "A037",
+    "A073",
+    "A082",
+    "A087",
+    "A092",
+    "A097",
+    "A102",
+    "A107",
+    "A112",
+    "A117",
+    "A122",
+    "A127",
+    "A132",
+    "A138",
+    "A149",
+    "A153",
+    "A159",
+    "A164",
+    "A169"
+  ],
+  "methodology": "Whole-source-document literal/norm-equivalent search plus assistant-reviewed factual alternatives; method-blind pool exported.",
+  "limitations": [
+    "No claim of exhaustive relevance judgments.",
+    "Independent review of additions and pending pool still required.",
+    "Negative questions kept unchanged; no abstention model trained.",
+    "Rescoring historical rankings is a revised analysis, not an independent test."
+  ]
+}

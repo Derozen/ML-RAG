@@ -1,0 +1,14 @@
+# Versions critiques observees sur Windows / Python 3.12.7.
+# Installer puis pip install -e . ; le modele est epingle dans configs/default.json.
+numpy==1.26.4
+beautifulsoup4==4.15.0
+pymupdf==1.28.2
+rank-bm25==0.2.2
+sentence-transformers==5.7.0
+transformers==5.22.1
+torch==2.15.0
+tokenizers==0.23.3
+huggingface-hub==2.4.0
+safetensors==0.8.0
+scikit-learn==1.6.1
+scipy==1.15.2

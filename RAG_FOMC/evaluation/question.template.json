@@ -1,0 +1,21 @@
+{
+  "qid": "Q001",
+  "family_id": "F001",
+  "question": "REPLACE_WITH_A_VERIFIED_ENGLISH_QUESTION",
+  "type": "comparative",
+  "split": "dev",
+  "answerable": true,
+  "reference_answer": "A rédiger à partir des originaux.",
+  "validated": false,
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "doc_id": "FOMC_YYYY-MM-DD",
+      "section": "Titre de section",
+      "page": null,
+      "quote": "Citation exacte présente dans chaque passage acceptable ci-dessous.",
+      "chunk_ids": ["FOMC_YYYY-MM-DD_C0001"]
+    }
+  ],
+  "absence_reason": null
+}

@@ -1,0 +1,21 @@
+{
+  "corpus_version": "ml-rag-minutes-2021-2025-v1",
+  "model_name": "intfloat/e5-small-v2",
+  "model_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "device": "cpu",
+  "cpu_threads": 2,
+  "chunk_tokens": 400,
+  "overlap_tokens": 60,
+  "max_model_tokens": 512,
+  "batch_size": 16,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "rrf_constant": 60,
+  "top_k": 20,
+  "repetitions": 3,
+  "seed": 42,
+  "html_selector": "#article",
+  "pdf_drop_lines": []
+}

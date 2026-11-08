@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-fomc"
+version = "0.1.0"
+description = "Comparaison reproductible de la récupération sur les Minutes du FOMC"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3", "beautifulsoup4>=4.12,<5", "pymupdf>=1.24,<2",
+  "sentence-transformers>=3,<6", "rank-bm25==0.2.2"
+]
+
+[project.scripts]
+rag-fomc = "rag_fomc.cli:main"
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["references", ".venv", ".cache", "data", "indexes", "results"]
