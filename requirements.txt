@@ -1,0 +1,10 @@
+# Versions utilisées sur ce poste, Python 3.12.7. Aucun entraînement local requis.
+numpy==1.26.4
+pymupdf==1.28.2
+tokenizers==0.23.3
+rank-bm25==0.2.2
+sentence-transformers==5.7.0
+transformers==5.22.1
+torch==2.15.0
+safetensors==0.8.0
+matplotlib==3.10.1

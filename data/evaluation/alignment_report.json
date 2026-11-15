@@ -1,0 +1,22 @@
+{
+  "questions": 145,
+  "judgments": 279,
+  "judged_pages": 169,
+  "judged_documents": 93,
+  "grade_counts": {
+    "2": 188,
+    "1": 91
+  },
+  "corpus_documents": 93,
+  "corpus_chunks": 1774,
+  "source_pdfs_sha256_verified": true,
+  "questions_sha256": "64e01b38fee175fb63f67909429752227588fd27538388b365dcd8537ca04df8",
+  "source_qrels_sha256": "923dad53af8cbcea42c10bce5be52d1fb8480ace834fc6983bb618e5c17dfb0d",
+  "page_qrels_sha256": "13f4e5a254d2f89cd213fea0315c56a28857b37cc7120e5b396095d63721dbbf",
+  "mapping_sha256": "c6ae3f67e848c5430fcd478868c142993187cea8a570f4f4fbbd8ea79867116c",
+  "chunks_sha256": "ae5cccfa0a38b3b3a70926a2c1a0c958b797aa720dc3fe3bd4c35441f016467b",
+  "paragraphs_sha256": "46d0606b023bca9facacda0007fc3f42b824731badcf7b8229e1961eecd97aa4",
+  "status": "Silver page judgments supplied by user. Page existence and indexing verified; semantic relevance not manually re-annotated.",
+  "evaluation_unit": "unique PDF page",
+  "split_policy": "all questions together; supplied split labels retained as metadata only"
+}
