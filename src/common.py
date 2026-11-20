@@ -28,6 +28,20 @@ CONFIG = {
 METHODS = ('bm25', 'dense', 'hybrid_rrf')
 RERANKERS = ('bm25', 'colbert', 'cross_encoder')
 
+# Separate serving budget: changing it does not invalidate document indexes/scores.
+CONTEXT_K = 6
+
+def select_context(ranking, context_k=CONTEXT_K):
+    """Keep the best 1..6 already-ranked chunks, preserving provenance and scores."""
+    if isinstance(context_k, bool) or not isinstance(context_k, int) or not 1 <= context_k <= CONTEXT_K:
+        raise ValueError('Le contexte final doit contenir entre 1 et 6 passages (6 par défaut)')
+    ids = [row['chunk_id'] for row in ranking]
+    if len(ids) != len(set(ids)):
+        raise ValueError('Passages dupliqués dans le classement')
+    if [row['rank'] for row in ranking] != list(range(1, len(ranking)+1)):
+        raise ValueError('Le classement doit être trié par rang avant sélection')
+    return [dict(row) for row in ranking[:context_k]]
+
 def log(message):
     print(time.strftime('%H:%M:%S') + ' | ' + str(message), flush=True)
 

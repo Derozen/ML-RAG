@@ -1,5 +1,6 @@
 """Comparer les classements de chunks par projection sur les pages silver annotées."""
 from collections import defaultdict
+import argparse
 import csv
 import math
 from statistics import mean
@@ -153,7 +154,67 @@ def main():
         note='Recall@20 counts up to 20 unique pages, not 20 chunks; it need not be invariant if a pool contains more than 20 pages.'))
     make_plots(summary)
     make_report(summary, changes, cases, audit)
+    evaluate_contexts(projected, mapping, qrels)
     log(f'Évaluation pages terminée: {len(queries)} questions, 12 configurations, {len(rows)} contrôles')
+
+
+def evaluate_contexts(projected, mapping, qrels):
+    """Evaluate 5 and 6 selected chunks, not 5/6 pages or the entire candidate pool."""
+    from common import CONTEXT_K
+    for budget in (5, CONTEXT_K):
+        output = ROOT / f'results/context_top{budget}'
+        detailed = []
+        contexts = []
+        for row in projected:
+            qid = row['question_id']
+            ids = row['chunk_ids'][:budget]
+            if len(ids) != budget or len(set(ids)) != budget:
+                raise ValueError('Budget final de contexte non respecté')
+            pages = project_pages(ids, mapping)
+            relevant = qrels[qid]
+            positives = {p for p,g in relevant.items() if g>0}
+            def ndcg_at(k):
+                gain=lambda grades:sum((2**g-1)/math.log2(i+1) for i,g in enumerate(grades,1))
+                return gain([relevant.get(p,0) for p in pages[:k]])/gain(sorted(relevant.values(),reverse=True)[:k])
+            first=next((i for i,p in enumerate(pages[:budget],1) if p in positives),None)
+            detailed.append(dict(question_id=qid,retrieval=row['retrieval'],reranker=row['reranker'],
+                final_chunks=budget,selected_pages=len(pages),
+                context_page_recall=len(set(pages)&positives)/len(positives),
+                all_reference_pages_found=int(positives<=set(pages)),
+                ndcg_pages_at_5=ndcg_at(5),ndcg_pages_at_6=ndcg_at(6),
+                mrr_pages_at_budget=1/first if first else 0.0))
+            contexts.append(dict(question_id=qid,retrieval=row['retrieval'],reranker=row['reranker'],
+                                 chunk_ids=ids,page_ids=pages))
+        summary=[]
+        keys=('context_page_recall','all_reference_pages_found','ndcg_pages_at_5','ndcg_pages_at_6','mrr_pages_at_budget')
+        for method in METHODS:
+            for reranker in ('none',)+RERANKERS:
+                group=[r for r in detailed if r['retrieval']==method and r['reranker']==reranker]
+                summary.append(dict(retrieval=method,reranker=reranker,questions=len(group),final_chunks=budget,
+                                    **{key:mean(r[key] for r in group) for key in keys}))
+        write_csv(output/'comparison.csv',summary)
+        write_csv(output/'metrics_per_question.csv',detailed)
+        write_jsonl(output/'contexts.jsonl',contexts)
+        import matplotlib.pyplot as plt
+        fig, ax=plt.subplots(figsize=(10,6),layout='constrained')
+        ax.barh([r['retrieval']+' + '+r['reranker'] for r in summary],
+                [r['ndcg_pages_at_6'] for r in summary],color='#22856a')
+        ax.set(xlim=(0,1),xlabel='nDCG pages @6',title=f'Contexte final : {budget} chunks après reclassement de 20 candidats')
+        ax.invert_yaxis()
+        fig.savefig(output/'comparison.png',dpi=160)
+        plt.close(fig)
+        lines=[f'# Comparaison des contextes finaux de {budget} passages','',
+               f'Chaque méthode retient {budget} chunks parmi les mêmes {CONFIG["top_k"]} candidats. Les annotations portent sur les pages ; la couverture ne prouve pas la présence de la réponse dans le chunk.', '',
+               '| Recherche | Reranker | Couverture pages du contexte | nDCG pages @6 | Toutes les pages attendues |',
+               '|---|---|---:|---:|---:|']
+        for r in summary:
+            lines.append(f"| {r['retrieval']} | {r['reranker']} | {r['context_page_recall']:.3f} | {r['ndcg_pages_at_6']:.3f} | {r['all_reference_pages_found']:.3f} |")
+        lines += ['', 'Les scores décrivent les annotations silver fournies. Les passages non jugés ne sont pas nécessairement non pertinents. Les anciens temps de reclassement concernent le calcul des 20 candidats ; sélectionner 6 passages ne supprime pas ce coût.', '']
+        (output/'RAPPORT.md').write_text('\n'.join(lines),encoding='utf-8')
+        write_json(output/'verification.json',dict(questions=len(questions()),configurations=12,
+            contexts=len(contexts),final_chunks=budget,candidates=CONFIG['top_k'],
+            source_rankings_sha256=digest(ROOT/'results/retrieval/rankings.jsonl'),
+            qrels_sha256=digest(ROOT/'data/evaluation/page_qrels.tsv')))
 
 
 def make_plots(summary):
@@ -202,8 +263,9 @@ def make_report(summary, changes, cases, audit):
     pdf_paths = {d['filename']: d['path'].replace('\\', '/')
                  for d in read_json(ROOT / 'data/processed/manifest.json')}
     lines = [f"# Comparaison FOMC - {CONFIG['questions']} questions et qrels silver de pages", '',
+        'Ce rapport conserve le classement complet des 20 candidats pour le diagnostic. La sortie finale est limitée à 6 passages (ou 5). Voir [le rapport des contextes top-6](context_top6/RAPPORT.md) pour les performances des passages effectivement retenus.', '',
         f"Les {audit['questions']} questions et {audit['judgments']} jugements fournis sont utilisés sans changement. Les grades d’origine sont conservés : {audit['grade_counts']}. Toutes les pages annotées existent dans les PDF et sont représentées dans les chunks indexés. Ce contrôle vérifie les fichiers et numéros de pages ; il ne constitue pas une validation humaine de leur pertinence sémantique.", '',
-        'Le corpus reste composé de 93 PDF et 1 774 chunks. Le découpage et les index documentaires sont réutilisés car ils sont indépendants des questions. Recherche et reranking sont recalculés sur les 145 nouvelles questions. Aucun entraînement local. Les étiquettes dev/test/validation du fichier sont conservées, mais toutes les questions sont évaluées ensemble, conformément à la demande.', '',
+        f"Le corpus analysé comprend {audit['corpus_documents']} PDF et {audit['corpus_chunks']} chunks. Les index documentaires ont été reconstruits après nettoyage, puis la récupération et le reranking recalculés. Aucun entraînement local. Les étiquettes dev/test/validation sont conservées comme métadonnées ; toutes les questions sont évaluées ensemble.", '',
         '## Protocole et unité de mesure', '',
         'BM25, E5 et RRF récupèrent chacun 20 chunks. BM25, ColBERT et le cross-encoder reclassent exactement ces mêmes candidats. Le contrôle BM25 → BM25 conserve le classement initial.', '',
         'Les qrels désignent des pages PDF, pas des chunks. Un chunk est relié aux pages physiques de ses paragraphes. Les pages sont parcourues dans l’ordre des chunks ; à l’intérieur d’un chunk multipage, elles suivent l’ordre physique. Chaque page est conservée à sa première apparition uniquement. Cette règle déterministe traite les pages du même chunk comme un groupe ordonné par numéro, sans utiliser les qrels. Elle peut influencer les métriques aux coupures de rang.', '',
@@ -249,5 +311,188 @@ def make_report(summary, changes, cases, audit):
     (ROOT / 'results/RAPPORT.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
 
+
+
+# ============================================================
+# Évaluation indépendante des 3 récupérateurs, SANS reranking
+# ============================================================
+
+def retrieval_only_main():
+    """Évalue uniquement les rankings initiaux; n'ouvre aucun résultat de reranking."""
+    from pathlib import Path
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+
+    base = ROOT / 'data/evaluation'
+    output = ROOT / 'results/retrieval_evaluation'
+    output.mkdir(parents=True, exist_ok=True)
+
+    queries = questions()
+    query_ids = [q['id'] for q in queries]
+    if len(set(query_ids)) != len(query_ids):
+        raise ValueError('Identifiants de questions dupliqués')
+    labels = {q['question_id']: q for q in read_jsonl(base / 'queries_145.jsonl')}
+    audit = read_json(base / 'alignment_report.json')
+
+    checks = [
+        ('data/processed/chunks.jsonl', 'chunks_sha256'),
+        ('data/processed/paragraphs.jsonl', 'paragraphs_sha256'),
+        ('data/evaluation/queries_145.jsonl', 'questions_sha256'),
+        ('data/evaluation/silver_qrels_PAGES.trec', 'source_qrels_sha256'),
+        ('data/evaluation/page_qrels.tsv', 'page_qrels_sha256'),
+        ('data/evaluation/chunk_pages.jsonl', 'mapping_sha256'),
+    ]
+    for path, key in checks:
+        if digest(ROOT / path) != audit[key]:
+            raise ValueError(f'Alignement périmé : {path}. Relancer align_references.py')
+
+    qrels = defaultdict(dict)
+    with (base / 'page_qrels.tsv').open(encoding='utf-8-sig', newline='') as stream:
+        for record in csv.DictReader(stream, delimiter='\t'):
+            qid, pid = record['question_id'], record['page_id']
+            if pid in qrels[qid]:
+                raise ValueError(f'Qrel en doublon : {qid}, {pid}')
+            qrels[qid][pid] = int(record['relevance'])
+    if set(qrels) != set(query_ids):
+        raise ValueError('Questions du jeu et des qrels différentes')
+
+    mapping_rows = read_jsonl(base / 'chunk_pages.jsonl')
+    mapping = {r['chunk_id']: r['page_ids'] for r in mapping_rows}
+    if len(mapping) != len(mapping_rows):
+        raise ValueError('Identifiants chunks dupliqués dans le mapping')
+
+    source = ROOT / 'results/retrieval/rankings.jsonl'
+    timing_path = ROOT / 'results/retrieval/timings.jsonl'
+    retrieval_run = read_json(ROOT / 'results/retrieval/run.json')
+    if (retrieval_run['rankings_sha256'] != digest(source)
+            or retrieval_run['questions_sha256'] != audit['questions_sha256']
+            or retrieval_run['chunks_sha256'] != audit['chunks_sha256']):
+        raise ValueError('Classements périmés : relancer retrieve.py')
+
+    rankings = defaultdict(list)
+    for record in read_jsonl(source):
+        key = (record['question_id'], record['method'])
+        rankings[key].append(record)
+    timings = {}
+    for record in read_jsonl(timing_path):
+        key = (record['question_id'], record['method'])
+        if key in timings:
+            raise ValueError(f'Temps dupliqué : {key}')
+        timings[key] = float(record['seconds'])
+
+    expected = {(qid, method) for qid in query_ids for method in METHODS}
+    if set(rankings) != expected or set(timings) != expected:
+        raise ValueError('Classements / durées manquants ou supplémentaires')
+
+    detailed, projections = [], []
+    for qid in query_ids:
+        relevant = qrels[qid]
+        for method in METHODS:
+            ordered = sorted(rankings[qid, method], key=lambda r: r['rank'])
+            ids = [r['chunk_id'] for r in ordered]
+            if [r['rank'] for r in ordered] != list(range(1, CONFIG['top_k'] + 1)):
+                raise ValueError(f'Rangs invalides : {qid}/{method}')
+            if len(ids) != len(set(ids)) or any(cid not in mapping for cid in ids):
+                raise ValueError(f'Chunks dupliqués ou sans provenance : {qid}/{method}')
+            pages = project_pages(ids, mapping)
+            scores = metrics(pages, relevant)
+            positive = {pid for pid, grade in relevant.items() if grade > 0}
+            pool_page_recall = len(positive & set(pages)) / len(positive)
+            oracle = sorted(set(pages), key=lambda pid: (-relevant.get(pid, 0), pid))
+            ceiling = metrics(oracle, relevant)['ndcg_at_10']
+            if scores['ndcg_at_10'] > ceiling + 1e-12:
+                raise ValueError(f'nDCG supérieur à l’oracle : {qid}/{method}')
+            detailed.append(dict(
+                question_id=qid, retrieval=method, reranker='none',
+                question_type=labels[qid].get('question_type', ''),
+                topic=labels[qid].get('topic', ''),
+                source_split=labels[qid].get('split', ''),
+                evaluation_unit='unique_pdf_page', **scores,
+                pool_page_recall=pool_page_recall,
+                candidate_pages=len(pages), oracle_ndcg_at_10=ceiling,
+                retrieval_seconds=timings[qid, method],
+            ))
+            projections.append(dict(question_id=qid, retrieval=method,
+                                    chunk_ids=ids, page_ids=pages))
+
+    summary = []
+    for method in METHODS:
+        group = [r for r in detailed if r['retrieval'] == method]
+        summary.append(dict(
+            configuration=method, retrieval=method, reranker='none',
+            questions=len(group), evaluation_unit='unique_pdf_page',
+            **{metric: mean(r[metric] for r in group) for metric in METRICS},
+            oracle_ndcg_at_10=mean(r['oracle_ndcg_at_10'] for r in group),
+            candidate_pages_mean=mean(r['candidate_pages'] for r in group),
+            retrieval_median_ms=float(np.median([r['retrieval_seconds'] for r in group]) * 1000),
+            retrieval_p95_ms=float(np.percentile([r['retrieval_seconds'] for r in group], 95) * 1000),
+        ))
+
+    write_csv(output / 'comparison.csv', summary)
+    write_csv(output / 'metrics_per_question.csv', detailed)
+    write_jsonl(output / 'page_rankings.jsonl', projections)
+    write_json(output / 'verification.json', dict(
+        questions=len(query_ids), configurations=len(METHODS),
+        checks=len(detailed), chunks=audit['corpus_chunks'],
+        evaluation_unit='unique PDF page', qrels_quality='silver',
+        chunks_sha256=audit['chunks_sha256'],
+        rankings_sha256=digest(source),
+        note='20 chunks par question et méthode, projetés sur pages uniques. '
+             'Une page peut correspondre à une portion minime du chunk. '
+             'Les pages non annotées sont notées 0, sans confirmation de non-pertinence.'
+    ))
+
+    fig, axes = plt.subplots(1, 3, figsize=(12, 4.5), layout='constrained')
+    for ax, key, title in zip(
+        axes, ('recall_at_20', 'ndcg_at_10', 'mrr_at_10'),
+        ('Recall pages @20', 'nDCG pages @10', 'MRR pages @10')
+    ):
+        bars = ax.bar([r['retrieval'] for r in summary], [r[key] for r in summary])
+        ax.bar_label(bars, fmt='%.3f', padding=3)
+        ax.set(title=title, ylim=(0, 1.1))
+        ax.grid(axis='y', alpha=.18)
+        ax.set_axisbelow(True)
+    fig.suptitle(f'Récupération seule : {len(queries)} questions, qrels silver de pages')
+    fig.savefig(output / 'retrieval_metrics.png', dpi=180)
+    plt.close(fig)
+
+    lines = [
+        '# Évaluation de la récupération seule (sans reranking)', '',
+        f'Corpus : {audit["corpus_documents"]} PDF, {audit["corpus_chunks"]} chunks.',
+        f'Questions : {len(queries)} ; jugements silver : {audit["judgments"]}.',
+        'Unité de mesure : pages PDF uniques, obtenues par projection des chunks.',
+        'La projection conserve la première apparition de chaque page et '
+        'l’ordre physique des pages au sein d’un chunk.', '',
+        '| Récupération | Recall@5 | Recall@10 | Recall@20 | nDCG@10 | MRR@10 | Couverture pool | Latence médiane (ms) |',
+        '|---|---:|---:|---:|---:|---:|---:|---:|',
+    ]
+    for r in summary:
+        lines.append(
+            f'| {r["retrieval"]} | {r["recall_at_5"]:.3f} | '
+            f'{r["recall_at_10"]:.3f} | {r["recall_at_20"]:.3f} | '
+            f'{r["ndcg_at_10"]:.3f} | {r["mrr_at_10"]:.3f} | '
+            f'{r["pool_page_recall"]:.3f} | {r["retrieval_median_ms"]:.1f} |'
+        )
+    lines += [
+        '', '## Limites méthodologiques', '',
+        '- Les qrels sont des annotations silver de pages, non de chunks.',
+        '- Une page pertinente peut être attribuée à un chunk qui en contient très peu de texte.',
+        '- Une page non jugée reçoit 0 dans les métriques, sans preuve de non-pertinence.',
+        '- Recall@20 porte sur 20 pages uniques, pas nécessairement sur les 20 chunks.',
+        '- Ces latences sont exploratoires ; voir les conventions de mesure de retrieve.py.',
+        '- Aucun résultat de reranking n’a été utilisé.', ''
+    ]
+    (output / 'RAPPORT.md').write_text('\n'.join(lines), encoding='utf-8')
+    log(f'Évaluation récupération seule terminée : {len(detailed)} question-méthode ; résultats dans {output}')
+
+
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--retrieval-only', action='store_true',
+                        help='Évaluer BM25, E5 et RRF sans aucun reranker')
+    args = parser.parse_args()
+    if args.retrieval_only:
+        retrieval_only_main()
+    else:
+        main()

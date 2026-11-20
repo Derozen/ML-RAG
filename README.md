@@ -1,5 +1,46 @@
 # RAG FOMC — 145 questions et références silver de pages
 
+## Revue du 20 novembre 2026 : contexte final et consignes ECC
+
+Le pipeline distingue désormais **20 candidats à reclasser** et **6 passages finaux** (5 également disponibles). Le budget final est défini par `CONTEXT_K` dans `src/common.py`. L’application propose 5 ou 6 passages ; les commandes de génération et la variante temporelle ont également un défaut de 6 et un plafond de 6 pour la recherche. Les anciens classements complets restent utiles pour l’audit des candidats.
+
+- [Fondements et méthodologie](docs/METHODOLOGIE.md)
+- [Revue des consignes ECC et actions restantes](results/audit_project/RAPPORT.md)
+- [Comparaison des contextes de 6 passages](results/context_top6/RAPPORT.md)
+- [Comparaison des contextes de 5 passages](results/context_top5/RAPPORT.md)
+
+Les modules ajoutés depuis la première version sont conservés : `rag_pipeline.py` orchestre une question libre, `generate.py` utilise Ollama, `temporal_retrieval.py` propose une variante temporelle exploratoire, `explain.py`, `citation_guard.py`, `coverage_guard.py` et `evidence_audit.py` aident à examiner les réponses. `audit_references.py` prépare une revue humaine ciblée ; `compare_rrf_depth.py` correspond à une expérience de profondeur RRF distincte. Les fichiers `*_backup.py` ont été rangés dans `_archive/revue_20261120/legacy_backups/`. Les modifications antérieures ont été sauvegardées avant cette revue.
+
+### Installation et démonstration locale
+
+```powershell
+cd C:\Users\LENOVO\Desktop\VS_Codex\RAG_FOMC
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m streamlit run app/streamlit_app.py
+```
+
+Ollama doit être installé et démarré pour générer des réponses. Préparer le modèle avec `ollama pull qwen2.5:3b`, ou désactiver la génération dans l’interface pour examiner seulement les passages. Le mode classique correspond au benchmark ; le mode temporel ajoute des heuristiques et n’est pas inclus dans cette comparaison standard.
+
+```powershell
+# Les scores existants sont validés et les contextes top-5/top-6 exportés sans rescoring.
+.\.venv\Scripts\python.exe src/rerank.py
+# Évaluation complète des candidats ET des contextes finaux.
+.\.venv\Scripts\python.exe src/evaluate.py
+# Profil exploratoire, analyse des erreurs et revue ECC.
+.\.venv\Scripts\python.exe src/audit_project.py
+```
+
+Les exports finaux sont `results/reranking/{bm25,colbert,cross_encoder}_top6.jsonl` et `_top5.jsonl`. Les mêmes budgets sont évalués pour les méthodes sans reranking. Les résultats sont dans `results/context_top6/` et `context_top5/`. La couverture porte sur les pages associées aux chunks effectivement retenus ; ce n’est pas une validation des réponses générées.
+
+Protocole confirmé : les **145 questions restent exploratoires** ; les **85 questions `dev`** servent aux corrections et à l’analyse détaillée des erreurs. Aucun ancien lot n’est présenté comme indépendant. Aucun entraînement supervisé local n’est effectué : les modèles préentraînés sont utilisés sans ajustement des poids. Les qrels n’entrent pas dans le calcul des récupérateurs/rerankers. Le gel conserve le code, les paramètres, les poids, les index et le digest du modèle Ollama ; un simple redécoupage ne supprimerait pas l’examen antérieur des résultats.
+
+```powershell
+# Vérifier le gel, sans le remplacer par une nouvelle version.
+.\.venv\Scripts\python.exe src/protocol.py verify
+```
+
+Le manifeste est `protocol/frozen_pipeline_20261120.json`. Le système retenu est le mode classique RRF + ColBERT, 20 candidats et 6 sorties. Toute modification ultérieure impose de déclarer une nouvelle version. Un nouveau lot candidat de 20 questions avec preuves et qrels est préparé dans `data/holdout_candidate/` : il ne doit pas être évalué avant validation humaine de ses annotations et de son absence de doublons sémantiques. Il n’a pas servi aux réglages et aucun score n’en est annoncé. Cette précaution n’établit pas à elle seule une indépendance statistique entre sujets issus du même corpus. Rapport final complet, diapositives et vidéo de 15–20 minutes restent des livrables à préparer ou vérifier.
+
 Le jeu actif est désormais **`queries_145.jsonl`**, accompagné de **`silver_qrels_PAGES.trec`**. Les deux fichiers fournis sont copiés sans modification dans `data/evaluation/`. Les 110 anciennes questions et leurs résultats sont conservés dans `_archive/phase_110_20261114/`.
 
 Les **145 questions sont évaluées ensemble**, sans entraînement local ni découpage train/test. Le fichier fourni contient des étiquettes `dev`, `test` et `validation` ; elles restent disponibles comme métadonnées, mais ne commandent aucun partage des calculs. Les récupérateurs et rerankers reçoivent uniquement l’identifiant et le texte de la question.
