@@ -1,0 +1,805 @@
+# HOLDOUT_V2_009
+
+Use the June 2022 Statement and Minutes to distinguish Esther George's preferred rate increase from the adopted increase, then explain her concerns about the larger move alongside balance-sheet runoff.
+
+## Réponse proposée à vérifier
+
+The adopted increase was 75 bp; George preferred 50 bp. The Minutes explain her concern about policy uncertainty during the start of runoff, unsettled households/businesses and adverse effects on small banks' ability to meet community credit needs.
+
+## Facettes attendues
+
+- adopted_move : fomcminutes20220615.pdf#p9
+- preferred_move : monetary20220615a1.pdf#p2
+- reason : fomcminutes20220615.pdf#p11
+
+## Risques de recouvrement avec les anciennes questions
+
+FOMC_036 is Bullard's March preference for a larger increase; this question requires George's smaller June move and her distinct policy-uncertainty/small-bank reasoning. FOMC_040 concerns household spending resources, not this dissent. Replacing names/dates alone would not suffice; the opposing direction and explanation are the new information.
+
+**Avis éditorial proposé, à confirmer par le relecteur.**
+
+[Lire les 145 questions](old_questions.md). Les voisins ci-dessous sont des pistes, pas une liste exhaustive.
+
+- **FOMC_036** — How did James Bullard’s preferred March 2022 rate move differ from the adopted target?
+- **FOMC_040** — Why could households keep spending despite rising prices in June 2022?
+- **FOMC_025** — How did FOMC discussions during the second half of 2021 evolve from tapering asset purchases toward planning eventual balance-sheet runoff?
+- **FOMC_108** — How did the FOMC account for past cumulative rate increases and their delayed effects when planning further tightening in 2022–2023?
+- **FOMC_110** — According to the March 2023 FOMC statement, under what kind of emerging risks would the Committee reconsider its policy stance?
+- **FOMC_057** — How did the December 2023 statement describe the change in economic growth since the third quarter?
+
+## Toutes les pages des documents demandés
+
+Texte issu du prétraitement existant, sans sélection par un modèle. En cas de doute de mise en page, ouvrir le PDF physique lié.
+
+### fomcminutes20220615.pdf#p1
+
+Proposition : **0** — facettes : editorial_corroboration_or_distractor.
+
+[PDF, page physique 1](../../raw/minutes/fomcminutes20220615.pdf#page=1)
+
+**MIN_2022-06-15_P0001**
+
+Minutes of the Federal Open Market Committee
+
+**MIN_2022-06-15_P0002**
+
+June 14–15, 2022
+
+**MIN_2022-06-15_P0003**
+
+A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, June 14, 2022, at 11:00 a.m. and continued on Wednesday, June 15, 2022, at 9:00 a.m.1
+
+**MIN_2022-06-15_P0004**
+
+Attendance
+
+**MIN_2022-06-15_P0005**
+
+Jerome H. Powell, Chair John C. Williams, Vice Chair Michelle W. Bowman Lael Brainard James Bullard Lisa D. Cook Esther L. George Philip N. Jefferson Loretta J. Mester Christopher J. Waller
+
+**MIN_2022-06-15_P0006**
+
+Meredith Black, Charles L. Evans, Patrick Harker, Naureen Hassan, and Neel Kashkari, Alternate Members of the Committee
+
+**MIN_2022-06-15_P0007**
+
+Thomas I. Barkin, Raphael W. Bostic, and Mary C. Daly, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively
+
+**MIN_2022-06-15_P0008**
+
+Kenneth C. Montgomery, Interim President of the Federal Reserve Bank of Boston
+
+**MIN_2022-06-15_P0009**
+
+James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist
+
+**MIN_2022-06-15_P0010**
+
+Shaghil Ahmed, Brian M. Doyle, Carlos Garriga, Joseph W. Gruber, Ellis W. Tallman, and William Wascher, Associate Economists
+
+**MIN_2022-06-15_P0011**
+
+1 The Federal Open Market Committee is referenced as the “FOMC” and the “Committee” in these minutes; the Board of Governors of the Federal Reserve System is referenced as the “Board” in these minutes.
+
+**MIN_2022-06-15_P0012**
+
+Lorie K. Logan, Manager, System Open Market Account
+
+**MIN_2022-06-15_P0013**
+
+Patricia Zobel, Deputy Manager, System Open Market Account
+
+**MIN_2022-06-15_P0014**
+
+Ann E. Misback, Secretary, Office of the Secretary, Board
+
+**MIN_2022-06-15_P0015**
+
+Matthew J. Eichner,2 Director, Division of Reserve Bank Operations and Payment Systems, Board; Michael S. Gibson, Director, Division of Supervision and Regulation, Board; Andreas Lehnert, Director, Division of Financial Stability, Board
+
+**MIN_2022-06-15_P0016**
+
+Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board; Sally Davies, Deputy Director, Division of International Finance, Board; Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board
+
+**MIN_2022-06-15_P0017**
+
+Jon Faust and Joshua Gallin, Senior Special Advisers to the Chair, Division of Board Members, Board
+
+**MIN_2022-06-15_P0018**
+
+Burcu Duygan-Bump, Jane E. Ihrig, Kurt F. Lewis, Nitish R. Sinha, and Paul R. Wood, Special Advisers to the Board, Division of Board Members, Board
+
+**MIN_2022-06-15_P0019**
+
+Linda Robertson, Assistant to the Board, Division of Board Members, Board
+
+**MIN_2022-06-15_P0020**
+
+Marnie Gillis DeBoer3 and David López-Salido, Senior Associate Directors, Division of Monetary Affairs, Board; Diana Hancock and John J. Stevens, Senior Associate Directors, Division of Research and Statistics, Board
+
+**MIN_2022-06-15_P0021**
+
+2 Attended through the discussion of developments in financial markets and open market operations. 3 Attended Tuesday’s session only.
+
+### fomcminutes20220615.pdf#p2
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 2](../../raw/minutes/fomcminutes20220615.pdf#page=2)
+
+**MIN_2022-06-15_P0022**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0023**
+
+Edward Nelson and Robert J. Tetlow,4 Senior Advisers, Division of Monetary Affairs, Board
+
+**MIN_2022-06-15_P0024**
+
+Christopher J. Gust, Associate Director, Division of Monetary Affairs, Board
+
+**MIN_2022-06-15_P0025**
+
+Shane M. Sherlund, Deputy Associate Director, Division of Research and Statistics, Board
+
+**MIN_2022-06-15_P0026**
+
+Giovanni Favara and Etienne Gagnon,3 Assistant Directors, Division of Monetary Affairs, Board; Paul Lengermann and Byron Lutz, Assistant Directors, Division of Research and Statistics, Board
+
+**MIN_2022-06-15_P0027**
+
+Penelope A. Beattie,3 Section Chief, Office of the Secretary, Board; Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board
+
+**MIN_2022-06-15_P0028**
+
+Alyssa Arute,2 Manager, Division of Reserve Bank Operations and Payment Systems, Board
+
+**MIN_2022-06-15_P0029**
+
+Ayelen Banegas and Anna Orlik,3 Principal Economists, Division of Monetary Affairs, Board; Stephen F. Lin, Principal Economist, Division of Research and Statistics, Board
+
+**MIN_2022-06-15_P0030**
+
+Giovanni Nicolò, Arsenios Skaperdas, and Hiroatsu Tanaka, Senior Economists, Division of Monetary Affairs, Board; Cisil Sarisoy, Senior Economist, Division of International Finance, Board
+
+**MIN_2022-06-15_P0031**
+
+Achilles Sangster II, Senior Information Manager, Division of Monetary Affairs, Board
+
+**MIN_2022-06-15_P0032**
+
+David Na, Senior Financial Institution and Policy Analyst, Division of Monetary Affairs, Board
+
+**MIN_2022-06-15_P0033**
+
+Jose Acosta, Senior Communications Analyst, Division of Information Technology, Board
+
+**MIN_2022-06-15_P0034**
+
+Kathleen O. Paese, First Vice President, Federal Reserve Bank of St. Louis
+
+**MIN_2022-06-15_P0035**
+
+David Altig, Kartik B. Athreya, Michelle M. Neal, and Anna Paulson, Executive Vice Presidents, Federal Reserve Banks of Atlanta, Richmond, New York, and Chicago, respectively
+
+**MIN_2022-06-15_P0036**
+
+4 Attended from the discussion of the economic and financial situation through the end of Wednesday’s session.
+
+**MIN_2022-06-15_P0037**
+
+James P. Bergin, Marc Giannoni, Giovanni Olivei, Paolo A. Pesenti, and Robert G. Valletta, Senior Vice Presidents, Federal Reserve Banks of New York, Dallas, Boston, New York, and San Francisco, respectively
+
+**MIN_2022-06-15_P0038**
+
+Roc Armenter, Vice President, Federal Reserve Bank of Philadelphia
+
+**MIN_2022-06-15_P0039**
+
+Alisdair G. McKay, Senior Research Economist, Federal Reserve Bank of Minneapolis
+
+**MIN_2022-06-15_P0040**
+
+Developments in Financial Markets and Open Market Operations
+
+**MIN_2022-06-15_P0041**
+
+The manager of the System Open Market Account (SOMA) turned first to a discussion of financial developments. Over the intermeeting period, there were significant swings in asset prices, and financial conditions tightened, on net, as market participants assessed incoming information about the economy. In the United States, near-term policy rate expectations shifted markedly toward the end of the period, particularly after the release of the May consumer price index (CPI) report. Ahead of the release of the report, market expectations reflected a broad consensus that there would be 50 basis point rate increases at both the June and July FOMC meetings. After the release of the higher-than-expected inflation data, policy-sensitive rates pointed instead to a considerable probability of 75 basis point moves at both the June and July meetings. The market-implied path of the federal funds rate moved higher at longer horizons as well. Market participants noted elevated uncertainty about the economic and monetary policy outlook.
+
+**MIN_2022-06-15_P0042**
+
+Across the yield curve, rates on nominal Treasury securities ended the period significantly higher, primarily reflecting the revision in the outlook for monetary policy and the associated rise in real yields. Market-based measures of inflation compensation continued to indicate expectations that inflation would decline notably in coming quarters, and measures of medium-term inflation compensation fell over the intermeeting period. Market participants reported that while liquidity conditions in the market for Treasury securities had been affected by the elevated volatility in rates and larger trades were having an increased effect on pricing, overall market functioning had held up. Responding to higher in-
+
+### fomcminutes20220615.pdf#p3
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 3](../../raw/minutes/fomcminutes20220615.pdf#page=3)
+
+**MIN_2022-06-15_P0043**
+
+terest rates and some concerns about the growth out-look, equity prices moved substantially lower over the period.
+
+**MIN_2022-06-15_P0044**
+
+The manager turned next to a discussion of developments related to foreign central banks. Most major foreign central banks were proceeding on a path of removing policy accommodation in order to address elevated levels of inflation. Several—including those of Canada, Australia, and New Zealand—had raised their policy rates 50 basis points over the intermeeting period, and some signaled the potential need for more forceful tightening in order to address inflation risks. The European Central Bank (ECB) announced an end to its asset purchase program and signaled an intention to lift policy rates in July. Meanwhile, the stance of monetary policy in Japan was generally expected to remain highly accommodative, though recent upward pressure on Japanese government bond yields had led the Bank of Japan (BOJ) to step up its efforts to defend its yield curve control target. On balance, market participants were focused on the largely synchronous shift toward monetary policy tightening across most advanced economies.
+
+**MIN_2022-06-15_P0045**
+
+Regarding money market developments, the manager noted that the 50 basis point increase in the target range at the May FOMC meeting passed through to the effective federal funds rate and was also transmitted to other overnight rates. The federal funds rate held steady at 83 basis points throughout the period, while the Secured Overnight Financing Rate softened, on net, falling to the bottom of the federal funds target range later in the period. Contacts attributed the downward pressure on secured rates to high liquidity levels and declining Treasury bill supply, as well as elevated uncertainty about the interest rate path, which had increased demand for short-term investments. In this environment, participation in the overnight reverse repurchase agreement (ON RRP) facility increased, and a greater share of activity in over-night private repurchase agreement (repo) markets was conducted by lenders who lacked access to the facility. The manager noted that, if ON RRP usage continued to rise, it may be appropriate at some point to consider further lifting the per-counterparty limit. Over the longer term, ON RRP usage was expected to fall, with the reduction in the size of the Federal Reserve’s balance sheet resulting in a gradual rise in money market rates relative to the ON RRP rate.
+
+**MIN_2022-06-15_P0046**
+
+The deputy manager turned next to a discussion of Federal Reserve operations and related topics. In accordance with the directive to the Open Market Desk, the reduction in SOMA securities holdings began in June,
+
+**MIN_2022-06-15_P0047**
+
+under the initial monthly caps on redemptions of $30 billion for Treasury securities and $17.5 billion for agency debt and agency mortgage-backed securities (MBS). Under current staff projections, the SOMA portfolio was anticipated to decline roughly $400 billion by the end of 2022. As noted in the recent SOMA annual report and reported in the Board’s first-quarter financial statements for the Federal Reserve System, the SOMA portfolio had an unrealized loss, reflecting the increase in longer-term interest rates. Unrealized losses had no implications for Federal Reserve income and would eventually fall to zero as securities reached maturity. The staff projected that SOMA net income would decline and potentially turn negative, with increases in the target range lifting the interest expense on some liabilities, and that this eventuality could result in a deferred asset entry on the Federal Reserve’s balance sheet. Neither unrealized losses on the Federal Reserve’s existing securities portfolio nor negative net income would im-pair the implementation of monetary policy or the Federal Reserve’s ability to achieve its dual-mandate objectives.
+
+**MIN_2022-06-15_P0048**
+
+On other operational matters, the deputy manager noted that, over the intermeeting period, the Desk onboarded three depository institutions as new counterparties for the standing repo facility (SRF), resulting in a total of nine depository institutions approved, to date, as SRF counterparties.
+
+**MIN_2022-06-15_P0049**
+
+By unanimous vote, the Committee ratified the Desk’s domestic transactions over the intermeeting period. There were no intervention operations in foreign currencies for the System’s account during the intermeeting period.
+
+**MIN_2022-06-15_P0050**
+
+Staff Review of the Economic Situation
+
+**MIN_2022-06-15_P0051**
+
+The information available at the time of the June 14–15 meeting suggested that U.S. real gross domestic product (GDP) was rebounding to a moderate rate of increase in the second quarter after having declined in the first quarter. The labor market remained very tight, but there were some signs that momentum was slowing. Consumer price inflation—as measured by the 12‑month percentage change in the price index for personal consumption expenditures (PCE)—remained elevated in April, and available information suggested that inflation was still elevated in May.
+
+**MIN_2022-06-15_P0052**
+
+Total nonfarm payroll employment rose solidly in April and May, though the pace of increase was slower than in the first quarter, and the unemployment rate remained unchanged at 3.6 percent. The unemployment rates for African Americans and for Hispanics were little
+
+### fomcminutes20220615.pdf#p4
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 4](../../raw/minutes/fomcminutes20220615.pdf#page=4)
+
+**MIN_2022-06-15_P0053**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0054**
+
+changed, on net, though both rates remained noticeably higher than the national average. On net, the labor force participation rate edged down between March and May, while the employment-to-population ratio was un-changed. The private-sector job openings rate, as measured by the Job Openings and Labor Turnover Survey, edged lower in April but remained at a high level. Nominal wage growth remained elevated, with average hourly earnings having risen 5.2 percent over the 12 months ending in May, and the increases were widespread across industries.
+
+**MIN_2022-06-15_P0055**
+
+Consumer price inflation remained elevated. Total PCE price inflation was 6.3 percent over the 12 months ending in April, and core PCE price inflation, which excludes changes in consumer energy prices and many consumer food prices, was 4.9 percent over the same period. The trimmed mean measure of 12‑month PCE price inflation constructed by the Federal Reserve Bank of Dallas was 3.8 percent in April, nearly 2 percentage points higher than its year-earlier rate of increase. In May, the 12-month change in the CPI was 8.6 percent, while core CPI inflation was 6.0 percent over the same period. Measures of inflation expectations derived from surveys of professional forecasters and of consumers generally suggested that inflation was expected to remain high in the short run but then fall back toward levels consistent with a longer-run rate of 2 percent.
+
+**MIN_2022-06-15_P0056**
+
+Production and spending indicators were mixed but generally remained strong. Consumer spending and industrial production posted sizable gains in April. However, retail sales declined in May, data on home sales and single-family housing starts moved down in April, some indicators of manufacturing activity weakened in May, and the University of Michigan Surveys of Consumers measure of consumer sentiment decreased noticeably in the preliminary June reading. Supply disruptions appeared to have improved in some sectors (such as general merchandise retailers) but to have deteriorated in others (such as materials for home construction). On balance, the available indicators suggested that private domestic final purchases were increasing at a slower pace in the second quarter than in the first quarter. And with the available trade data for April pointing to a rebound in exports and a moderation in import growth in the second quarter, GDP growth appeared to be rebounding after having declined in the first quarter.
+
+**MIN_2022-06-15_P0057**
+
+Regarding trade, real imports of goods stepped back in April from their exceptional strength in March, driven by a decline in consumer goods imports. By contrast, real goods exports grew in both March and April after
+
+**MIN_2022-06-15_P0058**
+
+declining in the previous two months, following some normalization in categories such as soybeans and pharmaceuticals, which can exhibit large and idiosyncratic changes. Exports and imports of services continued to be held back by an incomplete recovery of international travel. The nominal U.S. international trade deficit widened to a record size in March and then reversed that widening in April.
+
+**MIN_2022-06-15_P0059**
+
+Incoming data suggested that the global reverberations from lockdown measures to deal with the spread of the COVID-19 virus in China and the Russian invasion of Ukraine slowed foreign economic growth. In China, activity indicators pointed to a sizable restraint on economic activity. The Russian invasion of Ukraine continued to have an imprint on foreign activity, with persistent stresses in global commodity markets and declining consumer and business confidence, especially in Europe. Inflation abroad moved higher, driven by further increases in consumer energy and food prices as well as some additional broadening of price pressures to core goods and services. Central banks around the world further tightened their monetary policy stances to curb high inflation.
+
+**MIN_2022-06-15_P0060**
+
+Staff Review of the Financial Situation
+
+**MIN_2022-06-15_P0061**
+
+Over the intermeeting period, U.S. Treasury yields and the market-implied federal funds rate path moved substantially higher on net. Broad domestic equity price indexes declined considerably, on balance, amid elevated market volatility. In most advanced foreign economies (AFEs), sovereign yields also increased further, and foreign equity price indexes moved lower. Despite further increases in borrowing costs, financing conditions in domestic credit markets remained generally accommodative. The credit quality of firms, municipalities, and households remained largely stable, although the out-look for credit quality had begun to deteriorate some-what.
+
+**MIN_2022-06-15_P0062**
+
+Since the previous FOMC meeting, 2-, 5-, and 10-year nominal Treasury yields increased considerably on net. Early in the intermeeting period, Treasury yields moved lower amid rising concerns about a weakening U.S. growth outlook and Federal Reserve communications perceived as lowering the chances of large policy rate hikes at upcoming meetings. However, yields increased late in the period, with economic data releases largely being interpreted as highlighting the possibility of a more aggressive tightening of monetary policy. The expected federal funds rate path—implied by a straight read of overnight index swap quotes—also increased notably on balance. Real yields increased more than their nominal
+
+### fomcminutes20220615.pdf#p5
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 5](../../raw/minutes/fomcminutes20220615.pdf#page=5)
+
+**MIN_2022-06-15_P0063**
+
+counterparts, while inflation compensation implied by Treasury Inflation-Protected Securities declined.
+
+**MIN_2022-06-15_P0064**
+
+Broad equity price indexes fell sharply over the inter-meeting period on net. The stock price declines were largely associated with mixed corporate earnings news early in the period and increasing concerns about the economic outlook amid global policy tightening. One-month option-implied volatility on the S&P 500 index— the VIX—increased moderately, on balance, remaining elevated relative to its historical distribution and significantly above average pre-pandemic levels. Spreads on investment-grade and, to a greater extent, speculative-grade corporate bonds widened notably, on net, reach- ing levels comparable with those at the end of 2018. This widening of spreads was associated with increased concerns about the outlook for corporate credit amid monetary policy tightening. Since the previous FOMC meeting, spreads on municipal bonds narrowed substantially, on net, moving near levels observed for several years before the pandemic, as investor demand exhibited some recovery over much of the period from earlier weak levels.
+
+**MIN_2022-06-15_P0065**
+
+Conditions in short-term funding markets remained stable over the intermeeting period, with the May increase in the Federal Reserve’s administered rates passing through promptly to overnight money market rates. Spreads on longer-tenor commercial paper (CP) and negotiable certificates of deposit narrowed moderately, with no signs of spillovers beyond the stablecoin market following the collapse of a large algorithmic stablecoin. Indeed, CP outstanding increased slightly over the period. Money market fund (MMF) net yields across all fund types rose notably, as increases in administered rates passed through to money market instruments. Secured overnight rates softened significantly relative to the ON RRP offering rate since the May FOMC meeting, with the downward pressure on rates attributed to continuing declines in net Treasury bill issuance, elevated demand for collateral in the form of Treasury securities, and MMFs maintaining very short portfolio ma- turities amid uncertainty about the pace of anticipated policy rate increases. Consistent with the downward pressure on repo rates, daily take-up in the ON RRP facility increased further.
+
+**MIN_2022-06-15_P0066**
+
+Sovereign yields in most AFEs rose over the intermeeting period amid investors’ concerns about further infla- tionary pressures and major central banks’ policy communications suggesting a firmer stance of policy. Interest rate volatility in AFEs increased, consistent with in-
+
+**MIN_2022-06-15_P0067**
+
+creased uncertainty about the path of policy rates. Concerns about the global growth outlook weighed on equity prices, and the broad dollar edged up. Implied equity price volatility remained at elevated levels. Japanese yields and equity prices, however, ended the period about unchanged, as the BOJ reaffirmed its accommodative monetary policy stance. Sovereign bond spreads over German bund yields for euro-area peripheral countries widened further. These moves were partially re-traced following an unscheduled meeting of the ECB on June 15, at which the ECB indicated that it would take action to address potential fragmentation risk in euro-area sovereign bond markets. Outflows from emerging market-dedicated funds intensified in early May, especially from local currency bond funds, and credit spreads in emerging market economies widened moderately.
+
+**MIN_2022-06-15_P0068**
+
+In domestic credit markets, financing conditions for most businesses and households remained generally accommodative over the intermeeting period. Credit remained widely available, particularly to higher-rated firms and consumers with higher credit scores. Gross nonfinancial corporate bond issuance slowed in May, especially among speculative-grade issuers, amid elevated market volatility and high yields. Gross institutional leveraged loan issuance decelerated and initial public offering volumes remained extremely slow in May, while gross issuance of municipal bonds remained robust.
+
+**MIN_2022-06-15_P0069**
+
+Commercial and industrial (C&I) and commercial real estate (CRE) loans on banks’ balance sheets expanded at a rapid pace in April and May. Issuance of both agency and non-agency commercial mortgage-backed securities (CMBS) stepped down slightly in May from its strong pace earlier in the year. Small business loan originations through April were in line with pre-pandemic levels and indicated that credit appeared to be available.
+
+**MIN_2022-06-15_P0070**
+
+Residential mortgage credit remained widely available through May for most borrowers. While refinance volumes continued trending lower in April and May amid higher mortgage rates, outstanding balances of home equity lines of credit at commercial banks posted the first significant increase in more than a decade, likely reflecting a substitution by homeowners away from cash-out refinances. In consumer credit markets, auto loans out- standing grew at a robust pace in the first quarter, consistent with a rebound in auto sales, but slowed in April and May. Credit card balances at commercial banks rose in April at the fastest pace seen in recent decades, but growth slowed in May.
+
+### fomcminutes20220615.pdf#p6
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 6](../../raw/minutes/fomcminutes20220615.pdf#page=6)
+
+**MIN_2022-06-15_P0071**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0072**
+
+Borrowing costs had continued to increase in many sectors since the previous FOMC meeting. Yields on non-financial corporate bonds remained well above pre-pandemic levels, and new issuance spreads for institutional leveraged loans ticked up in May. Bank interest rates for both C&I and CRE loans also increased. Among small businesses that borrow on a regular basis, the share facing higher borrowing costs rose in both April and May. Borrowing costs for residential mortgage loans increased significantly over the intermeeting period, in line with the increases in MBS and Treasury yields, reaching their highest levels since 2010. In consumer credit markets, rates on auto loans and new credit card offers continued to trend upward.
+
+**MIN_2022-06-15_P0073**
+
+Despite the historically low volumes of defaults on both corporate bonds and leveraged loans in April, in the later weeks of the intermeeting period the volume of credit rating downgrades of leveraged loans exceeded the volume of upgrades. In addition, market indicators of future default expectations of businesses deteriorated to some extent, as investors appeared to mark down their assessment of the macroeconomic outlook.
+
+**MIN_2022-06-15_P0074**
+
+Credit quality of business loans on banks’ books remained sound, with C&I and CRE delinquency rates continuing to be low through March. Nonetheless, banks allocated net positive loan loss provisions in the first quarter of this year. This development reversed a pattern of loan loss reserves being released throughout last year and reflected concerns about the credit quality outlook. Delinquency rates on CMBS and small business loans continued to decline, and the credit quality of municipal securities remained strong.
+
+**MIN_2022-06-15_P0075**
+
+Household credit quality remained solid, with the share of consumers with subprime credit scores still near historical lows. In addition, mortgage delinquencies and the share of mortgages in forbearance both continued to trend down in recent months. While nonprime auto loan delinquency rates edged down a touch in the first quarter, credit card delinquency rates for account holders with below-prime credit scores inched up from low levels. The sizable increases in credit card purchase volumes through March were roughly offset by high levels of credit card payments, thus increasing household borrowing only slightly.
+
+**MIN_2022-06-15_P0076**
+
+Staff Economic Outlook
+
+**MIN_2022-06-15_P0077**
+
+The projection for U.S. economic activity prepared by the staff for the June FOMC meeting implied a trajectory for real GDP that was lower than in the May projection. The staff continued to project that GDP growth would rebound in the second quarter and remain solid over the
+
+**MIN_2022-06-15_P0078**
+
+remainder of the year. However, monetary policy was assumed to be less accommodative than in the previous projection, and the recent and prospective tightening of financial conditions led the staff to reduce its GDP growth forecast for the second half of 2022 and for 2023. The level of real GDP was still expected to remain well above potential over the projection period, though the gap was projected to narrow significantly this year and to narrow a little further next year. Labor market conditions also were expected to remain very tight, albeit somewhat less so than in the previous projection.
+
+**MIN_2022-06-15_P0079**
+
+With regard to PCE price inflation, the staff revised up its projection for the second half of 2022 in response to stronger-than-expected wage growth and the staff’s assessment that the boost to inflation from supply– demand imbalances in the economy, including in food and energy markets, would be more persistent than previously assumed. All told, total PCE price inflation was expected to be 5.0 percent in 2022, while core inflation was expected to be 4.1 percent. PCE price inflation was then expected to step down to 2.4 percent in 2023 and to 2.0 percent in 2024, as energy prices were forecast to decline and as supply–demand imbalances were projected to diminish because of slowing aggregate demand and an easing of supply constraints. Similarly, core inflation was projected to slow to 2.6 percent in 2023 and to 2.2 percent in 2024.
+
+**MIN_2022-06-15_P0080**
+
+The staff continued to judge that the risks to the baseline projection for real activity were skewed to the downside and that the risks to the inflation projection were skewed to the upside. The staff judged that the ongoing war in Ukraine remained a possible source of even greater up-ward pressure on energy and commodity prices, while the war and adverse developments associated with China’s zero-COVID policy were both perceived as increasing the risk that supply chain disruptions and production constraints would be further exacerbated in the United States and abroad.
+
+**MIN_2022-06-15_P0081**
+
+Participants’ Views on Current Conditions and the Economic Outlook
+
+**MIN_2022-06-15_P0082**
+
+In conjunction with this FOMC meeting, participants submitted their projections of the most likely outcomes for real GDP growth, the unemployment rate, and inflation for each year from 2022 through 2024 and over the longer run based on their individual assessments of appropriate monetary policy, including the path of the federal funds rate. The longer-run projections represented each participant’s assessment of the rate to which each variable would be expected to converge, over time, under appropriate monetary policy and in the absence of
+
+### fomcminutes20220615.pdf#p7
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 7](../../raw/minutes/fomcminutes20220615.pdf#page=7)
+
+**MIN_2022-06-15_P0083**
+
+further shocks to the economy. A Summary of Economic Projections (SEP) was released to the public following the conclusion of the meeting.
+
+**MIN_2022-06-15_P0084**
+
+In their discussion of current economic conditions, participants noted that overall economic activity appeared to have picked up after edging down in the first quarter. Job gains had been robust in recent months, and the unemployment rate had remained low. Inflation remained elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures. Participants recognized that the invasion of Ukraine by Russia was causing tremendous human and economic hardship for the Ukrainian people. Participants judged that the invasion and related events were creating additional upward pressure on inflation and were weighing on global economic activity. In addition, participants indicated that COVID-related lock-downs in China were likely to exacerbate supply chain disruptions. Against this background, participants stated that they were highly attentive to inflation risks.
+
+**MIN_2022-06-15_P0085**
+
+With regard to the economic outlook, participants noted that recent indicators suggested that real GDP growth was expanding in the current quarter, with consumption spending remaining strong. Participants generally judged that growth in business fixed investment appeared to be slowing, and activity in the housing sector appeared to be softening, in part as a result of a sharp rise in mortgage rates. Correspondingly, participants indicated that they had revised down their projections of real GDP growth for this year, consistent with ongoing supply chain disruptions and tighter financial conditions. Participants noted that the imbalance between supply and demand across a wide range of product markets was contributing to upward pressure on inflation. They saw an appropriate firming of monetary policy and associated tighter financial conditions as playing a central role in helping address this imbalance and in supporting the Federal Reserve’s goals of maximum employment and price stability. An easing of supply bottlenecks, a further rise in labor force participation, and the waning effects of pandemic-related fiscal policy support were cited as additional factors that could help reduce the supply– demand imbalances in the economy and therefore lower inflation over the next few years. That said, the timing and magnitude of these effects were uncertain. Participants saw little evidence to date of a substantial improvement in supply constraints, and some of them judged that the economic effects of these constraints were likely to persist longer than they had previously anticipated.
+
+**MIN_2022-06-15_P0086**
+
+Participants stressed the need to adjust the stance of policy in response to incoming information regarding the evolution of these and other factors.
+
+**MIN_2022-06-15_P0087**
+
+In their discussion of the household sector, participants indicated that consumption spending had remained robust, in part reflecting strong balance sheets in the household sector and a tight labor market. Several participants noted that household spending patterns appeared to be shifting away from goods to services. Several participants indicated that some of their contacts reported that the pace of consumer spending, though strong, was beginning to moderate. One reason cited for this moderation was that the purchasing power of households was being reduced by higher prices for food, energy, and other essentials. Participants generally expected higher mortgage interest rates to contribute to further declines in home sales, and a couple of participants noted that housing activity in their Districts had begun to slow noticeably. Against the backdrop of rising borrowing costs and higher gasoline and food prices, a couple of participants commented that consumer sentiment had dropped notably in June, according to the preliminary reading in the Michigan survey.
+
+**MIN_2022-06-15_P0088**
+
+With respect to the business sector, participants observed that their contacts generally reported that sales remained strong, although some contacts indicated that sales had begun to slow and that they had become less optimistic about the outlook. In many industries, the ability of firms to meet demand continued to be limited by labor shortages and supply chain bottlenecks. Firms relying on international sources for their inputs were seen as encountering particularly acute supply chain disruptions. Supply constraints, labor shortages, and rising input costs were also reportedly limiting energy and agricultural producers’ ability to take advantage of the higher prices of their products by investing and expand- ing their production capacity. Similarly, a few participants noted that, in other sectors of the economy, their contacts reported that they were postponing investment or construction projects because of rising input and financing costs. With supply challenges still widespread, contacts continued to assess that supply constraints overall were significant, and many of them judged that these constraints were likely to persist for some time.
+
+**MIN_2022-06-15_P0089**
+
+Participants noted that the demand for labor continued to outstrip available supply across many parts of the economy. They observed that various indicators pointed to a very tight labor market. These indicators included an unemployment rate near a 50-year low, job vacancies at historical highs, and elevated nominal wage
+
+### fomcminutes20220615.pdf#p8
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 8](../../raw/minutes/fomcminutes20220615.pdf#page=8)
+
+**MIN_2022-06-15_P0090**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0091**
+
+growth. Additionally, most business contacts had continued to report persistent wage pressures as well as difficulties in hiring and retaining workers. However, some contacts reported that, because of previous wage hikes, hiring and retention had improved and pressure for additional wage increases appeared to be receding.
+
+**MIN_2022-06-15_P0092**
+
+Employment growth, while moderating somewhat from its pace earlier in the year, had remained robust. Several participants observed that labor force participation remained below its pre-pandemic level because of the un-usually large number of retirements during the pandemic and judged that the labor force participation rate was un- likely to move up considerably in the near term. A couple of participants raised the possibility that tight labor markets would spur investment in automation by firms, boosting labor productivity.
+
+**MIN_2022-06-15_P0093**
+
+While labor markets were anticipated to remain tight in the near term, participants expected labor demand and supply to come into better balance over time, helping to ease upward pressure on wages and prices. As in the case of product markets, they anticipated that an appropriate firming of monetary policy would play a central role in helping address imbalances in the labor market. With the tightness in labor markets anticipated to diminish over time, participants generally expected the unemployment rate to increase, as the median projection of the unemployment rate in the June SEP showed a gradual rise over the next few years, reaching 4.1 percent in 2024. In light of the very high level of job vacancies, a number of participants judged that the expected moderation in labor demand relative to supply might primarily affect vacancies and have a less significant effect on the unemployment rate.
+
+**MIN_2022-06-15_P0094**
+
+Participants noted that inflation remained much too high and observed that it continued to run well above the Committee’s longer-run 2 percent objective, with total PCE prices having risen 6.3 percent over the 12 months ending in April. They also observed that the 12-month change in the CPI in May came in above expectations. Participants were concerned that the May CPI release indicated that inflation pressures had yet to show signs of abating, and a number of them saw it as solidifying the view that inflation would be more persistent than they had previously anticipated. They commented on the hardship caused by elevated inflation, with low- and moderate-income households especially affected. These households had to spend more of their budgets on essentials such as food, energy, and housing and were less able to bear the rapidly rising costs of these essentials. In that context, some participants noted that
+
+**MIN_2022-06-15_P0095**
+
+their contacts had reported that low- and moderate-income consumers were shifting purchases to lower-cost goods. Participants also stressed that persistently high inflation would impede the achievement of maximum employment on a sustained basis.
+
+**MIN_2022-06-15_P0096**
+
+Participants judged that strong aggregate demand, together with supply constraints that had been larger and longer lasting than expected, continued to contribute to price pressures across a broad array of goods and services. They noted that the surge in prices of oil and other commodities associated with Russia’s invasion of Ukraine was boosting gasoline and food prices and putting additional upward pressure on inflation. Participants commented on the global nature of inflation pressures, and a few of them added that many foreign central banks were also firming the stance of monetary policy. Several participants judged that a shift in spending from goods to services was likely to be associated with less upward pressure on prices in the goods sector, but also an intensification of upward pressure on prices in the services sector. Participants had revised up their PCE inflation projections for 2022 in their June SEP submissions, largely in response to higher-than-expected inflation readings and the slower anticipated resolution of supply constraints. They expected that the appropriate firming of monetary policy and an eventual easing of supply and demand imbalances would bring inflation back down to levels roughly consistent with the Committee’s longer-run objectives by 2024 and keep longer-term inflation expectations well anchored.
+
+**MIN_2022-06-15_P0097**
+
+Participants observed that some measures of inflation expectations had moved up recently, including the staff index of common inflation expectations and the expectations of inflation over the next 5 to 10 years provided in the Michigan survey. With respect to market-based measures, however, a few participants noted that medium-term measures of inflation compensation fell over the intermeeting period and longer-term measures were unchanged. While measures of longer-term inflation expectations derived from surveys of households, professional forecasters, and market participants were generally judged to be broadly consistent with the Committee’s longer-run 2 percent inflation objective, many participants raised the concern that longer-run inflation expectations could be beginning to drift up to levels inconsistent with the 2 percent objective. These participants noted that, if inflation expectations were to become unanchored, it would be more costly to bring inflation back down to the Committee’s objective.
+
+### fomcminutes20220615.pdf#p9
+
+Proposition : **2** — facettes : adopted_move.
+
+[PDF, page physique 9](../../raw/minutes/fomcminutes20220615.pdf#page=9)
+
+**MIN_2022-06-15_P0098**
+
+In their discussion of risks, participants emphasized that they were highly attentive to inflation risks and were closely monitoring developments regarding both inflation and inflation expectations. Most agreed that risks to inflation were skewed to the upside and cited several such risks, including those associated with ongoing supply bottlenecks and rising energy and commodity prices. Participants judged that uncertainty about economic growth over the next couple of years was elevated. In that context, a couple of them noted that GDP and gross domestic income had been giving conflicting signals recently regarding the pace of economic growth, making it challenging to determine the economy’s underlying momentum. Most participants assessed that the risks to the outlook for economic growth were skewed to the down-side. Downside risks included the possibility that a further tightening in financial conditions would have a larger negative effect on economic activity than anticipated as well as the possibilities that the Russian invasion of Ukraine and the COVID-related lockdowns in China would have larger-than-expected effects on economic growth.
+
+**MIN_2022-06-15_P0099**
+
+In their consideration of the appropriate stance of monetary policy, participants concurred that the labor market was very tight, inflation was well above the Committee’s 2 percent inflation objective, and the near-term inflation outlook had deteriorated since the time of the May meeting. Against this backdrop, almost all participants agreed that it was appropriate to raise the target range for the federal funds rate 75 basis points at this meeting. One participant favored a 50 basis point increase in the target range at this meeting instead of 75 basis points. All participants judged that it was appropriate to continue the process of reducing the size of the Federal Reserve’s balance sheet, as described in the Plans for Reducing the Size of the Federal Reserve’s Balance Sheet that the Committee issued in May. In light of elevated inflation pressures and signs of deterioration in some measures of inflation expectations, all participants reaffirmed their strong commitment to returning inflation to the Committee’s 2 percent objective. Participants observed that a return of inflation to the 2 percent objective was necessary for creating conditions conducive to a sustainably strong labor market over time.
+
+**MIN_2022-06-15_P0100**
+
+In discussing potential policy actions at upcoming meetings, participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee’s objectives. In particular, participants judged that an increase of 50 or 75 basis points would likely be appropriate at
+
+**MIN_2022-06-15_P0101**
+
+the next meeting. Participants concurred that the economic outlook warranted moving to a restrictive stance of policy, and they recognized the possibility that an even more restrictive stance could be appropriate if elevated inflation pressures were to persist.
+
+**MIN_2022-06-15_P0102**
+
+Participants noted that, with the federal funds rate expected to be near or above estimates of its longer-run level later this year, the Committee would then be well positioned to determine the appropriate pace of further policy firming and the extent to which economic developments warranted policy adjustments. They also re-marked that the pace of rate increases and the extent of future policy tightening would depend on the incoming data and the evolving outlook for the economy. Many participants noted that the Committee’s credibility with regard to bringing inflation back to the 2 percent objective, together with previous communications, had been helpful in shifting market expectations of future policy and had already contributed to a notable tightening of financial conditions that would likely help reduce inflation pressures by restraining aggregate demand. Participants recognized that ongoing policy firming would be appropriate if economic conditions evolved as expected.
+
+**MIN_2022-06-15_P0103**
+
+At the current juncture, with inflation remaining well above the Committee’s objective, participants remarked that moving to a restrictive stance of policy was required to meet the Committee’s legislative mandate to promote maximum employment and price stability. In addition, such a stance would be appropriate from a risk management perspective because it would put the Committee in a better position to implement more restrictive policy if inflation came in higher than expected. Many participants judged that a significant risk now facing the Committee was that elevated inflation could become entrenched if the public began to question the resolve of the Committee to adjust the stance of policy as warranted. On this matter, participants stressed that appropriate firming of monetary policy, together with clear and effective communications, would be essential in re- storing price stability.
+
+**MIN_2022-06-15_P0104**
+
+Participants remarked that developments associated with Russia’s invasion of Ukraine, the COVID-related lockdowns in China, and other factors restraining supply conditions would affect the inflation outlook and that it would likely take some time for inflation to move down to the Committee’s 2 percent objective. Participants also judged that maintaining a strong labor market during the process of bringing inflation down to 2 percent would depend on many factors affecting demand and supply. Participants recognized that policy firming could slow
+
+### fomcminutes20220615.pdf#p10
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 10](../../raw/minutes/fomcminutes20220615.pdf#page=10)
+
+**MIN_2022-06-15_P0105**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0106**
+
+the pace of economic growth for a time, but they saw the return of inflation to 2 percent as critical to achieving maximum employment on a sustained basis.
+
+**MIN_2022-06-15_P0107**
+
+Committee Policy Action
+
+**MIN_2022-06-15_P0108**
+
+In their discussion of monetary policy for this meeting, members agreed that overall economic activity appeared to have picked up after edging down in the first quarter. Job gains had been robust in recent months, and the unemployment rate had remained low. Members also agreed that inflation remained elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.
+
+**MIN_2022-06-15_P0109**
+
+Members concurred that the invasion of Ukraine by Russia was causing tremendous human and economic hardship. Members agreed that the invasion and related events were creating additional upward pressure on inflation and were weighing on global economic activity. With the effects of the invasion of Ukraine by Russia already materializing, members considered it appropriate to omit from the June statement the sentence conveying the high uncertainty associated with the implications of the invasion for the U.S. economy. Members also agreed that COVID-related lockdowns in China were likely to exacerbate supply chain disruptions. In light of these developments, members remarked that they remain highly attentive to the upside risks to inflation and would be nimble in responding to incoming data and the evolving outlook.
+
+**MIN_2022-06-15_P0110**
+
+In their assessment of the monetary policy stance necessary for achieving the Committee’s maximum-employment and price-stability goals, the Committee decided to raise the target range for the federal funds rate to 1½ to 1¾ percent and anticipated that ongoing increases in the target range would be appropriate. In addition, members agreed that the Committee would continue reducing its holdings of Treasury securities and agency debt and agency MBS, as described in the Plans for Reducing the Size of the Federal Reserve’s Balance Sheet that were issued in May. One member preferred to raise the target range for the federal funds rate 50 basis points to 1¼ to 1½ percent at this meeting.
+
+**MIN_2022-06-15_P0111**
+
+Members judged that, with high and widespread inflation pressures and some measures of longer-term inflation expectations moving up somewhat, it would be appropriate for the postmeeting statement to note that the Committee was strongly committed to returning inflation to its 2 percent objective. As the further firming in the policy stance would likely result in some slowing in economic growth and tempering in labor market condi-
+
+**MIN_2022-06-15_P0112**
+
+tions, members also agreed to remove the previous statement language that had indicated an expectation that appropriate policy would result in a return of inflation to 2 percent and a strong labor market.
+
+**MIN_2022-06-15_P0113**
+
+Members agreed that, in assessing the appropriate stance of monetary policy, they would continue to monitor the implications of incoming information for the economic outlook and that they would be prepared to adjust the stance of monetary policy as appropriate in the event that risks emerged that could impede the attainment of the Committee’s goals. They also concurred that their assessments would take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.
+
+**MIN_2022-06-15_P0114**
+
+At the conclusion of the discussion, the Committee voted to authorize and direct the Federal Reserve Bank of New York, until instructed otherwise, to execute transactions in the SOMA in accordance with the following domestic policy directive, for release at 2:00 p.m.:
+
+**MIN_2022-06-15_P0115**
+
+“Effective June 16, 2022, the Federal Open Market Committee directs the Desk to:
+
+**MIN_2022-06-15_P0116**
+
+ Undertake open market operations as necessary to maintain the federal funds rate in a target range of 1½ to 1¾ percent.
+
+**MIN_2022-06-15_P0117**
+
+ Conduct overnight repurchase agreement operations with a minimum bid rate of 1.75 percent and with an aggregate operation limit of $500 billion; the aggregate operation limit can be temporarily increased at the discretion of the Chair.
+
+**MIN_2022-06-15_P0118**
+
+ Conduct overnight reverse repurchase agreement operations at an offering rate of 1.55 percent and with a per-counterparty limit of $160 billion
+
+**MIN_2022-06-15_P0119**
+
+per day; the
+
+**MIN_2022-06-15_P0120**
+
+per-counterparty limit can be temporarily increased at the discretion of the Chair.
+
+**MIN_2022-06-15_P0121**
+
+ Roll over at auction the amount of principal payments from the Federal Reserve’s holdings of Treasury securities maturing in the calendar months of June and July that exceeds a cap of $30 billion per month. Re- deem Treasury coupon securities up to this monthly cap and Treasury bills to the extent that coupon principal payments are less than the monthly cap.
+
+### fomcminutes20220615.pdf#p11
+
+Proposition : **2** — facettes : reason.
+
+[PDF, page physique 11](../../raw/minutes/fomcminutes20220615.pdf#page=11)
+
+**MIN_2022-06-15_P0122**
+
+ Reinvest into agency mortgage-backed securities (MBS) the amount of principal payments from the Federal Reserve’s holdings of agency debt and agency MBS received in the calendar months of June and July that exceeds a cap of $17.5 billion per month.
+
+**MIN_2022-06-15_P0123**
+
+ Allow modest deviations from stated amounts for reinvestments, if needed for operational reasons.
+
+**MIN_2022-06-15_P0124**
+
+ Engage in dollar roll and coupon swap transactions as necessary to facilitate settlement of the Federal Reserve’s agency MBS transactions.”
+
+**MIN_2022-06-15_P0125**
+
+The vote also encompassed approval of the statement below for release at 2:00 p.m.:
+
+**MIN_2022-06-15_P0126**
+
+“Overall economic activity appears to have picked up after edging down in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.
+
+**MIN_2022-06-15_P0127**
+
+The invasion of Ukraine by Russia is causing tremendous human and economic hardship. The invasion and related events are creating additional upward pressure on inflation and are weighing on global economic activity. In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions. The Committee is highly attentive to inflation risks.
+
+**MIN_2022-06-15_P0128**
+
+The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1½ to 1¾ percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and
+
+**MIN_2022-06-15_P0129**
+
+5 In taking this action, the Board approved a request to establish that rate submitted by the Board of Directors of the Federal Reserve Bank of Minneapolis. This vote also encom- passed approval by the Board of Governors of the establishment of a 1.75 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of June 16, 2022, or the date such Reserve Banks inform the Secretary of the
+
+**MIN_2022-06-15_P0130**
+
+agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve’s Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.
+
+**MIN_2022-06-15_P0131**
+
+In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee’s goals. The Committee’s assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.”
+
+**MIN_2022-06-15_P0132**
+
+Voting for this action: Jerome H. Powell, John C. Williams, Michelle W. Bowman, Lael Brainard, James Bullard, Lisa D. Cook, Patrick Harker, Philip N. Jefferson, Loretta J. Mester, and Christopher J. Waller.
+
+**MIN_2022-06-15_P0133**
+
+Voting against this action: Esther L. George.
+
+**MIN_2022-06-15_P0134**
+
+Patrick Harker voted as an alternate member at this meeting.
+
+**MIN_2022-06-15_P0135**
+
+President George dissented because she judged that a large increase in the target range for the federal funds rate would add to uncertainty about policy concurrent with the beginning of balance sheet runoff in ways that could unsettle households and businesses and could also adversely affect the ability of small banks to meet the credit needs of their communities.
+
+**MIN_2022-06-15_P0136**
+
+To support the Committee’s decision to raise the target range for the federal funds rate, the Board of Governors of the Federal Reserve System voted unanimously to raise the interest rate paid on reserve balances to 1.65 percent, effective June 16, 2022. The Board of Governors of the Federal Reserve System voted unanimously to approve a ¾ percentage point increase in the primary credit rate to 1.75 percent, effective June 16, 2022.5
+
+**MIN_2022-06-15_P0137**
+
+Board of such a request. (Secretary’s note: Subsequently, other Federal Reserve Banks were informed of the Secretary of the Board’s approval of their establishment of a primary credit rate of 1.75 percent, effective June 16, 2022, for the Federal Reserve Banks of Boston, New York, Philadelphia, Cleveland, Richmond, Chicago, St. Louis, Kansas City, and
+
+### fomcminutes20220615.pdf#p12
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 12](../../raw/minutes/fomcminutes20220615.pdf#page=12)
+
+**MIN_2022-06-15_P0138**
+
+Federal Open Market Committee
+
+**MIN_2022-06-15_P0139**
+
+It was agreed that the next meeting of the Committee would be held on Tuesday–Wednesday, July 26–27, 2022. The meeting adjourned at 10:45 a.m. on June 15, 2022.
+
+**MIN_2022-06-15_P0140**
+
+Notation Vote
+
+**MIN_2022-06-15_P0141**
+
+By notation vote completed on May 24, 2022, the Committee unanimously approved the minutes of the Committee meeting held on May 3–4, 2022.
+
+**MIN_2022-06-15_P0142**
+
+James A. Clouse Secretary
+
+**MIN_2022-06-15_P0143**
+
+Dallas, and effective June 17, 2022, for the Federal Reserve Banks of Atlanta and San Francisco.)
+
+### monetary20220615a1.pdf#p1
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 1](../../raw/statements/monetary20220615a1.pdf#page=1)
+
+**STA_2022-06-15_P0001**
+
+For release at 2 p.m. EDT
+
+**STA_2022-06-15_P0002**
+
+June 15, 2022
+
+**STA_2022-06-15_P0003**
+
+Overall economic activity appears to have picked up after edging down in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.
+
+**STA_2022-06-15_P0004**
+
+The invasion of Ukraine by Russia is causing tremendous human and economic hardship. The invasion and related events are creating additional upward pressure on inflation and are weighing on global economic activity. In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions. The Committee is highly attentive to inflation risks.
+
+**STA_2022-06-15_P0005**
+
+The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve’s Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.
+
+**STA_2022-06-15_P0006**
+
+In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee’s goals. The Committee’s assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation
+
+**STA_2022-06-15_P0007**
+
+(more)
+
+### monetary20220615a1.pdf#p2
+
+Proposition : **2** — facettes : preferred_move.
+
+[PDF, page physique 2](../../raw/statements/monetary20220615a1.pdf#page=2)
+
+**STA_2022-06-15_P0008**
+
+For release at 2 p.m. EDT
+
+**STA_2022-06-15_P0009**
+
+June 15, 2022
+
+**STA_2022-06-15_P0010**
+
+-2-
+
+**STA_2022-06-15_P0011**
+
+pressures and inflation expectations, and financial and international developments.
+
+**STA_2022-06-15_P0012**
+
+Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; James Bullard; Lisa D. Cook; Patrick Harker; Philip N. Jefferson; Loretta J. Mester; and Christopher J. Waller. Voting against this action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1-1/4 percent to 1-1/2 percent. Patrick Harker voted as an alternate member at this meeting.
+
+### monetary20220615a1.pdf#p3
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 3](../../raw/statements/monetary20220615a1.pdf#page=3)
+
+**STA_2022-06-15_P0013**
+
+For release at 2 p.m. EDT
+
+**STA_2022-06-15_P0014**
+
+June 15, 2022
+
+**STA_2022-06-15_P0015**
+
+Decisions Regarding Monetary Policy Implementation
+
+**STA_2022-06-15_P0016**
+
+The Federal Reserve has made the following decisions to implement the monetary policy stance announced by the Federal Open Market Committee in its statement on June 15, 2022:
+
+**STA_2022-06-15_P0017**
+
+• The Board of Governors of the Federal Reserve System voted unanimously to raise the interest rate paid on reserve balances to 1.65 percent, effective June 16, 2022.
+
+**STA_2022-06-15_P0018**
+
+• As part of its policy decision, the Federal Open Market Committee voted to authorize and direct the Open Market Desk at the Federal Reserve Bank of New York, until instructed otherwise, to execute transactions in the System Open Market Account in accordance with the following domestic policy directive:
+
+**STA_2022-06-15_P0019**
+
+“Effective June 16, 2022, the Federal Open Market Committee directs the Desk to: o Undertake open market operations as necessary to maintain the federal funds rate in a target range of 1-1/2 to 1-3/4 percent. o Conduct overnight repurchase agreement operations with a minimum bid rate of 1.75 percent and with an aggregate operation limit of $500 billion; the aggregate operation limit can be temporarily increased at the discretion of the Chair. o Conduct overnight reverse repurchase agreement operations at an offering rate of 1.55 percent and with a per-counterparty limit of $160 billion per day; the per-counterparty limit can be temporarily increased at the discretion of the Chair. o Roll over at auction the amount of principal payments from the Federal Reserve's holdings of Treasury securities maturing in the calendar months of June and July that exceeds a cap of $30 billion per month. Redeem Treasury coupon securities up to this monthly cap and Treasury bills to the extent that coupon principal payments are less than the monthly cap. o Reinvest into agency mortgage-backed securities (MBS) the amount of principal payments from the Federal Reserve's holdings of agency debt and agency MBS received in the calendar months of June and July that exceeds a cap of $17.5 billion per month. o Allow modest deviations from stated amounts for reinvestments, if needed for operational reasons. o Engage in dollar roll and coupon swap transactions as necessary to facilitate settlement of the Federal Reserve's agency MBS transactions.”
+
+**STA_2022-06-15_P0020**
+
+(more)
+
+### monetary20220615a1.pdf#p4
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 4](../../raw/statements/monetary20220615a1.pdf#page=4)
+
+**STA_2022-06-15_P0021**
+
+For release at 2 p.m. EDT
+
+**STA_2022-06-15_P0022**
+
+June 15, 2022
+
+**STA_2022-06-15_P0023**
+
+-2-
+
+**STA_2022-06-15_P0024**
+
+• In a related action, the Board of Governors of the Federal Reserve System voted unanimously to approve a 3/4 percentage point increase in the primary credit rate to 1.75 percent, effective June 16, 2022. In taking this action, the Board approved the request to establish that rate submitted by the Board of Directors of the Federal Reserve Bank of Minneapolis.
+
+**STA_2022-06-15_P0025**
+
+This information will be updated as appropriate to reflect decisions of the Federal Open Market Committee or the Board of Governors regarding details of the Federal Reserve’s operational tools and approach used to implement monetary policy.
+
+**STA_2022-06-15_P0026**
+
+More information regarding open market operations and reinvestments may be found on the Federal Reserve Bank of New York’s website.
+

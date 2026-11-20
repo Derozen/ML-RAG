@@ -1,5 +1,82 @@
 # RAG FOMC — 145 questions et références silver de pages
 
+## Évaluation supplémentaire du lot candidat
+
+La commande `.\.venv\Scripts\python.exe scripts/score_candidate.py --provisional`
+évalue les 20 questions sur les **qrels proposés par l’assistant**, avec les 12
+configurations et des contextes de 5/6 chunks. Chaque exécution possède son dossier
+dans `results/candidate_provisional/`, avec scores, classements, graphique et rapport.
+Ce calcul ne constitue pas un test final indépendant validé ; la validation des
+annotations et des réponses reste requise. Le lot est désormais exposé aux scores.
+Les paragraphes historiques ci-dessous qui décrivent le lot comme « non scoré »
+décrivent son état avant cette mesure provisoire.
+
+Le recalcul séparé se lance avec
+`.\.venv\Scripts\python.exe scripts/verify_candidate_scores.py results/candidate_provisional/<identifiant_du_run>`.
+Il contrôle les 480 contextes et les 24 synthèses sans réinterroger les modèles.
+
+## Rapport consolidé et revue des consignes
+
+- [Graphiques de comparaison : cinq figures PNG et SVG](results/figures/INDEX.md).
+- [Vérifications techniques de Streamlit, des métriques et statut du test final](docs/VERIFICATION_TECHNIQUE.md).
+
+- [Rapport du projet : contexte, méthode, résultats et discussion](docs/RAPPORT_PROJET.md).
+- [Concordance avec les consignes ECC et livrables restants](docs/CONFORMITE_ECC.md).
+- [Trois cas de développement avec preuves contrôlées dans les PDF](results/audit_project/ANALYSE_QUALITATIVE_DEV.md).
+- [Références scientifiques vérifiées](docs/REFERENCES.md).
+
+La revue documentaire se reproduit avec
+`.\.venv\Scripts\python.exe scripts/build_project_review.py`. Elle utilise les
+résultats existants, sans appeler les modèles ni scorer le nouveau lot candidat.
+Les corrections de références dev proposées restent séparées des qrels figés.
+
+Pour produire les figures et les inclure dans le rapport :
+
+```powershell
+.\.venv\Scripts\python.exe scripts/plot_comparisons.py
+.\.venv\Scripts\python.exe scripts/build_project_review.py
+```
+
+Pour vérifier les métriques sans relancer les modèles, puis tester l’application
+avec une ancienne question dev et les vrais modèles de recherche :
+
+```powershell
+.\.venv\Scripts\python.exe scripts/verify_metrics.py
+.\.venv\Scripts\python.exe scripts/verify_delivery.py
+# Optionnel : inclure un vrai appel de génération Ollama sur une ancienne question dev.
+.\.venv\Scripts\python.exe scripts/verify_delivery.py --generation
+```
+
+Ces commandes ne lancent pas le test final indépendant. Les essais Streamlit
+fonctionnels utilisent AppTest et un serveur HTTP local temporaire ; ils ne
+certifient ni la mise en page dans tous les navigateurs, ni la justesse sémantique
+des réponses. Le chargement des modèles et la génération peuvent être lents sur CPU.
+
+Un essai à froid a dépassé le délai de génération. Avant la démonstration, on peut
+précharger **le modèle déjà installé**, sans modifier ses poids ou les paramètres :
+
+```powershell
+Invoke-RestMethod -Uri 'http://127.0.0.1:11434/api/generate' -Method Post -ContentType 'application/json' -Body '{"model":"qwen2.5:3b","prompt":"","stream":false,"keep_alive":"15m"}' -TimeoutSec 600
+```
+
+Le premier chargement observé a pris environ 184 secondes ; ce n'est pas une
+garantie de durée sur un autre poste. Pour contrôler uniquement le serveur Web,
+sans charger les modèles : `.\.venv\Scripts\python.exe scripts/verify_delivery.py --http-only`.
+
+## Lot candidat de confirmation : préannotation consolidée
+
+Le nouveau lot de 20 questions dispose maintenant de **294/294 grades proposés**
+(78 positifs, 216 négatifs). Le dossier à utiliser est
+[assistant_review/completed_proposal](data/holdout_candidate/assistant_review/completed_proposal/RAPPORT.md).
+Il contient la grille consolidée, les motifs et les preuves. Les versions
+précédentes sont conservées comme historique ; le système RAG reste unique et figé.
+
+**Le lot n'est pas encore un test final validé.** Les grades sont des propositions
+de l'assistant ; notamment les négatifs de la dernière passe nécessitent une
+lecture indépendante des pages complètes. La nouveauté sémantique, les réponses
+et les désaccords restent à confirmer. Aucune performance n'a été calculée sur
+ce lot. Voir [les outils de revue](annotation_tools/README.md) pour les commandes.
+
 ## Revue du 20 novembre 2026 : contexte final et consignes ECC
 
 Le pipeline distingue désormais **20 candidats à reclasser** et **6 passages finaux** (5 également disponibles). Le budget final est défini par `CONTEXT_K` dans `src/common.py`. L’application propose 5 ou 6 passages ; les commandes de génération et la variante temporelle ont également un défaut de 6 et un plafond de 6 pour la recherche. Les anciens classements complets restent utiles pour l’audit des candidats.
@@ -57,7 +134,7 @@ RAG_FOMC/
 │   ├── processed/
 │   │   ├── manifest.json        # Sources, pages et empreintes des 93 PDF
 │   │   ├── paragraphs.jsonl
-│   │   ├── chunks.jsonl         # 1 774 passages avec provenance
+│   │   ├── chunks.jsonl         # 1 692 passages avec provenance
 │   │   └── chunk_report.json
 │   └── evaluation/
 │       ├── queries_145.jsonl            # Questions et métadonnées originales

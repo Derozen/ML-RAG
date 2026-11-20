@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "status": "DIVERSIFIED_ANNOTATED_CANDIDATE_UNSCORED_PENDING_SECOND_REVIEW",
+  "questions": 20,
+  "task_groups": {
+    "factual": 4,
+    "explanatory": 6,
+    "comparative": 5,
+    "multi_evidence": 5
+  },
+  "source_scopes": {
+    "minutes": 6,
+    "statements": 6,
+    "mixed": 8
+  },
+  "corpus_pages_screened": 838,
+  "screened_question_page_pairs": 16760,
+  "in_scope_page_pairs": 294,
+  "positive_qrels": 53,
+  "qrels_total": 64,
+  "grade_counts": {
+    "2": 42,
+    "0": 11,
+    "1": 11
+  },
+  "editorial_page_reviews": 28,
+  "in_scope_unjudged_pairs": 230,
+  "evidence_facets": 38,
+  "evidence_documents": 27,
+  "evidence_document_types": {
+    "minutes": 33,
+    "statements": 20
+  },
+  "qrels_exhaustive": false,
+  "human_second_review_completed": false,
+  "semantic_independence_established": false,
+  "lexical_pairs_screened": 2900,
+  "evaluation_performed": false,
+  "frozen_protocol_sha256": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+  "annotation_method": "Deterministic document-scope and evidence-fragment screen; editorial answer/related-question review; independent human adjudication pending. No frozen retrieval models called.",
+  "files": {
+    "evidence_20.jsonl": "187c6af0fc17a42f270803e92c1703b057314a462dec9445ce5dbd5d99510a16",
+    "full_corpus_screening.jsonl": "d792abd77e5556001f2013cc2af05e38d16878ec1b649df70ff292112a43dbfa",
+    "human_review.csv": "c507b42c4c7cc369b8fef0c10711e23abc934dfbf02c9ef795cd90a484cbce1e",
+    "pdf_fragment_audit.json": "be6dc3a1e40c92bd9f54249b566be2bdc0c098568ad7ce337d987e0844541ac1",
+    "qrels_PAGES_candidate.trec": "7312561bd0f90c093020e38bfad25def7c5a3a700508cd79324c9e18ae82b5c2",
+    "queries_20.jsonl": "70a76fe0e4d7fe03e31f1ec50b762768827aba493890101755144e25e01ed5c5",
+    "question_adjudication.csv": "8a2b72651ee34eb72d00307a6d01e6177d6e6abd7a495244f0b92dc997ee444a",
+    "question_gold.jsonl": "fc4e7000939ec95cdf696229b9538d2109aea64ff7d2c0cebff0214df991a619",
+    "review_readiness.json": "07038e384b93362dda76e05f10162c62b92e0ad220d59f9e432e84ba6b4c64f9",
+    "REVUE_HUMAINE.md": "87996e647ddbf7b2bd85e4101d5739d561271d9fff06fe1164229fa4f01ebf33",
+    "semantic_pairs_145.csv": "220957980d86367220037fd1b1c6e7d2505eddbfe8181a005bb7bed898bb70ef",
+    "semantic_review.jsonl": "ce06f3504bec583f79c6ed927558147bf5efb8baa32d39ad4c0767dce510283d",
+    "within_holdout_pairs.jsonl": "5138e998748b365e93d67fd5d5c52872b6cef9e9b91a0592e0f74467470feeb5"
+  },
+  "artifact_validation_passed": true,
+  "source_quote_checks": 74,
+  "independent_raw_pdf_fragment_checks": 91,
+  "ready_for_final_scoring": false,
+  "blocking_items": [
+    "Independent second annotation review not completed",
+    "230 in-scope question/page pairs remain unjudged",
+    "Semantic overlap review requires human adjudication; topical independence not proved"
+  ],
+  "annotation_tool_files": {
+    "check_review.py": "f30595dbecf33b39602bf06547b5798144c79b16afa55c43b53282be5340c2fd",
+    "complete_editorial_proposal.py": "7d54c95327216084a6522234ff6481afc808c2b0ea0f987ba9ba84e65f9cc444",
+    "editorial_page_review.json": "70096620c8486e9f9d522d87cf11531f89ba9f4b60eedde8dea88de6805278ec",
+    "holdout_v2_plan.json": "8f1f98be68f84bdb05a54b614f25443e84714a18dbfcab7af12a60dc0994dcd4",
+    "inspect_remaining_pages.py": "ea8f8f8a743d7d3f6e05313fa9d6049bba913eba9443af24666961cb94ae6af4",
+    "prepare_review.py": "4044dda89b962dcb96586acd7758d4d12a0ad1f1017bc5fadb829507c0af98d5",
+    "publish_editorial_supplement.py": "f597d36cc9856a55531e600f0a2d1a20006781ae5fa0e2b3e6d9308f25b698b4",
+    "README.md": "b50168de731029a112b81c57720ea3a18ce33a464f49ea79625103f4d9fff24a",
+    "rebuild_holdout.py": "d35be77dd6858e3c495fd77c170cd01583c37a0ecbbf25e16b76dfc5e610561f",
+    "rejected_questions.json": "343ee851e86791816b193b22d97585244e00aa084c3244931e6ce6c508cb5a7a",
+    "remaining_minutes_decisions.json": "d4fc823f45a0c9516b7ad6b49dc452e4ebd864f85994ef49e6a414326f3c4b58",
+    "supplemental_editorial_decisions.json": "65fea45f11a7b5753053df14d7745df8d33d945505cae1cfb45341c8a4b580ea",
+    "validate_holdout.py": "1e10a2f5cacda2a38f26e08def47fa495ac8ab051c6eeb21268bca45b9006a4b"
+  }
+}

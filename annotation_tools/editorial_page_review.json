@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "HOLDOUT_V2_004",
+    "page_id": "monetary20210127a1.pdf#p3",
+    "grade": 0,
+    "reason": "This page mentions the Board but its rate is interest on reserves, not the requested primary credit rate.",
+    "paragraph_ids": [
+      "STA_2021-01-27_P0014"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_009",
+    "page_id": "fomcminutes20220615.pdf#p1",
+    "grade": 0,
+    "reason": "Attendance roster names George but does not state her vote or reason.",
+    "paragraph_ids": [
+      "MIN_2022-06-15_P0005"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_010",
+    "page_id": "fomcminutes20250319.pdf#p12",
+    "grade": 1,
+    "reason": "Provides reserve-management context and existing tools, but does not attribute all the arguments specifically to Waller.",
+    "paragraph_ids": [
+      "MIN_2025-03-19_P0065"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_010",
+    "page_id": "fomcminutes20250319.pdf#p13",
+    "grade": 1,
+    "reason": "Corroborates unchanged funds target versus slowing runoff, without the full named dissent and reserve evidence.",
+    "paragraph_ids": [
+      "MIN_2025-03-19_P0068"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_010",
+    "page_id": "fomcminutes20250319.pdf#p16",
+    "grade": 0,
+    "reason": "Staff and membership roster, not Waller's position or justification.",
+    "paragraph_ids": [
+      "MIN_2025-03-19_P0094"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_012",
+    "page_id": "monetary20241218a1.pdf#p1",
+    "grade": 1,
+    "reason": "The adopted cut provides the baseline for distinguishing Hammack's preference for no cut, but does not identify her dissent.",
+    "paragraph_ids": [
+      "STA_2024-12-18_P0003"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_012",
+    "page_id": "monetary20241218a1.pdf#p4",
+    "grade": 0,
+    "reason": "Quarter-point primary-credit reduction is not a Committee dissenter's preference about the funds target.",
+    "paragraph_ids": [
+      "STA_2024-12-18_P0021"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_013",
+    "page_id": "monetary20220504a1.pdf#p3",
+    "grade": 0,
+    "reason": "Effective-date match is a distractor: this page states reserve interest and funds/repo instructions, not the requested primary-credit approval.",
+    "paragraph_ids": [
+      "STA_2022-05-04_P0018",
+      "STA_2022-05-04_P0020"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_014",
+    "page_id": "fomcminutes20230322.pdf#p6",
+    "grade": 1,
+    "reason": "Participants' assessment corroborates the modest-growth description; it is not the requested quarter-specific staff passage or literal public release.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0109"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_014",
+    "page_id": "fomcminutes20230322.pdf#p9",
+    "grade": 1,
+    "reason": "Members' modest-growth assessment is corroborating evidence, with a different attribution from the public and staff passages.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0131"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_014",
+    "page_id": "fomcminutes20230322.pdf#p10",
+    "grade": 2,
+    "reason": "Minutes reproduce the public Statement's modest spending/production wording, providing an additional direct source.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0146"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_014",
+    "page_id": "fomcminutes20230920.pdf#p9",
+    "grade": 2,
+    "reason": "Minutes reproduce the public Statement's solid-pace wording.",
+    "paragraph_ids": [
+      "MIN_2023-09-20_P0140"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_015",
+    "page_id": "fomcminutes20260128.pdf#p13",
+    "grade": 2,
+    "reason": "Members' policy action and data-dependent adjustment language directly corroborate the announced decision.",
+    "paragraph_ids": [
+      "MIN_2026-01-28_P0108"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_015",
+    "page_id": "fomcminutes20260128.pdf#p14",
+    "grade": 1,
+    "reason": "Implementation instructions corroborate the maintained range, but not the survey comparison or full forward-looking language.",
+    "paragraph_ids": [
+      "MIN_2026-01-28_P0113"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_015",
+    "page_id": "fomcminutes20260128.pdf#p15",
+    "grade": 2,
+    "reason": "Minutes quote the public decision and its conditional future-adjustment language.",
+    "paragraph_ids": [
+      "MIN_2026-01-28_P0121"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_015",
+    "page_id": "monetary20260128a1.pdf#p3",
+    "grade": 1,
+    "reason": "Desk directive independently corroborates the maintained target; it supplies only part of the requested comparison.",
+    "paragraph_ids": [
+      "STA_2026-01-28_P0018"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "fomcminutes20250917.pdf#p10",
+    "grade": 0,
+    "reason": "General participants' risk discussion does not identify Miran's specific vote or attributed reasons.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0052"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "fomcminutes20250917.pdf#p11",
+    "grade": 1,
+    "reason": "Records a member preferring a half-point cut, without naming him or giving his particular explanation.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0058"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "fomcminutes20250917.pdf#p12",
+    "grade": 0,
+    "reason": "The adopted quarter-point directive and public text do not identify the July dissenters or Miran's half-point preference and reasoning.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0062"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "fomcminutes20250917.pdf#p14",
+    "grade": 0,
+    "reason": "Miran's name in a membership list does not support the vote or reasoning.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0084"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "monetary20250917a1.pdf#p1",
+    "grade": 0,
+    "reason": "Adopted quarter-point cut is not the half-point dissent preference or its actor-specific explanation.",
+    "paragraph_ids": [
+      "STA_2025-09-17_P0003"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_018",
+    "page_id": "monetary20250917a1.pdf#p3",
+    "grade": 0,
+    "reason": "Primary credit rate adjustment is a different action from the dissenting funds-target preference.",
+    "paragraph_ids": [
+      "STA_2025-09-17_P0020"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_020",
+    "page_id": "fomcminutes20230322.pdf#p3",
+    "grade": 0,
+    "reason": "Barr's supervision/bank review is not the requested staff macro forecast or the Committee's public announcement.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0068"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_020",
+    "page_id": "fomcminutes20230322.pdf#p8",
+    "grade": 1,
+    "reason": "Participants' assessment supports tighter-credit and uncertain-effects context, but not the public/staff attribution itself.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0121"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_020",
+    "page_id": "fomcminutes20230322.pdf#p9",
+    "grade": 1,
+    "reason": "Members' assessment corroborates the bank-resilience and credit-effects language.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0131"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_020",
+    "page_id": "fomcminutes20230322.pdf#p10",
+    "grade": 2,
+    "reason": "Public Statement is directly reproduced in the Minutes, supplying another page supporting the public-language facet.",
+    "paragraph_ids": [
+      "MIN_2023-03-22_P0147"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_017",
+    "page_id": "fomcminutes20250917.pdf#p13",
+    "grade": 2,
+    "reason": "The named monetary-policy opposition is recorded in the Minutes as an additional direct source, distinct from the earlier abstention.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0075"
+    ]
+  },
+  {
+    "question_id": "HOLDOUT_V2_017",
+    "page_id": "fomcminutes20250917.pdf#p11",
+    "grade": 1,
+    "reason": "The policy action records one member voting against; the member is not named on this page.",
+    "paragraph_ids": [
+      "MIN_2025-09-17_P0058"
+    ]
+  }
+]

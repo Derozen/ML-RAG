@@ -1,0 +1,41 @@
+{
+  "initial_proposed_judgments": 64,
+  "supplemental_proposed_judgments": 56,
+  "newly_judged_pairs": 55,
+  "grade_revisions": 1,
+  "supplemental_positive_pages": 16,
+  "proposed_judgments_total": 119,
+  "proposed_positive_pages": 69,
+  "grade_counts": {
+    "2": 46,
+    "0": 50,
+    "1": 23
+  },
+  "in_scope_pairs": 294,
+  "remaining_unjudged_pairs": 175,
+  "supplemental_raw_pdf_quote_checks": 18,
+  "remaining_unjudged_statement_pairs": 0,
+  "qrels_exhaustive": false,
+  "independent_human_validation": false,
+  "semantic_independence_established": false,
+  "retrieval_evaluation_performed": false,
+  "ready_for_final_scoring": false,
+  "annotation_model_outputs_used": 0,
+  "frozen_protocol_sha256": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+  "protected_files_sha256": {
+    "data\\holdout_candidate\\human_review.csv": "c507b42c4c7cc369b8fef0c10711e23abc934dfbf02c9ef795cd90a484cbce1e",
+    "data\\holdout_candidate\\semantic_pairs_145.csv": "220957980d86367220037fd1b1c6e7d2505eddbfe8181a005bb7bed898bb70ef",
+    "data\\holdout_candidate\\question_adjudication.csv": "8a2b72651ee34eb72d00307a6d01e6177d6e6abd7a495244f0b92dc997ee444a",
+    "data\\holdout_candidate\\queries_20.jsonl": "70a76fe0e4d7fe03e31f1ec50b762768827aba493890101755144e25e01ed5c5",
+    "data\\holdout_candidate\\question_gold.jsonl": "fc4e7000939ec95cdf696229b9538d2109aea64ff7d2c0cebff0214df991a619",
+    "data\\holdout_candidate\\qrels_PAGES_candidate.trec": "7312561bd0f90c093020e38bfad25def7c5a3a700508cd79324c9e18ae82b5c2"
+  },
+  "decisions_sha256": "65fea45f11a7b5753053df14d7745df8d33d945505cae1cfb45341c8a4b580ea",
+  "publisher_sha256": "f597d36cc9856a55531e600f0a2d1a20006781ae5fa0e2b3e6d9308f25b698b4",
+  "files_sha256": {
+    "coverage.csv": "e6e6d37f3a2410623274247abe04c50366ceee1de42a9fb5b6f125e83ea39647",
+    "decisions.jsonl": "e2746cc93d8bbe614d60a8b285c2a0c70dfc511c60c7ef7822cfb1d7f52cbd76",
+    "qrels_PAGES_editorial_proposed.trec": "9b369e7ff5326343845a2495db9519bcd043c19baeb19cbc5221fa73d5cbf5ec",
+    "RAPPORT.md": "789663e22f96d386233af42bd0ded9a1914b1af0fcc7bc18f95d7eeddb0871f5"
+  }
+}

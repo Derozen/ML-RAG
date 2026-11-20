@@ -1,0 +1,149 @@
+# Les 145 questions exploratoires à comparer
+
+Les réponses et preuves anciennes restent dans les fichiers historiques. Consulter celles des questions proches avant de statuer.
+
+- **FOMC_001** — What target range for the federal funds rate did the FOMC maintain at its January 27, 2021 meeting?
+- **FOMC_002** — What monthly amounts of Treasury securities and agency mortgage-backed securities did the FOMC commit to purchasing in January 2021?
+- **FOMC_003** — Which two factors did the FOMC identify as holding down consumer price inflation at the beginning of the pandemic-era recovery?
+- **FOMC_004** — As the recovery regained momentum in early 2021, how did the FOMC characterize economic activity and employment?
+- **FOMC_005** — What supply-side disruptions were expected to lift prices temporarily during the initial reopening phase?
+- **FOMC_006** — What public-health and policy-support factors were associated with stronger employment and activity during the spring reopening?
+- **FOMC_007** — During the spring 2021 inflation pickup, how did the FOMC publicly characterize rising inflation, and what did participants expect once temporary pressures faded?
+- **FOMC_008** — How did the interest rate paid on reserve balances change between April and June 2021?
+- **FOMC_009** — How did the overnight reverse repurchase agreement offering rate change between April and June 2021?
+- **FOMC_010** — In mid-2021, what pandemic-related uncertainties remained in the FOMC economic outlook despite vaccination progress?
+- **FOMC_011** — In mid-2021, which supply-and-demand mechanisms did Federal Reserve staff associate with unusually large monthly price increases?
+- **FOMC_012** — How did the FOMC change its characterization of the sectors hit hardest by the pandemic as their recovery advanced?
+- **FOMC_013** — In mid-2021, how did the FOMC describe progress toward its asset-purchase goals, and how did participants assess the employment and price-stability thresholds?
+- **FOMC_014** — Which two standing repo arrangements were discussed as possible funding-market backstops during the 2021 policy deliberations?
+- **FOMC_015** — What condition did the FOMC identify in September 2021 for potentially reducing the pace of asset purchases soon?
+- **FOMC_016** — What illustrative monthly reductions in Treasury and agency MBS purchases were discussed in September 2021?
+- **FOMC_017** — During the second half of 2021, which labor-market indicators did FOMC participants use to assess progress toward maximum employment?
+- **FOMC_018** — During the late-summer 2021 Delta wave, what did the FOMC report about vulnerable sectors, and what additional effects on growth and consumer services were discussed?
+- **FOMC_019** — What monthly reductions in net asset purchases did the FOMC announce on November 3, 2021?
+- **FOMC_020** — Following the initial tapering announcement in late 2021, what minimum monthly Treasury and agency MBS purchases were scheduled for the following two months?
+- **FOMC_021** — How did the FOMC explain elevated inflation during the pandemic-era reopening of the economy?
+- **FOMC_022** — In late 2021, how did the FOMC describe the effect of the summer COVID-19 wave on the recovery of the hardest-hit sectors?
+- **FOMC_023** — How did the FOMC description of inflation change when it dropped its reference to “transitory” factors?
+- **FOMC_024** — By how much did the monthly pace of reductions in Treasury and agency MBS purchases change between November and December 2021?
+- **FOMC_025** — How did FOMC discussions during the second half of 2021 evolve from tapering asset purchases toward planning eventual balance-sheet runoff?
+- **FOMC_026** — How were housing and consumer spending being supported in January 2021?
+- **FOMC_027** — Why did reopening schools matter for the recovery in employment?
+- **FOMC_028** — How much was the Fed adding to its Treasury and mortgage portfolios each month in March 2021, and what milestone would allow that to change?
+- **FOMC_029** — Why did some officials think the effects of input shortages on prices might last beyond 2021?
+- **FOMC_030** — How could last year’s price drops make the current annual inflation figure look higher during the reopening?
+- **FOMC_031** — Did all lenders report easier access to small-business credit in the July 2021 discussion?
+- **FOMC_032** — What did outcome-based guidance tie future rate and balance sheet decisions to?
+- **FOMC_033** — What labor-market condition did the Fed want to see before moving rates off their near-zero range in December 2021?
+- **FOMC_034** — What made it hard for businesses to fill orders during the Omicron wave?
+- **FOMC_035** — What made a rate increase seem appropriate soon at the January 2022 meeting?
+- **FOMC_036** — How did James Bullard’s preferred March 2022 rate move differ from the adopted target?
+- **FOMC_037** — What happened to Treasury market depth and the price impact of trades around the March 2022 meeting?
+- **FOMC_038** — Which parts of private demand held up despite the first-quarter downturn discussed in May 2022?
+- **FOMC_039** — Why did the Fed worry about lockdowns in China when assessing the US outlook?
+- **FOMC_040** — Why could households keep spending despite rising prices in June 2022?
+- **FOMC_041** — Which household purchases besides homes did officials expect to slow as borrowing became more expensive?
+- **FOMC_042** — What contrast did the July 2022 statement draw between output and the jobs market?
+- **FOMC_043** — What signs of better balance in the labor market did participants identify in September 2022?
+- **FOMC_044** — Which industries faced unusually severe hiring shortages in November 2022, and what happened to wages there?
+- **FOMC_045** — How did consumers whose budgets were stretched adapt their purchases in the December 2022 discussion?
+- **FOMC_046** — Why did the staff judge corporate debt vulnerabilities to be moderate despite historically high leverage in February 2023?
+- **FOMC_047** — What risk did participants associate with inflation staying high for a long time in February 2023?
+- **FOMC_048** — Why might a bank under funding pressure become more selective about its borrowers?
+- **FOMC_049** — How could a larger-than-expected contraction in bank credit affect hiring and prices after the banking turmoil?
+- **FOMC_050** — Why did the May 2023 staff forecast put total inflation below core inflation?
+- **FOMC_051** — What did officials hope to learn by leaving rates unchanged in June 2023?
+- **FOMC_052** — Why did the behavior of core goods prices surprise participants even as supply chains improved?
+- **FOMC_053** — At what level did the July 2023 increase leave the federal funds target range?
+- **FOMC_054** — What was the September 2023 assessment of the banking system, and how could credit conditions still affect activity?
+- **FOMC_055** — Did faster payroll growth in September translate into a lower unemployment rate in the November 2023 review?
+- **FOMC_056** — Why might further disinflation depend increasingly on demand once supply chains and labor supply had largely recovered?
+- **FOMC_057** — How did the December 2023 statement describe the change in economic growth since the third quarter?
+- **FOMC_058** — How far apart were headline and core PCE inflation in the December data reviewed in January 2024?
+- **FOMC_059** — What evidence did policymakers want before starting to lower rates in March 2024?
+- **FOMC_060** — Which vacancy and turnover measures suggested that finding workers was becoming easier in March 2024?
+- **FOMC_061** — What change did the May 2024 statement announce for Treasury redemptions starting in June?
+- **FOMC_062** — How did the Fed’s description of progress on inflation change between May and June 2024?
+- **FOMC_063** — Why might wealthier households have been able to keep spending in June 2024?
+- **FOMC_064** — What did business contacts report about firms’ ability to raise prices in July 2024?
+- **FOMC_065** — What made the September 2024 labor-market data difficult to interpret?
+- **FOMC_066** — How large was the September 2024 rate cut, and what gave the Committee confidence to make it?
+- **FOMC_067** — What drove headline inflation near or below target in advanced foreign economies other than Japan in the November 2024 review?
+- **FOMC_068** — How did the size of the November and December 2024 cuts compare with the September cut?
+- **FOMC_069** — What signs of easing labor demand went beyond the number of job openings in December 2024?
+- **FOMC_070** — What supply-side developments helped businesses expand at the start of 2025?
+- **FOMC_071** — Why could resolving the debt limit complicate the Fed’s plans for bank reserves?
+- **FOMC_072** — How did the March 2025 decision treat Treasury runoff and agency securities differently?
+- **FOMC_073** — Why did household surveys raise doubts about future consumer spending in March 2025?
+- **FOMC_074** — How could import duties encourage a company to charge more even if its own goods were exempt?
+- **FOMC_075** — How did swings in net exports complicate the reading of economic activity in May 2025?
+- **FOMC_076** — What could limit the impact of tariffs on inflation according to the June 2025 minutes?
+- **FOMC_077** — Apart from tariffs, what developments did policymakers see as risks to employment in July 2025?
+- **FOMC_078** — How did job growth and inflation move in the September 2025 statement?
+- **FOMC_079** — Why were some businesses waiting before changing prices in response to trade policy?
+- **FOMC_080** — When did the October 2025 decision schedule the end of the reduction in aggregate securities holdings?
+- **FOMC_081** — Why did the Fed plan to buy shorter-term Treasury securities in December 2025?
+- **FOMC_082** — How did the January 2026 statement characterize hiring and unemployment?
+- **FOMC_083** — What did most longer-term inflation expectations imply about the Fed’s objective in January 2026?
+- **FOMC_084** — Why did participants expect inflation to ease once the effects of oil prices and tariffs faded?
+- **FOMC_085** — How did the March 2026 statement characterize the US implications of developments in the Middle East?
+- **FOMC_086** — Which households appeared especially exposed to higher energy costs in April 2026?
+- **FOMC_087** — What two sources of disinflation did participants discuss in April 2026?
+- **FOMC_088** — How might uncertainty abroad change an employer’s decision to add or keep staff?
+- **FOMC_089** — At the June 2026 FOMC meeting, how did reported payroll gains compare with underlying labor-force growth?
+- **FOMC_090** — How might investment in AI affect the economy’s productive capacity over the coming years?
+- **FOMC_091** — Which part of the economy still faced unfavorable financing costs in September 2026, and why?
+- **FOMC_092** — Why did the September 2026 staff projection put growth above potential through 2028?
+- **FOMC_093** — Why did the October 2026 statement emphasize the value of more information for the next policy decision?
+- **FOMC_094** — Why would the Fed tolerate inflation above target after a prolonged undershoot, yet later seek to bring it back down?
+- **FOMC_095** — How did the amounts of Treasuries and mortgage securities bought each month change as the pandemic purchase program wound down?
+- **FOMC_096** — What did officials expect wider vaccination and fewer supply constraints to do for employment and prices?
+- **FOMC_097** — How did assessments of the Ukraine war’s effects on prices and activity evolve from the initial invasion to the following winter?
+- **FOMC_098** — What examples show that expensive energy can affect both inflation and households’ ability to spend?
+- **FOMC_099** — How did supply bottlenecks affect both inflation and firms’ ability to meet orders during the pandemic and reopening?
+- **FOMC_100** — How could better productivity change inflation prospects when wage growth is strong?
+- **FOMC_101** — Which changes in participation can restrict the pool of available workers during and after a public health crisis?
+- **FOMC_102** — How did hiring shortages reported in 2021 and 2022 affect wages in specific sectors?
+- **FOMC_103** — How do quitting and vacancy figures help officials tell whether competition for workers is intensifying or easing?
+- **FOMC_104** — How did household balance sheets and changes in asset prices support consumption across 2022–2025?
+- **FOMC_105** — How do households’ efforts to save money affect the prices businesses can charge?
+- **FOMC_106** — What do the minutes say about the risks facing lower-income households when living costs rise or job prospects weaken?
+- **FOMC_107** — What evidence links borrowing costs to both strong and weak housing activity?
+- **FOMC_108** — How did the FOMC account for past cumulative rate increases and their delayed effects when planning further tightening in 2022–2023?
+- **FOMC_109** — Which economic, inflation, and financial indicators did the FOMC list as inputs to policy decisions in its June 2024 statement?
+- **FOMC_110** — According to the March 2023 FOMC statement, under what kind of emerging risks would the Committee reconsider its policy stance?
+- **FOMC_111** — How did the Committee describe the balance between employment and inflation risks while moving from a pause to rate cuts?
+- **FOMC_112** — How did FOMC statements describe progress toward, but not yet achievement of, the 2 percent inflation objective from late 2023 to autumn 2024?
+- **FOMC_113** — How did the Fed’s description of employment change from robust hiring and low unemployment to slower hiring and a rising jobless rate?
+- **FOMC_114** — Can a central bank cut its policy rate and still let securities run off its balance sheet? What evidence did the FOMC give?
+- **FOMC_115** — How did the Treasury redemption ceiling change in the two successive decisions to slow balance sheet runoff?
+- **FOMC_116** — Why might the Fed switch from allowing securities to mature to buying short-term government debt as bank reserves fall?
+- **FOMC_117** — What role did anchored longer-term inflation expectations play in FOMC discussions of tightening versus easing between 2022 and 2025?
+- **FOMC_118** — How might conflict abroad weaken economic activity even in economies far from the fighting?
+- **FOMC_119** — Which channels could allow a tariff shock to raise prices gradually rather than all at once?
+- **FOMC_120** — How have technological advances been linked to both higher productivity and possible job losses?
+- **FOMC_121** — How did participants explain the possibility of moderate output growth alongside subdued hiring in late 2025?
+- **FOMC_122** — What different explanations do reports give for inflation driven by supply shocks during reopening and during an energy disruption?
+- **FOMC_123** — How did FOMC statements describe uncertainty from mid-2025 to spring 2026 as geopolitical conditions changed?
+- **FOMC_124** — What distinguishes a statement that leaves rates unchanged to gather information from one that announces a cut after conditions improve?
+- **FOMC_125** — How does the Fed describe the interaction between credit availability and economic growth during banking stress and after earlier rate increases?
+- **FOMC_126** — Why can stronger household spending coexist with shortages that push up prices?
+- **FOMC_127** — How did the financial pressure on households differ when credit was readily available and when banks were expected to tighten lending?
+- **FOMC_128** — How did FOMC reports describe the effects of falling versus rising oil prices on inflation between 2021 and 2026?
+- **FOMC_129** — Which indicators can show solid business activity when investment and productivity are supporting growth?
+- **FOMC_130** — How do the reports describe the shift from policies supporting credit during the pandemic to a restrictive stance aimed at curbing inflation?
+- **FOMC_131** — How did cumulative monetary tightening affect housing and business investment in the June 2023 FOMC discussion?
+- **FOMC_132** — What factors did participants cite for the rise in long-term Treasury yields and mortgage rates in autumn 2023?
+- **FOMC_133** — Why did FOMC participants distinguish headline GDP growth from underlying private domestic demand in their 2024 discussions?
+- **FOMC_134** — How did 2024 FOMC discussions contrast financial pressures on lower-income households with spending by wealthier households?
+- **FOMC_135** — How did high borrowing costs and tighter bank lending influence firms’ investment plans during 2023?
+- **FOMC_136** — How did immigration and labor-force participation affect wage pressures in FOMC assessments during early 2024?
+- **FOMC_137** — What did FOMC participants say about anchored longer-term inflation expectations and the disinflation outlook in 2024?
+- **FOMC_138** — How did the overnight repo and reverse repo rates and limits specified in the FOMC implementation directives change between March and September 2024?
+- **FOMC_139** — Why did participants in March 2024 discuss slowing balance-sheet runoff while reserve balances were still abundant?
+- **FOMC_140** — Which foreign central banks were described as cutting policy rates during the period before the September 2024 FOMC meeting?
+- **FOMC_141** — What macroeconomic considerations accompanied the FOMC decisions to keep the federal funds rate at 5¼–5½ percent in September and December 2023?
+- **FOMC_142** — How did the rationale for the first policy rate cut of September 2024 differ from the rationale discussed for the subsequent November adjustment?
+- **FOMC_143** — What distinct financial stability vulnerabilities did participants identify in the November 2024 FOMC minutes?
+- **FOMC_144** — How did commercial real estate lending standards evolve across the 2024 FOMC meeting reviews?
+- **FOMC_145** — How did market-implied expectations for policy rate cuts shift between March and September 2024?

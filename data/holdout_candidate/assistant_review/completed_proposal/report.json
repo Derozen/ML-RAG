@@ -1,0 +1,46 @@
+{
+  "status": "complete_editorial_preannotation_pending_independent_review",
+  "questions": 20,
+  "in_scope_pairs": 294,
+  "proposed_judgments": 294,
+  "remaining_without_proposed_grade": 0,
+  "positive_proposals": 78,
+  "grade_counts": {
+    "2": 46,
+    "0": 216,
+    "1": 32
+  },
+  "last_pass_pairs": 175,
+  "last_pass_raw_pdf_quote_checks": 15,
+  "full_independent_page_review_completed": false,
+  "human_second_review_completed": false,
+  "semantic_independence_established": false,
+  "qrels_exhaustive": false,
+  "retrieval_evaluation_performed": false,
+  "ready_for_final_scoring": false,
+  "method_limitation": "Completion negatives were proposed from structured paragraph outlines and thematic sentence screening, not certified exhaustive full-page reading. All proposals require independent full-page review; no keyword absence rule assigns grades.",
+  "frozen_protocol_sha256": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+  "protected_files_sha256": {
+    "data\\holdout_candidate\\human_review.csv": "c507b42c4c7cc369b8fef0c10711e23abc934dfbf02c9ef795cd90a484cbce1e",
+    "data\\holdout_candidate\\semantic_pairs_145.csv": "220957980d86367220037fd1b1c6e7d2505eddbfe8181a005bb7bed898bb70ef",
+    "data\\holdout_candidate\\question_adjudication.csv": "8a2b72651ee34eb72d00307a6d01e6177d6e6abd7a495244f0b92dc997ee444a",
+    "data\\holdout_candidate\\queries_20.jsonl": "70a76fe0e4d7fe03e31f1ec50b762768827aba493890101755144e25e01ed5c5",
+    "data\\holdout_candidate\\question_gold.jsonl": "fc4e7000939ec95cdf696229b9538d2109aea64ff7d2c0cebff0214df991a619",
+    "data\\holdout_candidate\\qrels_PAGES_candidate.trec": "7312561bd0f90c093020e38bfad25def7c5a3a700508cd79324c9e18ae82b5c2"
+  },
+  "inputs_sha256": {
+    "annotation_tools\\remaining_minutes_decisions.json": "d4fc823f45a0c9516b7ad6b49dc452e4ebd864f85994ef49e6a414326f3c4b58",
+    "annotation_tools\\complete_editorial_proposal.py": "7d54c95327216084a6522234ff6481afc808c2b0ea0f987ba9ba84e65f9cc444",
+    "data\\holdout_candidate\\assistant_review\\round_2\\report.json": "781efe69a7ea581a179fef9d26c7da4da7c6932483c2daa8f03006d22c7166fc",
+    "data\\holdout_candidate\\semantic_review.jsonl": "ce06f3504bec583f79c6ed927558147bf5efb8baa32d39ad4c0767dce510283d",
+    "data\\processed\\paragraphs.jsonl": "0bd314a58a662b789839ebacf4e4bd9a2f98709983cef482763da27b1802b34e"
+  },
+  "files_sha256": {
+    "decisions_last_pass.jsonl": "c2c9a178c55f9cf7210f76e25d1a372175fde4070df541388ec3167bc6f1b679",
+    "evidence_proposed.jsonl": "d4381fa4544c9f3c60f8f0f67e2d1470e898fb98bbd15695756466377dbdbd34",
+    "human_review.csv": "f85438fafa98b8db32ab1c0331fdd171cc7b8c4a76f927d1309d99f6aceca63e",
+    "qrels_PAGES_proposed.trec": "20d69aab519cd2dbe7422b11859bbdbabd1cf38f6504b2b152c82ee5d722b3e8",
+    "RAPPORT.md": "5df3aa21eef63fbba722eb0d420ede6a909df6f36d3a5da6a2872fb4f57f27de",
+    "review_readiness.json": "61613358d8e3a732bcc5b914ca92301eaa5f3857d621c4bcba20fd83e773ddac"
+  }
+}

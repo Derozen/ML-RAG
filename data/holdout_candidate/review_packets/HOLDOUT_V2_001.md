@@ -1,0 +1,468 @@
+# HOLDOUT_V2_001
+
+Using the June 2026 Minutes, give the twelve-month growth rates of the private-sector employment cost index through March and average hourly earnings through May. Were the two reported rates equal?
+
+## Réponse proposée à vérifier
+
+Both were 3.4 percent, although the reported twelve-month periods ended in different months.
+
+## Facettes attendues
+
+- employment_costs : fomcminutes20260617.pdf#p4
+- hourly_earnings : fomcminutes20260617.pdf#p4
+
+## Risques de recouvrement avec les anciennes questions
+
+The old items ask about payroll versus labor-force growth, hiring shortages, or participation/immigration and wages. This item asks for two particular labor-cost measures and their reference periods; it is not answered by those old questions.
+
+**Avis éditorial proposé, à confirmer par le relecteur.**
+
+[Lire les 145 questions](old_questions.md). Les voisins ci-dessous sont des pistes, pas une liste exhaustive.
+
+- **FOMC_089** — At the June 2026 FOMC meeting, how did reported payroll gains compare with underlying labor-force growth?
+- **FOMC_102** — How did hiring shortages reported in 2021 and 2022 affect wages in specific sectors?
+- **FOMC_136** — How did immigration and labor-force participation affect wage pressures in FOMC assessments during early 2024?
+- **FOMC_111** — How did the Committee describe the balance between employment and inflation risks while moving from a pause to rate cuts?
+- **FOMC_113** — How did the Fed’s description of employment change from robust hiring and low unemployment to slower hiring and a rising jobless rate?
+- **FOMC_016** — What illustrative monthly reductions in Treasury and agency MBS purchases were discussed in September 2021?
+- **FOMC_125** — How does the Fed describe the interaction between credit availability and economic growth during banking stress and after earlier rate increases?
+- **FOMC_007** — During the spring 2021 inflation pickup, how did the FOMC publicly characterize rising inflation, and what did participants expect once temporary pressures faded?
+
+## Toutes les pages des documents demandés
+
+Texte issu du prétraitement existant, sans sélection par un modèle. En cas de doute de mise en page, ouvrir le PDF physique lié.
+
+### fomcminutes20260617.pdf#p1
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 1](../../raw/minutes/fomcminutes20260617.pdf#page=1)
+
+**MIN_2026-06-17_P0001**
+
+FOMC
+
+**MIN_2026-06-17_P0002**
+
+Minutes of the
+
+**MIN_2026-06-17_P0003**
+
+Federal Open Market Committee
+
+**MIN_2026-06-17_P0004**
+
+June 16–17, 2026
+
+**MIN_2026-06-17_P0005**
+
+FEDERAL RESERVE SYSTEM
+
+### fomcminutes20260617.pdf#p2
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 2](../../raw/minutes/fomcminutes20260617.pdf#page=2)
+
+**MIN_2026-06-17_P0006**
+
+Minutes of the Federal Open Market
+
+**MIN_2026-06-17_P0007**
+
+Committee
+
+**MIN_2026-06-17_P0008**
+
+June 16–17, 2026
+
+**MIN_2026-06-17_P0009**
+
+A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, June 16, 2026, at 10:00 a.m. and continued on Wednesday, June 17, 2026, at 9:00 a.m.1
+
+**MIN_2026-06-17_P0010**
+
+Developments in Financial Markets and Open Market Operations
+
+**MIN_2026-06-17_P0011**
+
+The manager turned first to an overview of market developments during the intermeeting period. Asset prices were affected by a number of factors, including developments related to the conflict in the Middle East, continued solid real economic data, higher inflation data, and ongoing investment in artificial intelligence (AI). Optimism around a near-term resolution of the conflict in the Middle East and the announcement of a memorandum of understanding between the U.S. and Iran pushed the oil futures curve and near-term inflation compensation materially lower relative to levels from the time of the April FOMC meeting. Expected policy rates, Treasury yields, the U.S. dollar, and domestic equity prices all rose.
+
+**MIN_2026-06-17_P0012**
+
+Regarding monetary policy expectations, the manager observed that market participants and respondents to the Open Market Desk Survey of Market Expectations (Desk survey) generally expected no change in the target range of the federal funds rate at the June FOMC meeting. Market- and survey-based measures of expected policy rates moved higher over the intermeeting period. In the Desk survey, the median of the modal paths of the federal funds rate implied no changes in the target range through the beginning of 2027 and one rate cut in the second quarter of next year. Market pricing suggested that one rate hike was priced for mid-2027, but the manager noted that these measures were likely boosted, in part, by term premiums.
+
+**MIN_2026-06-17_P0013**
+
+The manager then discussed inflation expectations. He noted that optimism around the Iran conflict pushed market-based measures of expected inflation significantly lower over the period, leaving near- term inflation expectations only moderately higher than they were before the onset of the conflict.
+
+**MIN_2026-06-17_P0014**
+
+1 The Federal Open Market Committee is referenced as the “FOMC” and the “Committee” in these minutes; the Board of Governors of the Federal Reserve System is referenced as the “Board” in these minutes.
+
+### fomcminutes20260617.pdf#p3
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 3](../../raw/minutes/fomcminutes20260617.pdf#page=3)
+
+**MIN_2026-06-17_P0015**
+
+Longer-term inflation expectations remained well anchored near the Committee’s 2 percent longer-run inflation objective.
+
+**MIN_2026-06-17_P0016**
+
+Turning to Treasury markets, the manager noted that the nominal 10-year Treasury yield had increased around 20 basis points since the April FOMC meeting and about 50 basis points since the start of the conflict in the Middle East. The manager commented that the ownership composition of Treasury securities has shifted somewhat over the past several years from relatively price-insensitive official-sector holders to more price-sensitive private investors, which could have implications for the term premium component of yields.
+
+**MIN_2026-06-17_P0017**
+
+The manager next described developments in equity markets. The S&P 500 index increased by nearly 6 percent over the intermeeting period, led by the technology sector. Higher earnings expectations accounted for a large portion of the overall increase, particularly in the technology sector. Initial public offering activity in the U.S. appeared set to accelerate this year, with the proceeds expected to help fund ongoing investments in AI infrastructure.
+
+**MIN_2026-06-17_P0018**
+
+In discussing credit markets, the manager noted that private credit markets continued to receive attention over the intermeeting period. Gross inflows to business development companies slowed notably in the second quarter, and available data suggested that net inflows were likely to become more negative amid an acceleration in investor redemption requests.
+
+**MIN_2026-06-17_P0019**
+
+With regard to international developments, the manager noted that over the intermeeting period the increase in the two-year Treasury yield was larger than increases in sovereign yields of similar maturity in other advanced economies, as market-based expectations for the path of the domestic policy rate moved upward. The increases in two-year sovereign yields since the start of the conflict in the Middle East were now similar across many advanced foreign economies (AFEs). Consistent with the widening interest rate gap over the intermeeting period, the foreign exchange value of the U.S. dollar had modestly appreciated.
+
+**MIN_2026-06-17_P0020**
+
+The manager observed that money market conditions were generally stable, although conditions softened notably early in the intermeeting period before they partially rebounded. In particular, repurchase agreement (repo) rates dropped to 15 basis points below the interest rate on reserve balances in mid-May. Consistent with that drop, the effective federal funds rate declined 2 basis points, the first such change since November. There was modest take-up of the Federal Reserve’s overnight reverse repurchase agreement operations on days when repo rates were especially low, confirming that those operations were effective in firming the floor under money market rates. Regarding the decline in repo rates early in the period, the manager noted several likely driving factors: Reserves increased following the seasonal low around the April tax date as the Treasury General Account dropped, reserve management purchases added reserves and reduced the bill
+
+### fomcminutes20260617.pdf#p4
+
+Proposition : **2** — facettes : employment_costs; hourly_earnings.
+
+[PDF, page physique 4](../../raw/minutes/fomcminutes20260617.pdf#page=4)
+
+**MIN_2026-06-17_P0021**
+
+supply available to the public, U.S. global systemically important banks likely increased intermediation capacity in response to regulatory changes earlier in the year, the demand for repo financing on the part of levered investors declined, and seasonal increases in cash investments of government- sponsored enterprises coincided with the lowest rates seen over the intermeeting period. The manager noted that, these developments notwithstanding, the level of reserves in the system appeared to remain within a range consistent with an ample supply.
+
+**MIN_2026-06-17_P0022**
+
+By unanimous vote, the Committee ratified the Desk’s domestic transactions over the intermeeting period. There were no intervention operations in foreign currencies for the System’s account during the intermeeting period.
+
+**MIN_2026-06-17_P0023**
+
+Staff Review of the Economic Situation
+
+**MIN_2026-06-17_P0024**
+
+The information available at the time of the meeting indicated that inflation remained elevated and had moved higher, partly reflecting the effects of energy and other supply shocks. Labor market conditions remained stable, and real gross domestic product (GDP) continued to expand at a solid pace.
+
+**MIN_2026-06-17_P0025**
+
+Total consumer price inflation—as measured by the 12-month change in the price index for personal consumption expenditures (PCE)—was 3.8 percent in April. Core PCE price inflation, which excludes changes in consumer energy prices and many consumer food prices, was 3.3 percent. Both total and core inflation were higher than their levels a year earlier, a development that the staff attributed to a variety of factors, including the pass-through of past tariff increases, higher energy and input costs stemming from the conflict in the Middle East, and the surge in demand related to the AI buildout. Core goods price inflation had risen relative to a year earlier, which the staff judged as largely reflecting the effects of tariffs and AI-related price pressures. Core services price inflation had been relatively stable over that period, as a gradual decline in the housing services component was about offset by a modest step-up in the core nonhousing services component. Based on data from the consumer and producer price indexes, the staff estimated that total PCE price inflation rose to 4.1 percent in May, boosted by an increase in consumer energy prices, and core PCE price inflation was estimated to be 3.4 percent.
+
+**MIN_2026-06-17_P0026**
+
+The unemployment rate was 4.3 percent in May and had changed little, on balance, since the middle of the previous year. Nonfarm payroll employment rose at a solid pace in the three months through May. The 12-month change in the employment cost index for private-sector workers was 3.4 percent through March, the same as its year-earlier pace. Average hourly earnings increased 3.4 percent over the 12 months ending in May, 0.5 percentage point lower than a year earlier.
+
+### fomcminutes20260617.pdf#p5
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 5](../../raw/minutes/fomcminutes20260617.pdf#page=5)
+
+**MIN_2026-06-17_P0027**
+
+Available indicators suggested that real GDP growth continued at a solid pace in the second quarter. Real private domestic final purchases—which comprises PCE and private fixed investment and which often provides a better signal of underlying economic momentum than does real GDP—appeared to have picked up in the second quarter and was rising faster than GDP. Real consumer spending had been solid, and the AI buildout continued to boost real investment spending on data centers, high-tech equipment, and software. Data for April showed continued strength in both imports and exports of high-tech goods and a jump in energy exports.
+
+**MIN_2026-06-17_P0028**
+
+Economic growth abroad stepped down in the first quarter of 2026, with weakness in Canada, the euro area, and Mexico. By contrast, output growth in several high-income Asian economies remained robust, as their exports of high-tech goods continued to surge, driven by the AI buildout. Recent indicators suggested that the conflict in the Middle East was weighing on foreign economic activity because of higher energy costs and weaker consumer and business confidence, particularly in lower- income Asian economies and in Europe.
+
+**MIN_2026-06-17_P0029**
+
+Foreign headline inflation had increased significantly since the start of the conflict in the Middle East, with a sharp rise in retail energy and producer prices across Europe and much of Asia. Some central banks, including the European Central Bank, responded to higher inflation by raising their policy rates. More broadly, most foreign central banks emphasized the risks of higher inflation leading to second- round effects and the need to mitigate these risks, despite prospects of weaker output growth, and signaled either policy rate hikes or a slower pace of easing going forward.
+
+**MIN_2026-06-17_P0030**
+
+Staff Review of the Financial Situation
+
+**MIN_2026-06-17_P0031**
+
+Over the intermeeting period, the market-implied expected path of the federal funds rate and nominal Treasury yields moved higher as stronger-than-expected economic data reinforced expectations that economic activity would remain resilient. The market-implied path of the policy rate over the latter half of this year increased during the intermeeting period, and related measures of uncertainty about the path of policy rose, partly reflecting a higher term premium. The rise in nominal Treasury yields, most notable at shorter maturities, reflected higher real rates. Short-term market-based measures of inflation compensation declined significantly but stayed at a slightly elevated level. Market-based measures of longer-term inflation compensation and survey-based measures of inflation expectations remained well anchored.
+
+**MIN_2026-06-17_P0032**
+
+Broad equity price indexes increased notably, boosted by robust corporate earnings and further investor optimism surrounding AI implications for corporate profitability, despite the headwind of higher yields. Consistent with improved risk sentiment, the VIX—a forward-looking measure of near-
+
+### fomcminutes20260617.pdf#p6
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 6](../../raw/minutes/fomcminutes20260617.pdf#page=6)
+
+**MIN_2026-06-17_P0033**
+
+term equity market volatility—declined slightly to below the median of its historical distribution, while corporate bond spreads narrowed somewhat.
+
+**MIN_2026-06-17_P0034**
+
+Foreign financial market movements were largely driven by news of the increased prospects for a reopening of the Strait of Hormuz and then the announcement near the end of the intermeeting period that an agreement had been reached. Market-based policy expectations and near-term inflation compensation measures declined in most major AFEs. Nonetheless, market pricing still indicated at least one additional policy rate hike both in the euro area and in the U.K. over the remainder of this year. The broad dollar index rose as differentials between short-term interest rates in the U.S. and the AFEs widened. Strong corporate earnings and continued investor optimism related to AI contributed to increases in foreign equity prices.
+
+**MIN_2026-06-17_P0035**
+
+Conditions in U.S. short-term funding markets remained stable. Aggregate bank reserves moved up following the previous period’s tax receipt–driven decline. Money market rates ended the period slightly lower, on net, amid continued low bill supply.
+
+**MIN_2026-06-17_P0036**
+
+Financing conditions in domestic credit markets remained generally accommodative for larger businesses and municipalities but somewhat restrictive for many small businesses and households. Borrowing costs continued to be elevated, and interest rates increased somewhat over the intermeeting period in some sectors, primarily reflecting increases in Treasury yields.
+
+**MIN_2026-06-17_P0037**
+
+Credit continued to be generally available to most businesses, households, and municipalities. Bank lending continued to expand, and issuance of corporate bonds remained solid, partly driven by the financing needs of AI-related investments. Issuance in the leveraged loan market had picked up to a robust pace, while signals pointed to a continued slowdown in the private credit market. By contrast, credit conditions remained somewhat tight for small businesses and household borrowers with lower credit scores. Issuance of municipal bonds remained strong.
+
+**MIN_2026-06-17_P0038**
+
+Staff Economic Outlook
+
+**MIN_2026-06-17_P0039**
+
+The staff’s inflation forecast for this year and the next was higher than the one prepared for the April meeting, reflecting incoming data, higher energy prices and other input costs due to the conflict in the Middle East, and the effects of the AI buildout on consumer prices. Total inflation was projected to slow over the second half of this year from its recent pace, as retail gasoline prices were expected to decline, although core inflation was forecast to change little over the rest of the year. Inflation was projected to step down next year, as some of the factors lifting inflation this year—such as tariffs—were expected to wane, and then move down further to about 2 percent in 2028.
+
+**MIN_2026-06-17_P0040**
+
+The staff’s outlook for real GDP growth was a bit lower than the one prepared for the previous meeting, mostly reflecting incoming data. Real GDP was forecast to expand at about the same pace
+
+### fomcminutes20260617.pdf#p7
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 7](../../raw/minutes/fomcminutes20260617.pdf#page=7)
+
+**MIN_2026-06-17_P0041**
+
+as potential this year and to slightly outpace potential over the next two years, buttressed by persistently strong productivity growth, continued gains in AI-related capital spending, and supportive financial conditions. The unemployment rate was expected to remain close to the staff’s estimate of its longer-run rate this year and next before edging slightly below it in 2028.
+
+**MIN_2026-06-17_P0042**
+
+The staff continued to view the uncertainty around their forecast as elevated, importantly because of uncertainty about the conflict in the Middle East and about the potential economic effects of AI investment and adoption. On balance, risks to the forecasts for employment and real GDP growth were seen as tilted somewhat to the downside. Risks to the inflation projection were seen as more skewed to the upside. With inflation having run significantly above 2 percent over the past five years and in light of some emergent price pressures that appeared unrelated to tariffs or energy prices, the staff continued to view the possibility that inflation would be more persistent than projected as a salient risk.
+
+**MIN_2026-06-17_P0043**
+
+Participants’ Views on Current Conditions and the Economic Outlook
+
+**MIN_2026-06-17_P0044**
+
+In conjunction with this FOMC meeting, almost all participants submitted their projections of the most likely outcomes for real GDP growth, the unemployment rate, and inflation for each year from 2026 through 2028 and over the longer run. The projections were based on participants’ individual assessments of appropriate monetary policy, including their projections of the federal funds rate. Almost all participants also provided their individual assessments of the level of uncertainty and the balance of risks associated with their projections. The Summary of Economic Projections was released to the public following the conclusion of the meeting.
+
+**MIN_2026-06-17_P0045**
+
+Participants generally noted that inflation had increased further and remained well above the Committee’s 2 percent longer-run objective. They observed that both core and total inflation had moved higher and generally attributed these increases to the lingering effects of tariffs, supply chain disruptions related to the closure of the Strait of Hormuz, and strength in demand for some goods and services stemming from robust AI-related investment. Several participants commented that price pressures had become more broad based, with a large share of goods and services—including transportation, airfares, petrochemical products, and agricultural inputs—experiencing substantial increases. Several participants remarked that services price inflation excluding housing had declined little and remained high.
+
+**MIN_2026-06-17_P0046**
+
+The majority of participants commented that most measures of medium- and longer-term inflation expectations remained at levels consistent with the Committee’s 2 percent objective. Participants noted the importance of stable longer-term inflation expectations and emphasized the Committee’s role in keeping those expectations anchored at levels consistent with 2 percent inflation.
+
+### fomcminutes20260617.pdf#p8
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 8](../../raw/minutes/fomcminutes20260617.pdf#page=8)
+
+**MIN_2026-06-17_P0047**
+
+Participants anticipated that inflation would remain elevated in the near term and then begin to decline as the effects of tariffs and energy price increases wane and other supply disruptions related to the closure of the Strait of Hormuz diminish. Participants judged that the risks to the inflation outlook were still tilted to the upside. Many participants noted that elevated commodity prices and supply disruptions could persist longer than currently anticipated. Several participants reported that their business contacts were facing notable cost pressures. Some participants observed that the sharp rise in input costs reported in business surveys raised concerns about the potential for higher energy and commodity costs to pass through more broadly to final goods prices. Several participants noted, however, that firms in their Districts reported that they had been cautious about increasing prices, citing concerns that higher prices could reduce demand or their market shares. Many participants noted that ongoing strong demand for AI infrastructure would likely sustain upward pressure on prices for technology products and electricity. Most participants remarked that growth in economic activity that exceeded that of potential output, owing in part to strong AI business investment, could contribute to more persistent inflationary pressures. Some participants remarked that productivity gains associated with AI adoption would eventually reduce production costs and increase aggregate supply, which should put downward pressure on inflation, though they noted this effect would likely take time to materialize. Several participants noted that the deceleration in housing services prices was likely to continue to be a source of disinflationary pressure. The majority of participants highlighted the possibility that, after several years of inflation above 2 percent, continued elevated inflation rates could begin to affect inflation expectations and wage- and price- setting decisions. Participants emphasized that considerable uncertainty surrounded their inflation outlook and stressed the importance of closely monitoring inflation developments and inflation expectations.
+
+**MIN_2026-06-17_P0048**
+
+With regard to the labor market, participants generally observed that the unemployment rate had remained relatively stable over the past year at a level near participants’ estimates of its longer-run level. Participants generally remarked that payroll employment gains had strengthened this year and appeared roughly consistent with underlying labor force growth. Several participants observed that other labor market indicators, such as job openings, initial unemployment insurance claims, and layoffs had remained stable in recent months and that such data pointed to a balanced labor market. Several participants noted, however, that declines in the job-finding rate and certain survey measures of job availability reflected a labor market with relatively low dynamism. Many participants remarked that the labor market was not currently a source of inflationary pressures, or that nominal wage growth remained consistent with inflation moving toward 2 percent.
+
+**MIN_2026-06-17_P0049**
+
+Participants generally expected labor market conditions to remain stable in the near term, with the unemployment rate staying close to current levels. Some participants remarked that their concerns
+
+### fomcminutes20260617.pdf#p9
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 9](../../raw/minutes/fomcminutes20260617.pdf#page=9)
+
+**MIN_2026-06-17_P0050**
+
+earlier this year about labor market deterioration had eased with recent data, and several participants noted that the solid payroll employment data in recent months could signal increased labor market momentum. Several participants cited, however, the possibility that uncertainty related to geopolitical developments or the broader economic outlook could lead firms to reduce hiring or begin implementing layoffs. Some participants commented on the possibility that AI could, over time, affect employment prospects for some classes of workers.
+
+**MIN_2026-06-17_P0051**
+
+Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending. Participants generally noted that the strength in business investment remained concentrated in AI-related expenditures, which showed no signs of slowing, as companies continued to announce capital expenditure plans that exceeded earlier expectations. Some participants suggested that those investments would likely increase the growth of productivity and of potential output in the coming years. These participants remarked, however, that considerable uncertainty remained regarding both the timing and magnitude of potential productivity gains, which were expected to lag the ongoing boost of AI adoption on demand. Some participants noted that broad financial conditions were supporting demand. These participants pointed specifically to high equity prices and noted that those prices had been driven by strong corporate earnings and optimism about AI. With respect to household spending, most participants observed that stock market gains and federal income tax refunds sent earlier this year had provided support to consumer spending, particularly among higher- income households. They noted, however, that lower-income households were increasingly relying on credit to maintain spending and continued to face disproportionate pressures from elevated gasoline and grocery prices.
+
+**MIN_2026-06-17_P0052**
+
+Participants generally expected solid real GDP growth to continue throughout the remainder of the year and pointed to several factors likely to support continued expansion, including ongoing AI-related investment, household spending, and fiscal policy. Participants generally acknowledged that while the economy had demonstrated resilience to date, uncertainty surrounding the economic outlook remained elevated, partly due to the conflict in the Middle East.
+
+**MIN_2026-06-17_P0053**
+
+In their consideration of monetary policy at this meeting, all participants supported maintaining the current target range for the federal funds rate. Participants generally noted that recent indicators suggested that economic activity had been expanding at a solid pace and that labor market conditions had appeared stable. Participants observed that inflation was elevated relative to the Committee’s 2 percent longer-run objective, in part reflecting price increases from supply shocks in certain sectors, including energy. Participants generally assessed that information received over the intermeeting period suggested that upside risks to price stability remained elevated while downside risks to achieving maximum employment had moderated a bit. A few participants commented that, in light of
+
+### fomcminutes20260617.pdf#p10
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 10](../../raw/minutes/fomcminutes20260617.pdf#page=10)
+
+**MIN_2026-06-17_P0054**
+
+these developments, there was a case for raising the target range for the federal funds rate, but those participants indicated that they supported maintaining the current target range at this meeting. Several participants remarked that they did not see the current policy stance as restrictive, while a few other participants commented that they saw the current policy stance as slightly restrictive.
+
+**MIN_2026-06-17_P0055**
+
+With regard to the outlook for monetary policy, amid high assessed uncertainty, various participants discussed a range of scenarios for the evolution of the economy and for future monetary policy actions. Most participants remarked on scenarios in which inflationary pressures would dissipate and inflation would soon begin to return to 2 percent. In such scenarios, almost all of these participants noted that it would likely be appropriate to maintain or eventually lower the target range for the federal funds rate. Most participants, however, also pointed to scenarios in which, in the context of stable labor market conditions, inflation would remain elevated due to strong AI-related demand, the conflict in the Middle East, or the effects of tariffs. In such scenarios, almost all of these participants indicated that some policy firming would likely be warranted to return inflation to 2 percent. Regarding participants’ individual assessments of appropriate monetary policy under what each participant judged to be the most likely scenario for the economy, many participants indicated that the appropriate level of the federal funds rate would be within or slightly below the current target range at the end of this year. Many other participants, however, assessed that the appropriate level of the federal funds rate would be above the current target range at the end of this year. Participants noted that their future policy actions would depend on incoming information.
+
+**MIN_2026-06-17_P0056**
+
+A number of participants noted that it was an opportune time to consider significant changes to the FOMC’s postmeeting statement. A majority of participants remarked that they saw advantages in shortening the statement. Most participants emphasized that they preferred not to repeat the language in the previous postmeeting statement that had suggested an easing bias regarding the likely direction of the Committee’s future interest rate decisions. Various participants discussed how the public could perceive the changes to the postmeeting statement. Some participants commented that they welcomed the opportunity to review the Committee’s communications tools and practices.
+
+**MIN_2026-06-17_P0057**
+
+The Chairman described plans to establish five independent task forces to examine issues related to the broad conduct of monetary policy.
+
+**MIN_2026-06-17_P0058**
+
+Committee Policy Actions
+
+**MIN_2026-06-17_P0059**
+
+In support of the Committee’s dual-mandate goals, all members agreed to maintain the target range for the federal funds rate at 3½ to 3¾ percent and to reaffirm the FOMC’s policy of maintaining ample reserves in the banking system. Members also agreed that the statement would not repeat the language that had suggested an easing bias regarding the likely direction of the Committee’s future
+
+### fomcminutes20260617.pdf#p11
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 11](../../raw/minutes/fomcminutes20260617.pdf#page=11)
+
+**MIN_2026-06-17_P0060**
+
+interest rate decisions. Members noted that there had been little change in the unemployment rate and solid growth in economic activity, but that inflation remained elevated relative to the Committee’s 2 percent goal. Against this backdrop, members concurred that the postmeeting statement would convey the Committee’s commitment to achieving its dual-mandate goals and emphasize that the Committee will deliver price stability.
+
+**MIN_2026-06-17_P0061**
+
+At the conclusion of the discussion, the Committee voted to direct the Federal Reserve Bank of New York, until instructed otherwise, to execute transactions in the System Open Market Account (SOMA) in accordance with the following domestic policy directive, for release at 2:00 p.m.:
+
+**MIN_2026-06-17_P0062**
+
+“Effective June 18, 2026, the Federal Open Market Committee directs the Desk to:
+
+**MIN_2026-06-17_P0063**
+
+• Undertake open market operations as necessary to maintain the federal funds rate in a target range of 3½ to 3¾ percent.
+
+**MIN_2026-06-17_P0064**
+
+• Conduct standing overnight repurchase agreement operations at a rate of 3.75 percent.
+
+**MIN_2026-06-17_P0065**
+
+• Conduct standing overnight reverse repurchase agreement operations at an offering rate of 3.5 percent and with a per-counterparty limit of $160 billion per day.
+
+**MIN_2026-06-17_P0066**
+
+• When appropriate, increase the SOMA holdings of securities through purchases of Treasury bills and, if needed, other Treasury securities with remaining maturities of 3 years or less to maintain an ample level of reserves.
+
+**MIN_2026-06-17_P0067**
+
+• Roll over at auction all principal payments from the Federal Reserve’s holdings of Treasury securities. Reinvest all principal payments from the Federal Reserve’s holdings of agency securities into Treasury bills.”
+
+**MIN_2026-06-17_P0068**
+
+The vote also encompassed approval of the statement below for release at 2:00 p.m.:
+
+**MIN_2026-06-17_P0069**
+
+“The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:
+
+**MIN_2026-06-17_P0070**
+
+The Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent, in support of the Federal Reserve’s dual mandate. The Committee reaffirmed its policy of maintaining ample reserves in the banking system.
+
+**MIN_2026-06-17_P0071**
+
+Economic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong. Job gains have kept pace with the workforce, and the unemployment rate has changed little.
+
+### fomcminutes20260617.pdf#p12
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 12](../../raw/minutes/fomcminutes20260617.pdf#page=12)
+
+**MIN_2026-06-17_P0072**
+
+Inflation remains elevated relative to the Committee’s 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability.”
+
+**MIN_2026-06-17_P0073**
+
+Voting for this action: Kevin Warsh, John C. Williams, Michael S. Barr, Michelle W. Bowman, Lisa D. Cook, Beth M. Hammack, Philip N. Jefferson, Neel Kashkari, Lorie K. Logan, Anna Paulson, Jerome H. Powell, and Christopher J. Waller.
+
+**MIN_2026-06-17_P0074**
+
+Voting against this action: None.
+
+**MIN_2026-06-17_P0075**
+
+Consistent with the Committee’s decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective June 18, 2026. The Board of Governors of the Federal Reserve System voted unanimously to approve the establishment of the primary credit rate at the existing level of 3.75 percent.
+
+**MIN_2026-06-17_P0076**
+
+It was agreed that the next meeting of the Committee would be held on Tuesday–Wednesday, July 28– 29, 2026. The meeting adjourned at 10:30 a.m. on June 17, 2026.
+
+**MIN_2026-06-17_P0077**
+
+Notation Vote
+
+**MIN_2026-06-17_P0078**
+
+By notation vote completed on May 19, 2026, the Committee unanimously approved the minutes of the Committee meeting held on April 28–29, 2026.
+
+**MIN_2026-06-17_P0079**
+
+Attendance
+
+**MIN_2026-06-17_P0080**
+
+Kevin Warsh, Chairman John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lisa D. Cook Beth M. Hammack Philip N. Jefferson Neel Kashkari Lorie K. Logan Anna Paulson Jerome H. Powell Christopher J. Waller Thomas I. Barkin, Mary C. Daly, Austan D. Goolsbee, Sushmita Shukla, and Cheryl L. Venable, Alternate Members of the Committee Susan M. Collins, Alberto G. Musalem, and Jeffrey R. Schmid, Presidents of the Federal Reserve Banks of Boston, St. Louis, and Kansas City, respectively Joshua Gallin, Secretary Matthew M. Luecke, Deputy Secretary
+
+### fomcminutes20260617.pdf#p13
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 13](../../raw/minutes/fomcminutes20260617.pdf#page=13)
+
+**MIN_2026-06-17_P0081**
+
+Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Richard Ostrander, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Stephanie R. Aaronson, Shaghil Ahmed, Brian M. Doyle, Eric M. Engen, Michael T. Kiley, Elizabeth Klee, Edward S. Knotek II, Karel Mertens, Andrea Raffo, and Donald Keith Sill, Associate Economists Roberto Perli, Manager, System Open Market Account Julie Ann Remache, Deputy Manager, System Open Market Account Jose Acosta, Senior System Engineer II, Division of Information Technology, Board Isaiah C. Ahn, Information Management Analyst, Division of Monetary Affairs, Board Alyssa Arute,2 Assistant Director, Division of Reserve Bank Operations and Payment Systems, Board Gadi Barlevy, Executive Vice President, Federal Reserve Bank of Chicago William F. Bassett, Senior Associate Director, Division of Financial Stability, Board Kimberly N. Bayard, Section Chief, Division of Research and Statistics, Board Michele Cavallo, Special Adviser to the Board, Division of Board Members, Board Lisa Chung,2 Head of Domestic and International Markets, Federal Reserve Bank of New York Andrew Cohen,3 Special Adviser to the Board, Division of Board Members, Board Francisco Covas, Deputy Director, Division of Supervision and Regulation, Board Ryan A. Decker, Special Adviser to the Board, Division of Board Members, Board Cynthia L. Doniger,4 Principal Economist, Division of Monetary Affairs, Board Burcu Duygan-Bump, Deputy Director, Division of Research and Statistics, Board Eric C. Engstrom, Special Adviser to the Chairman, Division of Board Members, Board Giovanni Favara, Associate Director, Division of Monetary Affairs, Board Laura J. Feiveson,4 Special Adviser to the Board, Division of Board Members, Board Andrew Figura, Senior Associate Director, Division of Research and Statistics, Board Jenn Gallagher, Assistant to the Board, Division of Board Members, Board Carlos Garriga, Senior Vice President, Federal Reserve Bank of St. Louis Joseph W. Gruber, Executive Vice President, Federal Reserve Bank of Kansas City Daniel L. Heil, Assistant to the Chairman (Special Projects), Division of Board Members, Board Erik Heitfield, Deputy Associate Director, Division of Research and Statistics, Board
+
+**MIN_2026-06-17_P0082**
+
+2 Attended through the discussion of developments in financial markets and open market operations. 3 Attended Wednesday’s session only. 4 Attended Tuesday’s session only.
+
+### fomcminutes20260617.pdf#p14
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 14](../../raw/minutes/fomcminutes20260617.pdf#page=14)
+
+**MIN_2026-06-17_P0083**
+
+Valerie S. Hinojosa, Assistant Director, Division of Monetary Affairs, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Margaret M. Jacobson, Senior Economist, Division of Monetary Affairs, Board Benjamin K. Johannsen, Deputy Associate Director, Division of Monetary Affairs, Board Anna R. Kovner, Executive Vice President, Federal Reserve Bank of Richmond Spencer D. Krane, Senior Vice President, Federal Reserve Bank of Chicago Sylvain Leduc, Executive Vice President and Director of Economic Research, Federal Reserve Bank of San Francisco Andreas Lehnert, Director, Division of Financial Stability, Board Paul Lengermann, Deputy Associate Director, Division of Research and Statistics, Board Eric LeSueur,2 Policy and Market Analysis Advisor, Federal Reserve Bank of New York Logan T. Lewis, Assistant Director, Division of International Finance, Board Laura Lipscomb, Special Adviser to the Board, Division of Board Members, Board Francesca Loria, Principal Economist, Division of Monetary Affairs, Board Byron Lutz, Deputy Associate Director, Division of Research and Statistics, Board Jonathan P. McCarthy, Economic Research Advisor, Federal Reserve Bank of New York John P. McConnell, Assistant to the Chairman (Speechwriting), Division of Board Members, Board Benjamin W. McDonough, Secretary of the Board, Office of the Secretary, Board David Newville, Director, Division of Consumer and Community Affairs, Board Anna Nordstrom, Head of Markets, Federal Reserve Bank of New York Alyssa T. O’Connor, Special Adviser to the Board, Division of Board Members, Board Karen A. Pennell, First Vice President, Federal Reserve Bank of Boston Eugenio P. Pinto, Special Adviser to the Board, Division of Board Members, Board Odelle Quisumbing,2 Assistant to the Secretary, Office of the Secretary, Board Nellisha D. Ramdass, Deputy Director, Division of Monetary Affairs, Board Romina D. Ruprecht, Senior Economist, Division of Monetary Affairs, Board Zeynep Senyuz, Special Adviser to the Board, Division of Board Members, Board Hiroatsu Tanaka, Principal Economist, Division of Monetary Affairs, Board Mary H. Tian, Group Manager, Division of Monetary Affairs, Board Jeffrey D. Walker,2 Senior Associate Director, Division of Reserve Bank Operations and Payment Systems, Board Jonathan Willis, Vice President, Federal Reserve Bank of Atlanta Paul Winfree, Assistant to the Chairman (Special Projects), Division of Board Members, Board
+
+### fomcminutes20260617.pdf#p15
+
+Proposition : **NON JUGÉE** — facettes : non déterminées.
+
+[PDF, page physique 15](../../raw/minutes/fomcminutes20260617.pdf#page=15)
+
+**MIN_2026-06-17_P0084**
+
+Emre Yoldas, Deputy Associate Director, Division of International Finance, Board
+
+**MIN_2026-06-17_P0085**
+
+Egon Zakrajšek, Executive Vice President, Federal Reserve Bank of Boston
+
+**MIN_2026-06-17_P0086**
+
+Joshua Gallin Secretary
+

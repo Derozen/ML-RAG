@@ -1,0 +1,747 @@
+[
+  {
+    "id": "HOLDOUT_V2_001",
+    "task_group": "factual",
+    "source_scope": "minutes",
+    "topic": "labor_costs",
+    "question": "Using the June 2026 Minutes, give the twelve-month growth rates of the private-sector employment cost index through March and average hourly earnings through May. Were the two reported rates equal?",
+    "answer": "Both were 3.4 percent, although the reported twelve-month periods ended in different months.",
+    "documents": [
+      "fomcminutes20260617.pdf"
+    ],
+    "facets": [
+      {
+        "name": "employment_costs",
+        "needles": [
+          "employment cost index",
+          "3.4 percent through March"
+        ]
+      },
+      {
+        "name": "hourly_earnings",
+        "needles": [
+          "Average hourly earnings increased 3.4 percent",
+          "12 months ending in May"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_089",
+      "FOMC_102",
+      "FOMC_136"
+    ],
+    "novelty_review": "The old items ask about payroll versus labor-force growth, hiring shortages, or participation/immigration and wages. This item asks for two particular labor-cost measures and their reference periods; it is not answered by those old questions."
+  },
+  {
+    "id": "HOLDOUT_V2_002",
+    "task_group": "factual",
+    "source_scope": "minutes",
+    "topic": "labor_statistics",
+    "question": "According to the January 2024 Minutes, what was the December 2023 unemployment rate, and how did it compare with the third-quarter average?",
+    "answer": "3.7 percent, the same as the third-quarter average.",
+    "documents": [
+      "fomcminutes20240131.pdf"
+    ],
+    "facets": [
+      {
+        "name": "unemployment_comparison",
+        "needles": [
+          "3.7 percent in December, the same as its third-quarter average"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_055",
+      "FOMC_058",
+      "FOMC_060"
+    ],
+    "novelty_review": "FOMC_055 concerns the September payroll/unemployment contrast in November 2023; FOMC_058 concerns inflation, and FOMC_060 vacancies/turnover in March 2024. None asks for this December unemployment statistic and its comparison. Same general labor topic is not equivalent requested information."
+  },
+  {
+    "id": "HOLDOUT_V2_003",
+    "task_group": "factual",
+    "source_scope": "statements",
+    "topic": "voting_participation",
+    "question": "In the voting section of the July 30, 2025 Statement, who was explicitly listed as absent and not voting?",
+    "answer": "Adriana D. Kugler.",
+    "documents": [
+      "monetary20250730a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "absent_member",
+        "needles": [
+          "Absent and not voting was Adriana D. Kugler"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_036",
+      "FOMC_077"
+    ],
+    "novelty_review": "The old dissent item concerns Bullard's preferred rate move, and FOMC_077 employment risks. Absence from the July 2025 vote is a distinct institutional fact, not a rephrasing of either."
+  },
+  {
+    "id": "HOLDOUT_V2_004",
+    "task_group": "factual",
+    "source_scope": "statements",
+    "topic": "discount_window",
+    "question": "In the January 27, 2021 release's implementation notes, which Federal Reserve body approved the primary credit rate, and what level did it approve?",
+    "answer": "The Board of Governors unanimously approved the existing primary credit rate of 0.25 percent. This is the primary credit rate, not the federal funds target range.",
+    "documents": [
+      "monetary20210127a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "body_and_rate",
+        "needles": [
+          "Board of Governors",
+          "primary credit rate at the existing level of 0.25 percent"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_001",
+      "FOMC_008",
+      "FOMC_009"
+    ],
+    "novelty_review": "FOMC_001 asks the federal funds target range; FOMC_008/009 reserve and reverse-repo rates. Here both the instrument (primary credit) and approving body differ. These facts cannot be replaced by the old target-range answer."
+  },
+  {
+    "id": "HOLDOUT_V2_005",
+    "task_group": "explanatory",
+    "source_scope": "minutes",
+    "topic": "decision_rationale",
+    "question": "In the June 2022 Minutes' discussion of the appropriate policy stance, what conditions led almost all participants to support a 75-basis-point increase, and what concern about inflation expectations reinforced their commitment?",
+    "answer": "A very tight labor market, inflation well above 2 percent and a worsening near-term inflation outlook supported 75 basis points. Elevated inflation pressures and deterioration in some inflation-expectation measures reinforced the commitment to returning inflation to 2 percent.",
+    "documents": [
+      "fomcminutes20220615.pdf"
+    ],
+    "facets": [
+      {
+        "name": "stance_rationale",
+        "needles": [
+          "labor market was very tight",
+          "near-term inflation outlook had deteriorated",
+          "75 basis points"
+        ]
+      },
+      {
+        "name": "expectations",
+        "needles": [
+          "signs of deterioration in some measures of inflation expectations",
+          "strong commitment"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_035",
+      "FOMC_036",
+      "FOMC_108",
+      "FOMC_117"
+    ],
+    "novelty_review": "Related monetary-tightening topics exist. FOMC_035 is about starting rate increases in January; FOMC_036 Bullard's March dissent; FOMC_108 cumulative lags; FOMC_117 the cross-period role of anchored long-run expectations. The June 75-bp decision and deterioration in some expectation measures are distinct required evidence. Relation is acknowledged, not treated as proof of statistical independence."
+  },
+  {
+    "id": "HOLDOUT_V2_006",
+    "task_group": "explanatory",
+    "source_scope": "minutes",
+    "topic": "fiscal_data_distortion",
+    "question": "According to the October 2025 Minutes, why could the government shutdown temporarily lower measured GDP growth and later produce a corresponding rebound?",
+    "answer": "While the shutdown continued it reduced government production and purchases; reopening and their return to normal levels were expected to boost growth correspondingly. This temporary effect is distinct from changes in underlying private demand.",
+    "documents": [
+      "fomcminutes20251029.pdf"
+    ],
+    "facets": [
+      {
+        "name": "shutdown_and_reopening",
+        "needles": [
+          "shutdown was expected to reduce GDP growth",
+          "corresponding boost to growth",
+          "government production and purchases returned to normal levels"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_075",
+      "FOMC_093",
+      "FOMC_133"
+    ],
+    "novelty_review": "The old GDP-reading question attributes distortion to net exports; FOMC_133 contrasts GDP and private demand; FOMC_093 concerns October 2026 information gathering. The mechanism here is the direct, reversible loss of government production in the 2025 shutdown."
+  },
+  {
+    "id": "HOLDOUT_V2_007",
+    "task_group": "explanatory",
+    "source_scope": "statements",
+    "topic": "mbs_settlement",
+    "question": "What operational purpose did the June 2021 implementation notes give for authorizing dollar-roll and coupon-swap transactions?",
+    "answer": "To facilitate settlement of the Federal Reserve's agency MBS transactions.",
+    "documents": [
+      "monetary20210616a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "settlement_purpose",
+        "needles": [
+          "dollar roll and coupon swap transactions",
+          "facilitate settlement"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_002",
+      "FOMC_028",
+      "FOMC_095"
+    ],
+    "novelty_review": "The old questions ask purchase volumes, milestones or their wind-down. This question concerns the purpose of settlement operations, not the monthly purchase amount."
+  },
+  {
+    "id": "HOLDOUT_V2_008",
+    "task_group": "explanatory",
+    "source_scope": "statements",
+    "topic": "market_functioning",
+    "question": "Beyond the regular monthly Treasury and agency MBS purchases, what contingency authority did the July 2021 implementation notes give the Desk, and for what market-functioning purpose?",
+    "answer": "The Desk could increase Treasury and agency MBS holdings by additional amounts and buy agency CMBS as needed to sustain smooth functioning of those markets.",
+    "documents": [
+      "monetary20210728a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "contingent_purchases",
+        "needles": [
+          "by additional amounts",
+          "commercial mortgage-backed securities",
+          "sustain smooth functioning"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_002",
+      "FOMC_014",
+      "FOMC_028"
+    ],
+    "novelty_review": "Regular purchase volumes and repo backstop arrangements are old topics, but this item asks the separate contingent securities-purchase authority and its market-functioning condition. It does not ask the regular amounts or names of repo facilities."
+  },
+  {
+    "id": "HOLDOUT_V2_009",
+    "task_group": "explanatory",
+    "source_scope": "mixed",
+    "topic": "dissent_rationale",
+    "question": "Use the June 2022 Statement and Minutes to distinguish Esther George's preferred rate increase from the adopted increase, then explain her concerns about the larger move alongside balance-sheet runoff.",
+    "answer": "The adopted increase was 75 bp; George preferred 50 bp. The Minutes explain her concern about policy uncertainty during the start of runoff, unsettled households/businesses and adverse effects on small banks' ability to meet community credit needs.",
+    "documents": [
+      "monetary20220615a1.pdf",
+      "fomcminutes20220615.pdf"
+    ],
+    "facets": [
+      {
+        "name": "adopted_move",
+        "needles": [
+          "75 basis points"
+        ],
+        "files": [
+          "fomcminutes20220615.pdf"
+        ]
+      },
+      {
+        "name": "preferred_move",
+        "needles": [
+          "Esther L. George",
+          "0.5 percentage point"
+        ],
+        "files": [
+          "monetary20220615a1.pdf"
+        ]
+      },
+      {
+        "name": "reason",
+        "needles": [
+          "George dissented because",
+          "uncertainty about policy",
+          "small banks"
+        ],
+        "files": [
+          "fomcminutes20220615.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_036",
+      "FOMC_040"
+    ],
+    "novelty_review": "FOMC_036 is Bullard's March preference for a larger increase; this question requires George's smaller June move and her distinct policy-uncertainty/small-bank reasoning. FOMC_040 concerns household spending resources, not this dissent. Replacing names/dates alone would not suffice; the opposing direction and explanation are the new information."
+  },
+  {
+    "id": "HOLDOUT_V2_010",
+    "task_group": "explanatory",
+    "source_scope": "mixed",
+    "topic": "reserve_management_dissent",
+    "question": "Using the March 2025 Statement and Minutes, did Waller's dissent concern the federal funds target or the pace of securities runoff, and what reserve evidence and alternative response did he cite?",
+    "answer": "He supported leaving the funds target unchanged but opposed slowing runoff. He cited reserves above $3 trillion and no indication of proximity to ample reserves from indicators or outreach; he preferred relying on existing tools and planning for short-run strains.",
+    "documents": [
+      "monetary20250319a1.pdf",
+      "fomcminutes20250319.pdf"
+    ],
+    "facets": [
+      {
+        "name": "what_he_opposed",
+        "needles": [
+          "Christopher J. Waller",
+          "supported no change",
+          "pace of decline in securities holdings"
+        ],
+        "files": [
+          "monetary20250319a1.pdf"
+        ]
+      },
+      {
+        "name": "reserve_evidence_and_alternative",
+        "needles": [
+          "reserve balances being over $3 trillion",
+          "existing tools",
+          "short-run strains"
+        ],
+        "files": [
+          "fomcminutes20250319.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_072",
+      "FOMC_139",
+      "FOMC_071"
+    ],
+    "novelty_review": "FOMC_072 asks how the adopted decision treated Treasury and agency runoff; FOMC_139 asks why participants discussed slowing runoff in March 2024. Here the requested position is the dissent against slowing in March 2025 and Waller's evidence/alternative. Same policy field, different argument and attributed speaker."
+  },
+  {
+    "id": "HOLDOUT_V2_011",
+    "task_group": "comparative",
+    "source_scope": "minutes",
+    "topic": "staff_forecast_revision",
+    "question": "Compare staff projections of total PCE inflation for 2023 and 2024 in the May and July 2022 Minutes. By how much did each projected annual rate change?",
+    "answer": "For 2023: 2.5 percent in May to 2.2 percent in July, down 0.3 pp. For 2024: 2.1 to 1.9 percent, down 0.2 pp. These are forecasts, not realized inflation.",
+    "documents": [
+      "fomcminutes20220504.pdf",
+      "fomcminutes20220727.pdf"
+    ],
+    "facets": [
+      {
+        "name": "may_forecast",
+        "needles": [
+          "2.5 percent in 2023",
+          "2.1 percent in 2024"
+        ],
+        "files": [
+          "fomcminutes20220504.pdf"
+        ]
+      },
+      {
+        "name": "july_forecast",
+        "needles": [
+          "2.2 percent in 2023",
+          "1.9 percent in 2024"
+        ],
+        "files": [
+          "fomcminutes20220727.pdf"
+        ]
+      }
+    ],
+    "derivation": "2.2 - 2.5 = -0.3 pp; 1.9 - 2.1 = -0.2 pp",
+    "related_old": [
+      "FOMC_050",
+      "FOMC_058",
+      "FOMC_029"
+    ],
+    "novelty_review": "Old items concern May 2023 headline-versus-core explanations, realized December 2023 rates, or supply persistence in 2021. This item compares revisions of explicitly future total-PCE forecasts across May/July 2022; it is not an old realized-rate or policy-stance question."
+  },
+  {
+    "id": "HOLDOUT_V2_012",
+    "task_group": "comparative",
+    "source_scope": "statements",
+    "topic": "voting_preferences",
+    "question": "Compare the dissenting preferences reported in the September and December 2024 Statements: who dissented in each, and did each prefer a smaller cut or no cut?",
+    "answer": "September: Michelle Bowman preferred a 25-bp cut rather than 50 bp. December: Beth Hammack preferred maintaining 4.5–4.75 percent rather than cutting. A smaller cut and no cut are different preferences.",
+    "documents": [
+      "monetary20240918a1.pdf",
+      "monetary20241218a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "september_dissent",
+        "needles": [
+          "Michelle W. Bowman",
+          "preferred to lower",
+          "1/4 percentage point"
+        ],
+        "files": [
+          "monetary20240918a1.pdf"
+        ]
+      },
+      {
+        "name": "december_dissent",
+        "needles": [
+          "Beth M. Hammack",
+          "preferred to maintain",
+          "4-1/2 to 4-3/4"
+        ],
+        "files": [
+          "monetary20241218a1.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_066",
+      "FOMC_068",
+      "FOMC_142"
+    ],
+    "novelty_review": "The old items concern adopted cuts, confidence for them, or their macro rationale. The requested answers here are named dissenters and their alternatives. The adopted action appears as context, not as the information being retested."
+  },
+  {
+    "id": "HOLDOUT_V2_013",
+    "task_group": "comparative",
+    "source_scope": "statements",
+    "topic": "discount_window",
+    "question": "Compare the primary credit rates approved in the March and May 2022 implementation notes, including each effective date. What was the difference between the approved levels?",
+    "answer": "0.5 percent effective March 17, 2022; 1 percent effective May 5, 2022. The approved levels differed by 0.5 percentage point.",
+    "documents": [
+      "monetary20220316a1.pdf",
+      "monetary20220504a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "march_primary_credit",
+        "needles": [
+          "primary credit rate to 0.5 percent",
+          "effective March 17, 2022"
+        ],
+        "files": [
+          "monetary20220316a1.pdf"
+        ]
+      },
+      {
+        "name": "may_primary_credit",
+        "needles": [
+          "primary credit rate to 1 percent",
+          "effective May 5, 2022"
+        ],
+        "files": [
+          "monetary20220504a1.pdf"
+        ]
+      }
+    ],
+    "derivation": "1.0 - 0.5 = 0.5 percentage point",
+    "related_old": [
+      "FOMC_036",
+      "FOMC_008",
+      "FOMC_138"
+    ],
+    "novelty_review": "The old questions involve the funds target, interest on reserves, or repo rates/limits. The primary credit facility and effective dates are different requested instruments/information. This is not merely moving an old funds-target question to a new date."
+  },
+  {
+    "id": "HOLDOUT_V2_014",
+    "task_group": "comparative",
+    "source_scope": "mixed",
+    "topic": "source_attribution_growth",
+    "question": "Compare March and September 2023 using each meeting's Statement and staff review in the Minutes: how did the public description of activity and the staff's GDP assessment change? Keep the public wording separate from the staff assessment.",
+    "answer": "March Statement: modest growth in spending/production; March staff review: modest first-quarter GDP expansion. September Statement: activity expanding at a solid pace; September staff review: GDP rising solidly in the third quarter. Public descriptions and staff quarter-specific assessments should be attributed separately.",
+    "documents": [
+      "monetary20230322a1.pdf",
+      "fomcminutes20230322.pdf",
+      "monetary20230920a1.pdf",
+      "fomcminutes20230920.pdf"
+    ],
+    "facets": [
+      {
+        "name": "march_public",
+        "needles": [
+          "modest growth in spending and production"
+        ],
+        "files": [
+          "monetary20230322a1.pdf"
+        ]
+      },
+      {
+        "name": "march_staff",
+        "needles": [
+          "appeared to be expanding at a modest pace in the first quarter"
+        ],
+        "files": [
+          "fomcminutes20230322.pdf"
+        ]
+      },
+      {
+        "name": "september_public",
+        "needles": [
+          "economic activity has been expanding at a solid pace"
+        ],
+        "files": [
+          "monetary20230920a1.pdf"
+        ]
+      },
+      {
+        "name": "september_staff",
+        "needles": [
+          "was rising at a solid pace in the third quarter"
+        ],
+        "files": [
+          "fomcminutes20230920.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_057",
+      "FOMC_124",
+      "FOMC_141"
+    ],
+    "novelty_review": "FOMC_057 asks the subsequent slowdown in December 2023; FOMC_124 concerns hold-versus-cut policies; FOMC_141 macro considerations for September/December holds. Here four separately attributed descriptions and two quarter-specific staff assessments are required. The September growth fact is related background, so residual thematic dependence is disclosed."
+  },
+  {
+    "id": "HOLDOUT_V2_015",
+    "task_group": "comparative",
+    "source_scope": "mixed",
+    "topic": "expectations_vs_decisions",
+    "question": "In January 2026, how did the rate cuts expected by market measures and Desk survey respondents differ from the action and forward-looking language actually announced in the Statement? Do not treat survey expectations as an FOMC commitment.",
+    "answer": "Markets indicated one to two 25-bp cuts in 2026; the Desk survey median modal path indicated two. The Committee actually maintained 3.5–3.75 percent and said further adjustments would depend on incoming data, the outlook and risk balance. The survey path is not an announced commitment to those cuts.",
+    "documents": [
+      "fomcminutes20260128.pdf",
+      "monetary20260128a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "expectations",
+        "needles": [
+          "one to two 25 basis point rate cuts",
+          "expectations of two 25 basis point rate cuts"
+        ],
+        "files": [
+          "fomcminutes20260128.pdf"
+        ]
+      },
+      {
+        "name": "announced_action",
+        "needles": [
+          "maintain the target range",
+          "3-1/2 to 3-3/4",
+          "carefully assess incoming data"
+        ],
+        "files": [
+          "monetary20260128a1.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_082",
+      "FOMC_083",
+      "FOMC_145",
+      "FOMC_124"
+    ],
+    "novelty_review": "FOMC_082/083 ask labor and inflation expectations, not policy-rate survey paths; FOMC_145 compares 2024 market-implied shifts; FOMC_124 contrasts policy statements. Distinguishing respondents' expectations from an actual Committee action is the new attribution task, not a request for the old expectation shift."
+  },
+  {
+    "id": "HOLDOUT_V2_016",
+    "task_group": "multi_evidence",
+    "source_scope": "minutes",
+    "topic": "observed_vs_forecast_inflation",
+    "question": "Using the July 2022 Minutes, report total and core PCE inflation observed over the twelve months ending in May, and total and core PCE inflation forecast for 2022 as a whole. Explain why those two pairs must not be treated as measurements for the same reference period.",
+    "answer": "Observed May twelve-month rates: total 6.3 percent, core 4.7 percent. Staff forecasts for 2022 as a whole: total 4.8 percent, core 4.0 percent. The first pair is backward-looking realized data through May; the second is a full-year projection, not the same observation window.",
+    "documents": [
+      "fomcminutes20220727.pdf"
+    ],
+    "facets": [
+      {
+        "name": "observed_rates",
+        "needles": [
+          "6.3 percent over the 12 months ending in May",
+          "4.7 percent over the same period"
+        ]
+      },
+      {
+        "name": "forecast_rates",
+        "needles": [
+          "expected to be 4.8 percent in 2022",
+          "core inflation was expected to be 4.0 percent"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_050",
+      "FOMC_058"
+    ],
+    "novelty_review": "The old questions ask why headline was forecast below core in May 2023 or the spread in December 2023 realized rates. This asks for two separate reference periods and the observed-versus-projected distinction, rather than the old rate spread or energy-price explanation."
+  },
+  {
+    "id": "HOLDOUT_V2_017",
+    "task_group": "multi_evidence",
+    "source_scope": "mixed",
+    "topic": "procedural_vs_policy_vote",
+    "question": "Did Stephen Miran abstain from the September 2025 monetary-policy vote? Distinguish the Minutes' vote on ratifying the Desk's domestic transactions from the policy roll call in the Statement, using evidence for both resolutions.",
+    "answer": "No. The Minutes say he abstained when the Committee ratified the Desk's domestic transactions. The Statement records him as voting against the monetary-policy action. Abstaining on the transaction-ratification resolution is not abstaining on the policy resolution.",
+    "documents": [
+      "fomcminutes20250917.pdf",
+      "monetary20250917a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "desk_transaction_vote",
+        "needles": [
+          "ratify the Desk",
+          "domestic transactions",
+          "Miran",
+          "abstained from voting"
+        ],
+        "files": [
+          "fomcminutes20250917.pdf"
+        ]
+      },
+      {
+        "name": "policy_vote",
+        "needles": [
+          "Voting against this action was Stephen I. Miran"
+        ],
+        "files": [
+          "monetary20250917a1.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_036",
+      "FOMC_078"
+    ],
+    "novelty_review": "No old question asks whether an abstention on Desk-transaction ratification is a different resolution from the monetary-policy vote. FOMC_036 asks Bullard's preferred rate move; FOMC_078 jobs/inflation trends. The new task is resolution-specific vote attribution, not a new date for the old rate-preference question. It is related within this holdout to item 018 but asks a different fact: abstention versus opposition, rather than preferred cuts and reasoning; both belong to the same future test partition."
+  },
+  {
+    "id": "HOLDOUT_V2_018",
+    "task_group": "multi_evidence",
+    "source_scope": "mixed",
+    "topic": "different_dissent_directions",
+    "question": "Contrast the July and September 2025 policy votes using the Statements and September Minutes. Who wanted a quarter-point cut in July, who wanted a half-point cut in September, and what labor-market and underlying-inflation arguments supported the September dissenter's preference?",
+    "answer": "July: Bowman and Waller preferred a 25-bp cut. September: Stephen Miran preferred 50 bp, citing further labor-market softening and underlying inflation closer to 2 percent than the data suggested; he also argued the neutral rate had fallen.",
+    "documents": [
+      "monetary20250730a1.pdf",
+      "monetary20250917a1.pdf",
+      "fomcminutes20250917.pdf"
+    ],
+    "facets": [
+      {
+        "name": "july_dissenters",
+        "needles": [
+          "Michelle W. Bowman and Christopher J. Waller",
+          "1/4 percentage point"
+        ],
+        "files": [
+          "monetary20250730a1.pdf"
+        ]
+      },
+      {
+        "name": "september_preference",
+        "needles": [
+          "Stephen I. Miran",
+          "1/2 percentage point"
+        ],
+        "files": [
+          "monetary20250917a1.pdf"
+        ]
+      },
+      {
+        "name": "september_reasoning",
+        "needles": [
+          "Governor Miran preferred",
+          "further softening in the labor market",
+          "meaningfully closer to 2 percent"
+        ],
+        "files": [
+          "fomcminutes20250917.pdf"
+        ]
+      }
+    ],
+    "related_old": [
+      "FOMC_036",
+      "FOMC_078",
+      "FOMC_077"
+    ],
+    "novelty_review": "The old voting question is Bullard in March 2022. July/September 2025 old questions concern employment risks or jobs/inflation trends, not the named dissenting coalitions and Miran's attributed reasoning. Some economic background is shared; the requested actor-specific combination is new."
+  },
+  {
+    "id": "HOLDOUT_V2_019",
+    "task_group": "multi_evidence",
+    "source_scope": "mixed",
+    "topic": "operational_rule_application",
+    "question": "Apply the July 2024 implementation rules recorded in the Statement and Minutes to this hypothetical month: Treasury coupon principal is $20 billion and agency principal is $40 billion; enough Treasury bills mature. How much Treasury-bill principal fills the Treasury redemption cap, how much agency principal is reinvested, and in what securities?",
+    "answer": "The $25bn Treasury cap leaves $5bn to be redeemed from Treasury bills after $20bn coupon principal. Agency principal exceeds the $35bn cap by $5bn, so $5bn is reinvested in Treasury securities to roughly match the maturity composition outstanding. The $20bn and $40bn amounts are hypothetical inputs, not reported realized flows.",
+    "documents": [
+      "monetary20240731a1.pdf",
+      "fomcminutes20240731.pdf"
+    ],
+    "facets": [
+      {
+        "name": "treasury_bill_rule",
+        "needles": [
+          "cap of $25 billion per month",
+          "Treasury bills to the extent that coupon principal payments are less than the monthly cap"
+        ]
+      },
+      {
+        "name": "agency_reinvestment_rule",
+        "needles": [
+          "exceeds a cap of $35 billion per month",
+          "into Treasury securities to roughly match the maturity composition"
+        ]
+      }
+    ],
+    "derivation": "25 - 20 = 5 billion Treasury-bill redemptions; 40 - 35 = 5 billion agency principal reinvested",
+    "related_old": [
+      "FOMC_061",
+      "FOMC_115",
+      "FOMC_138"
+    ],
+    "novelty_review": "The underlying cap is not new information: FOMC_061/115 already ask cap changes, and FOMC_138 repo implementation terms. This task is a new conditional application requiring the coupon/bill fallback and agency reinvestment destination, not another cap lookup. Treat as related, not strongly topic-independent; human validation is required. It requires multiple rules, not necessarily multiple documents because the directive is duplicated."
+  },
+  {
+    "id": "HOLDOUT_V2_020",
+    "task_group": "multi_evidence",
+    "source_scope": "mixed",
+    "topic": "forecast_attribution",
+    "question": "Using the March 2023 Minutes and Statement, distinguish the staff's recession projection from the Committee's public description of banking conditions and their possible economic effects. Was the mild-recession projection explicitly attributed to staff rather than announced as the Statement's own forecast?",
+    "answer": "The Minutes attribute to staff a mild recession later in 2023 and recovery over the following two years. The Statement calls the banking system sound and resilient and says developments are likely to tighten credit and weigh on activity, hiring and inflation, with uncertain extent; it does not explicitly announce a mild-recession forecast. Staff and Committee public language should not be conflated.",
+    "documents": [
+      "fomcminutes20230322.pdf",
+      "monetary20230322a1.pdf"
+    ],
+    "facets": [
+      {
+        "name": "staff_forecast",
+        "needles": [
+          "staff's projection",
+          "mild recession starting later this year",
+          "recovery over the subsequent two years"
+        ],
+        "files": [
+          "fomcminutes20230322.pdf"
+        ]
+      },
+      {
+        "name": "public_banking_language",
+        "needles": [
+          "banking system is sound and resilient",
+          "tighter credit conditions",
+          "extent of these effects is uncertain"
+        ],
+        "files": [
+          "monetary20230322a1.pdf"
+        ]
+      }
+    ],
+    "absence_check": {
+      "documents": [
+        "monetary20230322a1.pdf"
+      ],
+      "term": "recession"
+    },
+    "related_old": [
+      "FOMC_049",
+      "FOMC_054",
+      "FOMC_110"
+    ],
+    "novelty_review": "The old questions ask credit-contraction channels, September banking descriptions or conditions for policy reconsideration. The novel requirement is attribution of a particular forecast to staff and distinguishing it from the public Statement. The credit-effects component overlaps thematically, so this is disclosed rather than counted as established semantic independence."
+  }
+]

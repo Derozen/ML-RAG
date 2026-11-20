@@ -1,0 +1,46 @@
+[
+  {
+    "question": {
+      "id": "HOLDOUT_V2_017",
+      "task_group": "multi_evidence",
+      "source_scope": "mixed",
+      "topic": "net_purchases_vs_reinvestment",
+      "question": "Use the January 2022 public announcement and the implementation instructions recorded in the Minutes to distinguish ending net asset purchases from stopping reinvestment of principal. What end date was announced for net purchases, and what rollover/reinvestment instructions were still in force?",
+      "answer": "Net purchases were scheduled to end in early March. The current instructions still rolled over all Treasury principal at auction and reinvested all agency debt/MBS principal in agency MBS. Ending net additions did not itself mean immediately redeeming all maturing securities without replacement.",
+      "documents": [
+        "monetary20220126a1.pdf",
+        "fomcminutes20220126.pdf"
+      ],
+      "facets": [
+        {
+          "name": "net_purchase_end",
+          "needles": [
+            "bringing them to an end in early March"
+          ],
+          "files": [
+            "monetary20220126a1.pdf"
+          ]
+        },
+        {
+          "name": "principal_instructions",
+          "needles": [
+            "Roll over at auction all principal payments",
+            "reinvest all principal payments",
+            "agency debt and agency MBS"
+          ],
+          "files": [
+            "fomcminutes20220126.pdf"
+          ]
+        }
+      ],
+      "related_old": [
+        "FOMC_025",
+        "FOMC_095",
+        "FOMC_114"
+      ],
+      "novelty_review": "This is related to the old taper/runoff progression, so it requires explicit review. FOMC_025 asks how discussions evolved in second-half 2021; FOMC_095 purchase amounts; FOMC_114 rate cuts coexisting with runoff. The present answer is the distinction between net additions and principal reinvestment in January 2022, supported by specific instructions. Retain only if the human reviewer agrees this is not a semantic reuse of FOMC_025."
+    },
+    "decision": "removed_before_scoring",
+    "reason": "Conservative removal: substantial information-overlap risk with FOMC_025 about transition from purchases to runoff/reinvestment. Replacement tests a distinct procedural vote attribution."
+  }
+]
