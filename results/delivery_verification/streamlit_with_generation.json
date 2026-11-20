@@ -1,0 +1,111 @@
+{
+  "started_utc": "2026-11-20T14:51:11.694875+00:00",
+  "frozen_protocol_sha256": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+  "tests": [
+    {
+      "name": "python_syntax",
+      "passed": true,
+      "files": 29
+    },
+    {
+      "name": "streamlit_startup",
+      "passed": true,
+      "default_context": 6,
+      "default_mode": "classic"
+    },
+    {
+      "name": "empty_question_guard",
+      "passed": true
+    },
+    {
+      "name": "real_classic_rrf_colbert_top6",
+      "passed": true,
+      "question_id": "FOMC_003",
+      "chunk_ids": [
+        "MIN_2021-04-28_C0028",
+        "MIN_2021-06-16_C0014",
+        "STA_2021-01-27_C0001",
+        "MIN_2021-01-27_C0048",
+        "MIN_2021-01-27_C0051",
+        "MIN_2022-06-15_C0021"
+      ],
+      "timings": {
+        "assets_s": 13.896,
+        "retrieval_s": 0.057,
+        "reranking_s": 5.017,
+        "retrieval_total_s": 18.969,
+        "candidate_count": 20,
+        "selected_count": 6,
+        "context_k": 6,
+        "generation_s": 0,
+        "total_s": 18.986
+      },
+      "matches_existing_benchmark": true,
+      "selected_passages": 6
+    },
+    {
+      "name": "real_classic_rrf_colbert_top5",
+      "passed": true,
+      "question_id": "FOMC_003",
+      "chunk_ids": [
+        "MIN_2021-04-28_C0028",
+        "MIN_2021-06-16_C0014",
+        "STA_2021-01-27_C0001",
+        "MIN_2021-01-27_C0048",
+        "MIN_2021-01-27_C0051"
+      ],
+      "timings": {
+        "assets_s": 0.0,
+        "retrieval_s": 0.075,
+        "reranking_s": 4.644,
+        "retrieval_total_s": 4.719,
+        "candidate_count": 20,
+        "selected_count": 5,
+        "context_k": 5,
+        "generation_s": 0,
+        "total_s": 4.791
+      },
+      "matches_existing_benchmark": true,
+      "selected_passages": 5
+    },
+    {
+      "name": "real_explainability_panel",
+      "passed": true
+    },
+    {
+      "name": "temporal_fallback_without_period",
+      "passed": true,
+      "persisted_mode": "classic",
+      "transient_warning_visible_after_rerun": false
+    },
+    {
+      "name": "real_structured_generation_dev",
+      "passed": true,
+      "question_id": "FOMC_035",
+      "generation_timing": {
+        "wall_s": 96.081,
+        "load_s": 0.007,
+        "prompt_eval_s": 83.351,
+        "eval_s": 11.904,
+        "prompt_tokens": 3042,
+        "generated_tokens": 73
+      },
+      "semantic_correctness_certified": false,
+      "output_file": "real_generation_dev.json"
+    },
+    {
+      "name": "real_streamlit_http_server",
+      "passed": true,
+      "health": "ok",
+      "homepage_http": 200,
+      "port": 57582
+    }
+  ],
+  "new_holdout_scored": false,
+  "final_independent_test_executed": false,
+  "browser_visual_layout_verified": false,
+  "real_retrieval_models": true,
+  "mocked_model_calls": false,
+  "status": "passed",
+  "finished_utc": "2026-11-20T14:53:28.902524+00:00"
+}

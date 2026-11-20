@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-20T15:56:23.081031+00:00",
+  "workdir": "C:\\Users\\LENOVO\\Desktop\\VS_Codex\\RAG_FOMC\\tmp\\reproduction_rebuild",
+  "interpreter": "C:\\Users\\LENOVO\\Desktop\\VS_Codex\\RAG_FOMC\\.venv\\Scripts\\python.exe",
+  "clean_dependency_install": false,
+  "local_pretrained_weights_reused": true,
+  "steps": [
+    {
+      "name": "rebuild_corpus_indexes",
+      "exit_code": 1,
+      "seconds": 457.76599999997416,
+      "log": "results/reproduction/rebuild_corpus_indexes.log"
+    }
+  ],
+  "status": "failed",
+  "local_acquisition": {
+    "documents": 93,
+    "hashes_verified": true,
+    "network_download": false
+  },
+  "error": "RuntimeError: rebuild_corpus_indexes failed; see C:\\Users\\LENOVO\\Desktop\\VS_Codex\\RAG_FOMC\\results\\reproduction\\rebuild_corpus_indexes.log",
+  "finished_utc": "2026-11-20T16:04:32.785460+00:00"
+}

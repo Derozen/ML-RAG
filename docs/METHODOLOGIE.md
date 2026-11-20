@@ -54,6 +54,29 @@ Le module temporel est une variante exploratoire : il détecte les périodes dem
 
 ## Évaluation et interprétation
 
+### Définitions exactes et agrégation
+
+Pour une question q, R(q) est l’ensemble des pages annotées de grade strictement
+positif. P@K(q) désigne les K premières pages uniques du classement, et C_B(q)
+les pages de tous les B chunks sélectionnés, avec B = 5 ou 6.
+
+- `Recall@K(q) = |P@K(q) ∩ R(q)| / |R(q)|`.
+- `Couverture_contexte_B(q) = |C_B(q) ∩ R(q)| / |R(q)|`.
+- `Toutes_références_B(q) = 1` si `R(q) ⊆ C_B(q)`, sinon 0.
+- `DCG@K(q) = somme_{r=1..K} (2^grade(page_r) − 1) / log2(r+1)` ;
+  `nDCG@K(q) = DCG@K(q) / IDCG@K(q)`, avec l’idéal trié sur tous les grades.
+- `RR@K(q) = 1/r` pour le premier rang positif `r ≤ K`, sinon 0 ;
+  `MRR@K = moyenne_q RR@K(q)`.
+
+Tous les tableaux agrègent par moyenne **par question**, sans pondération par
+nombre de pages. Les questions possèdent au moins une référence positive :
+aucun dénominateur nul n’est traité comme un échec de récupération. Les jeux
+actuels n’évaluent donc pas une politique d’abstention sur des questions sans réponse.
+Dans le tableau top-6, nDCG et MRR sont tronqués à six pages uniques, alors que
+la couverture parcourt toutes les pages de six chunks. Dans le tableau top-5,
+les colonnes nDCG@5 et nDCG@6 restent deux coupures distinctes ; MRR utilise le
+budget de cinq pages. Les métriques du pool complet ne sont pas substituées à celles du contexte.
+
 Les 279 annotations silver portent sur des pages, avec grades 1 et 2. Les grades sont conservés. Les pages des chunks sont dédoublonnées dans leur ordre d’apparition, avec ordre physique à l’intérieur d’un chunk multipage. Cette convention impose un ordre aux pages d’un même chunk et doit être indiquée dans le rapport.
 
 - **Recall@K** : proportion des pages pertinentes annotées présentes parmi les K premières pages uniques.
@@ -70,4 +93,4 @@ Les latences sont exploratoires : chargements, préencodage ColBERT et coût par
 
 ## Reproduction et livrables
 
-Le README décrit l’installation, les commandes, la démonstration locale et les fichiers de résultats. La revue ECC précise les livrables encore à assembler : rapport académique complet, présentation et vidéo de démonstration de 15–20 minutes. L’existence d’une application locale ne prouve pas un déploiement public.
+Le README décrit l’installation, les commandes, la démonstration locale et les fichiers de résultats. Le rapport technique est consolidé ; les cinq actions sont suivies dans [FINALISATION.md](FINALISATION.md), avec les preuves et limites de [reproduction](REPRODUCTION.md). Les diapositives, le format académique demandé et la vidéo de 15–20 minutes sont des livrables distincts. L’existence d’une application locale ne prouve pas un déploiement public.

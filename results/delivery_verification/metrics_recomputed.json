@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "contexts_checked": 3480,
+  "budgets": [
+    5,
+    6
+  ],
+  "configurations_per_budget": 12,
+  "questions": 145,
+  "checks": [
+    "same twenty-candidate pools",
+    "page projection and deduplication",
+    "context recall",
+    "all-reference coverage",
+    "nDCG pages at 5 and 6",
+    "MRR pages at context budget",
+    "all 24 summary rows"
+  ],
+  "tolerance": 1e-12,
+  "source_results_modified": false,
+  "new_holdout_scored": false
+}

@@ -159,14 +159,14 @@ def main():
 
     assert hashes == {s: sha(ROOT / s) for s in sources}
     metadata = dict(population='145 exploratory questions; type-specific figure restricted to 85 dev questions',
-                    new_holdout_scored=False, input_sha256=hashes,
+                    figures_include_new_holdout=False, this_script_runs_models=False, input_sha256=hashes,
                     figures=names, points_derived_from_existing_metrics=True,
                     files_sha256={p.name: sha(p) for p in OUT.iterdir() if p.is_file() and p.name != 'provenance.json'})
-    (OUT / 'provenance.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     text = ['# Graphiques de la comparaison exploratoire actuelle', '',
             '**Résultats exploratoires des 145 questions ; aucune figure ne provient du test final indépendant.**', '',
-            'Ces résultats sont conservés comme référence exploratoire. Le nouveau lot candidat de 20 questions '
-            'n’a pas encore de scores validés pour les remplacer. Les anciennes versions à 200 ou 110 questions '
+            'Ces résultats sont conservés comme référence exploratoire. Les [scores supplémentaires des 20 questions]'
+            '(../candidate_provisional/INDEX.md) restent provisoires ; leurs grades ont été acceptés globalement '
+            'par l’utilisateur, sans indépendance établie. Les anciennes versions à 200 ou 110 questions '
             'ne sont pas représentées ici.', '',
             'Chaque figure est disponible en PNG et SVG. Les valeurs viennent des fichiers CSV existants, '
             'sans nouvelle exécution des modèles. Les empreintes des entrées figurent dans `provenance.json`.', '']
@@ -175,6 +175,8 @@ def main():
     for name, title in zip(names, titles):
         text += [f'## {title}', '', f'![{title}]({name}.png)', '', f'[Version SVG]({name}.svg)', '']
     (OUT / 'INDEX.md').write_text('\n'.join(text), encoding='utf-8')
+    metadata['files_sha256'] = {p.name: sha(p) for p in OUT.iterdir() if p.is_file() and p.name != 'provenance.json'}
+    (OUT / 'provenance.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print('PASS: 5 figures, PNG+SVG, 145 exploratory questions / 85 dev, source metrics unchanged.')
 
 

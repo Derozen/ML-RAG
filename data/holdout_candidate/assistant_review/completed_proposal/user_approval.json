@@ -1,0 +1,15 @@
+{
+  "status": "user_global_acceptance_recorded",
+  "recorded_at_utc": "2026-11-20T15:47:32.796296+00:00",
+  "user_statement": "concernant la validation humanie,je valide donc revois !",
+  "acceptance_scope": "All 294 proposed page grades accepted globally by project user",
+  "accepted_page_grades": 294,
+  "grade_changes": 0,
+  "independent_page_by_page_reading_attested": false,
+  "semantic_comparison_against_145_attested": false,
+  "answer_and_facet_adjudication_attested": false,
+  "final_independent_test": false,
+  "proposed_qrels_sha256": "20d69aab519cd2dbe7422b11859bbdbabd1cf38f6504b2b152c82ee5d722b3e8",
+  "original_grid_sha256": "f85438fafa98b8db32ab1c0331fdd171cc7b8c4a76f927d1309d99f6aceca63e",
+  "accepted_grid_sha256": "d1f6b9c64a4f31d4b72014dfee5c52639ec7f08111bfedb7b9998681e62bd977"
+}

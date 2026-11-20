@@ -1,257 +1,136 @@
-# RAG FOMC — 145 questions et références silver de pages
+# RAG FOMC ? r?cup?ration, reranking et ?valuation
 
-## Évaluation supplémentaire du lot candidat
+Un seul projet actif : **93 PDF, 838 pages et 1 692 chunks**. Les 145 questions
+constituent la comparaison exploratoire. Les 20 questions suppl?mentaires sont
+une ?valuation compl?mentaire ? scores provisoires ; leurs 294 grades ont ?t?
+accept?s globalement par l?utilisateur apr?s le calcul. Leur ind?pendance
+s?mantique n?est pas ?tablie. Les ?tudes 200/110 sont archiv?es dans `_archive/`.
 
-La commande `.\.venv\Scripts\python.exe scripts/score_candidate.py --provisional`
-évalue les 20 questions sur les **qrels proposés par l’assistant**, avec les 12
-configurations et des contextes de 5/6 chunks. Chaque exécution possède son dossier
-dans `results/candidate_provisional/`, avec scores, classements, graphique et rapport.
-Ce calcul ne constitue pas un test final indépendant validé ; la validation des
-annotations et des réponses reste requise. Le lot est désormais exposé aux scores.
-Les paragraphes historiques ci-dessous qui décrivent le lot comme « non scoré »
-décrivent son état avant cette mesure provisoire.
+## Lire les r?sultats actuels
 
-Le recalcul séparé se lance avec
-`.\.venv\Scripts\python.exe scripts/verify_candidate_scores.py results/candidate_provisional/<identifiant_du_run>`.
-Il contrôle les 480 contextes et les 24 synthèses sans réinterroger les modèles.
+- [Rapport du projet](docs/RAPPORT_PROJET.md).
+- [?tat des cinq actions de finalisation](docs/FINALISATION.md).
+- [D?cision sur le lot de 20 questions](docs/STATUT_HOLDOUT.md).
+- [Cinq figures de comparaison exploratoire PNG/SVG](results/figures/INDEX.md).
+- [Scores des 145 questions, six chunks](results/context_top6/comparison.csv).
+- [Scores suppl?mentaires des 20 questions et graphique](results/candidate_provisional/INDEX.md).
+- [Analyse d?erreurs consolid?e et r?sultats par type sur dev](results/finalization/ANALYSE_ERREURS.md).
+- [Trois cas avec citations v?rifi?es](results/audit_project/ANALYSE_QUALITATIVE_DEV.md).
+- [Analyse exploratoire du corpus](results/audit_project/RAPPORT.md).
+- [Concordance avec les consignes ECC](docs/CONFORMITE_ECC.md).
+- [M?thodes](docs/METHODOLOGIE.md) et [r?f?rences scientifiques](docs/REFERENCES.md).
 
-## Rapport consolidé et revue des consignes
+Les **20 candidats** sont reclass?s avant de s?lectionner **5 ou 6 chunks**.
+Les qrels portent sur des pages PDF ; la couverture de toutes les pages du contexte
+et les m?triques limit?es aux premi?res pages uniques n?ont pas le m?me p?rim?tre.
+Le rapport `results/RAPPORT.md` d?crit le pool complet ; la comparaison principale
+est dans `results/context_top6/`.
 
-- [Graphiques de comparaison : cinq figures PNG et SVG](results/figures/INDEX.md).
-- [Vérifications techniques de Streamlit, des métriques et statut du test final](docs/VERIFICATION_TECHNIQUE.md).
+## Installation et application
 
-- [Rapport du projet : contexte, méthode, résultats et discussion](docs/RAPPORT_PROJET.md).
-- [Concordance avec les consignes ECC et livrables restants](docs/CONFORMITE_ECC.md).
-- [Trois cas de développement avec preuves contrôlées dans les PDF](results/audit_project/ANALYSE_QUALITATIVE_DEV.md).
-- [Références scientifiques vérifiées](docs/REFERENCES.md).
-
-La revue documentaire se reproduit avec
-`.\.venv\Scripts\python.exe scripts/build_project_review.py`. Elle utilise les
-résultats existants, sans appeler les modèles ni scorer le nouveau lot candidat.
-Les corrections de références dev proposées restent séparées des qrels figés.
-
-Pour produire les figures et les inclure dans le rapport :
+Python 3.12.7 est utilis? sur le poste de r?f?rence. Depuis ce dossier :
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/plot_comparisons.py
-.\.venv\Scripts\python.exe scripts/build_project_review.py
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe src/build_indexes.py --download-models
+.\.venv\Scripts\python.exe -m streamlit run app/streamlit_app.py
 ```
 
-Pour vérifier les métriques sans relancer les modèles, puis tester l’application
-avec une ancienne question dev et les vrais modèles de recherche :
+Les r?visions sont fix?es dans `src/common.py` et le [verrou](protocol/frozen_pipeline_20261120.json).
+Les poids ne sont pas inclus dans le paquet de remise. L?installation et leur
+acquisition exigent un acc?s r?seau. Voir [REPRODUCTION.md](docs/REPRODUCTION.md)
+pour les succ?s r?ellement observ?s et l??chec de l?installation vierge.
 
-```powershell
-.\.venv\Scripts\python.exe scripts/verify_metrics.py
-.\.venv\Scripts\python.exe scripts/verify_delivery.py
-# Optionnel : inclure un vrai appel de génération Ollama sur une ancienne question dev.
-.\.venv\Scripts\python.exe scripts/verify_delivery.py --generation
-```
+Pour la g?n?ration, installer/d?marrer Ollama puis `ollama pull qwen2.5:3b`.
+Sans Ollama, d?sactiver la g?n?ration dans l?interface. Cette fonctionnalit? est
+exp?rimentale : une r?ponse r?elle ?tait partielle et citait d?autres r?unions.
+Voir les [traces techniques](docs/VERIFICATION_TECHNIQUE.md).
 
-Ces commandes ne lancent pas le test final indépendant. Les essais Streamlit
-fonctionnels utilisent AppTest et un serveur HTTP local temporaire ; ils ne
-certifient ni la mise en page dans tous les navigateurs, ni la justesse sémantique
-des réponses. Le chargement des modèles et la génération peuvent être lents sur CPU.
-
-Un essai à froid a dépassé le délai de génération. Avant la démonstration, on peut
-précharger **le modèle déjà installé**, sans modifier ses poids ou les paramètres :
+Pr?chargement optionnel du mod?le d?j? install? avant une d?monstration :
 
 ```powershell
 Invoke-RestMethod -Uri 'http://127.0.0.1:11434/api/generate' -Method Post -ContentType 'application/json' -Body '{"model":"qwen2.5:3b","prompt":"","stream":false,"keep_alive":"15m"}' -TimeoutSec 600
 ```
 
-Le premier chargement observé a pris environ 184 secondes ; ce n'est pas une
-garantie de durée sur un autre poste. Pour contrôler uniquement le serveur Web,
-sans charger les modèles : `.\.venv\Scripts\python.exe scripts/verify_delivery.py --http-only`.
+## Corpus et reproduction
 
-## Lot candidat de confirmation : préannotation consolidée
-
-Le nouveau lot de 20 questions dispose maintenant de **294/294 grades proposés**
-(78 positifs, 216 négatifs). Le dossier à utiliser est
-[assistant_review/completed_proposal](data/holdout_candidate/assistant_review/completed_proposal/RAPPORT.md).
-Il contient la grille consolidée, les motifs et les preuves. Les versions
-précédentes sont conservées comme historique ; le système RAG reste unique et figé.
-
-**Le lot n'est pas encore un test final validé.** Les grades sont des propositions
-de l'assistant ; notamment les négatifs de la dernière passe nécessitent une
-lecture indépendante des pages complètes. La nouveauté sémantique, les réponses
-et les désaccords restent à confirmer. Aucune performance n'a été calculée sur
-ce lot. Voir [les outils de revue](annotation_tools/README.md) pour les commandes.
-
-## Revue du 20 novembre 2026 : contexte final et consignes ECC
-
-Le pipeline distingue désormais **20 candidats à reclasser** et **6 passages finaux** (5 également disponibles). Le budget final est défini par `CONTEXT_K` dans `src/common.py`. L’application propose 5 ou 6 passages ; les commandes de génération et la variante temporelle ont également un défaut de 6 et un plafond de 6 pour la recherche. Les anciens classements complets restent utiles pour l’audit des candidats.
-
-- [Fondements et méthodologie](docs/METHODOLOGIE.md)
-- [Revue des consignes ECC et actions restantes](results/audit_project/RAPPORT.md)
-- [Comparaison des contextes de 6 passages](results/context_top6/RAPPORT.md)
-- [Comparaison des contextes de 5 passages](results/context_top5/RAPPORT.md)
-
-Les modules ajoutés depuis la première version sont conservés : `rag_pipeline.py` orchestre une question libre, `generate.py` utilise Ollama, `temporal_retrieval.py` propose une variante temporelle exploratoire, `explain.py`, `citation_guard.py`, `coverage_guard.py` et `evidence_audit.py` aident à examiner les réponses. `audit_references.py` prépare une revue humaine ciblée ; `compare_rrf_depth.py` correspond à une expérience de profondeur RRF distincte. Les fichiers `*_backup.py` ont été rangés dans `_archive/revue_20261120/legacy_backups/`. Les modifications antérieures ont été sauvegardées avant cette revue.
-
-### Installation et démonstration locale
+Le [manifeste du corpus](data/corpus_manifest.json) contient noms, types, URL et
+SHA-256. Les PDF exacts et les index sont inclus dans le paquet local de remise.
+Pour importer depuis un dossier `raw/`, ou tenter les URL officielles :
 
 ```powershell
-cd C:\Users\LENOVO\Desktop\VS_Codex\RAG_FOMC
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m streamlit run app/streamlit_app.py
+.\.venv\Scripts\python.exe scripts/acquire_corpus.py --from-dir 'D:\corpus\raw'
+# Sans --from-dir : t?l?chargement, avec refus de tout SHA-256 diff?rent.
+.\.venv\Scripts\python.exe scripts/acquire_corpus.py
 ```
 
-Ollama doit être installé et démarré pour générer des réponses. Préparer le modèle avec `ollama pull qwen2.5:3b`, ou désactiver la génération dans l’interface pour examiner seulement les passages. Le mode classique correspond au benchmark ; le mode temporel ajoute des heuristiques et n’est pas inclus dans cette comparaison standard.
+Reconstruction de l?extraction, de l?alignement et des index dans un dossier neuf,
+puis recalcul des m?triques des classements fig?s, tests et Streamlit r?el :
 
 ```powershell
-# Les scores existants sont validés et les contextes top-5/top-6 exportés sans rescoring.
-.\.venv\Scripts\python.exe src/rerank.py
-# Évaluation complète des candidats ET des contextes finaux.
-.\.venv\Scripts\python.exe src/evaluate.py
-# Profil exploratoire, analyse des erreurs et revue ECC.
-.\.venv\Scripts\python.exe src/audit_project.py
+.\.venv\Scripts\python.exe scripts/reproduce_project.py --workdir tmp/reproduction_nouvelle
 ```
 
-Les exports finaux sont `results/reranking/{bm25,colbert,cross_encoder}_top6.jsonl` et `_top5.jsonl`. Les mêmes budgets sont évalués pour les méthodes sans reranking. Les résultats sont dans `results/context_top6/` et `context_top5/`. La couverture porte sur les pages associées aux chunks effectivement retenus ; ce n’est pas une validation des réponses générées.
+Cette commande r?utilise les d?pendances de l?interpr?teur et les poids locaux ;
+elle n?est pas une installation vierge. `--python` permet de choisir un autre
+interpr?teur d?j? pr?par?. Pour refaire aussi la recherche/reranking, lancer
+`python run.py --from-step retrieve` dans la **copie de travail**. Le pipeline
+complet `python run.py` ?crit ses sorties : pr?server les r?sultats de r?f?rence.
 
-Protocole confirmé : les **145 questions restent exploratoires** ; les **85 questions `dev`** servent aux corrections et à l’analyse détaillée des erreurs. Aucun ancien lot n’est présenté comme indépendant. Aucun entraînement supervisé local n’est effectué : les modèles préentraînés sont utilisés sans ajustement des poids. Les qrels n’entrent pas dans le calcul des récupérateurs/rerankers. Le gel conserve le code, les paramètres, les poids, les index et le digest du modèle Ollama ; un simple redécoupage ne supprimerait pas l’examen antérieur des résultats.
+## Contr?les et exports
 
 ```powershell
-# Vérifier le gel, sans le remplacer par une nouvelle version.
 .\.venv\Scripts\python.exe src/protocol.py verify
+.\.venv\Scripts\python.exe -m unittest discover -s tests -q
+.\.venv\Scripts\python.exe scripts/verify_metrics.py
+.\.venv\Scripts\python.exe scripts/verify_delivery.py
+# Optionnel, lent : un vrai appel Ollama sur une ancienne question dev.
+.\.venv\Scripts\python.exe scripts/verify_delivery.py --generation
 ```
 
-Le manifeste est `protocol/frozen_pipeline_20261120.json`. Le système retenu est le mode classique RRF + ColBERT, 20 candidats et 6 sorties. Toute modification ultérieure impose de déclarer une nouvelle version. Un nouveau lot candidat de 20 questions avec preuves et qrels est préparé dans `data/holdout_candidate/` : il ne doit pas être évalué avant validation humaine de ses annotations et de son absence de doublons sémantiques. Il n’a pas servi aux réglages et aucun score n’en est annoncé. Cette précaution n’établit pas à elle seule une indépendance statistique entre sujets issus du même corpus. Rapport final complet, diapositives et vidéo de 15–20 minutes restent des livrables à préparer ou vérifier.
-
-Le jeu actif est désormais **`queries_145.jsonl`**, accompagné de **`silver_qrels_PAGES.trec`**. Les deux fichiers fournis sont copiés sans modification dans `data/evaluation/`. Les 110 anciennes questions et leurs résultats sont conservés dans `_archive/phase_110_20261114/`.
-
-Les **145 questions sont évaluées ensemble**, sans entraînement local ni découpage train/test. Le fichier fourni contient des étiquettes `dev`, `test` et `validation` ; elles restent disponibles comme métadonnées, mais ne commandent aucun partage des calculs. Les récupérateurs et rerankers reçoivent uniquement l’identifiant et le texte de la question.
-
-## Organisation
-
-```text
-RAG_FOMC/
-├── README.md
-├── requirements.txt
-├── run.py
-├── data/
-│   ├── raw/                     # 46 minutes + 47 statements, PDF 2021–2026
-│   ├── processed/
-│   │   ├── manifest.json        # Sources, pages et empreintes des 93 PDF
-│   │   ├── paragraphs.jsonl
-│   │   ├── chunks.jsonl         # 1 692 passages avec provenance
-│   │   └── chunk_report.json
-│   └── evaluation/
-│       ├── queries_145.jsonl            # Questions et métadonnées originales
-│       ├── silver_qrels_PAGES.trec      # Qrels originaux : question, 0, PDF#page, grade
-│       ├── page_qrels.tsv               # Mêmes 279 jugements, au format tabulaire
-│       ├── chunk_pages.jsonl            # Provenance des chunks vers les pages
-│       └── alignment_report.json       # Validation et empreintes
-├── indexes/
-│   ├── bm25/
-│   └── dense/
-├── src/
-│   ├── chunk.py                 # 1. Extraction et découpage des PDF
-│   ├── align_references.py      # 2. Validation des pages et de leur provenance
-│   ├── build_indexes.py         # 3. Index BM25/E5 et préparation des modèles
-│   ├── retrieve.py              # 4. BM25, E5, hybride RRF
-│   ├── rerank.py                # 5. BM25, ColBERT, cross-encoder
-│   ├── evaluate.py              # 6. Métriques de pages, rapport, graphiques
-│   ├── common.py                # Paramètres et fonctions communes
-│   └── pdf_layout.py            # Lecture des colonnes et lignes PDF
-├── tests/
-│   └── test_pipeline.py
-├── results/
-│   ├── retrieval/               # Classements des 20 chunks par méthode/question
-│   ├── reranking/               # Reclassements et temps
-│   ├── plots/                   # Trois graphiques PNG
-│   ├── comparison.csv           # Moyennes des 12 configurations
-│   ├── metrics_per_question.csv # 145 × 12 = 1 740 évaluations
-│   ├── page_rankings.jsonl       # Pages uniques et chunks pour chaque classement
-│   ├── paired_changes.csv       # Gains et pertes face au classement initial
-│   ├── cases.jsonl              # Exemples de gains et pertes
-│   ├── verification.json
-│   └── RAPPORT.md
-└── _archive/                    # Anciennes études 200 puis 110 questions, inactives
-```
-
-Il existe un seul projet actif. Les anciens ZIP sont dans l’archive de la phase 200. Les dossiers `.venv` et `.cache` contiennent l’environnement Python et les checkpoints locaux.
-
-## Utiliser les résultats
-
-Ouvrir d’abord **`results/RAPPORT.md`**, puis **`results/comparison.csv`**. Les métriques de ce jeu concernent les **pages PDF uniques**. Les graphiques sont dans `results/plots/` :
-
-1. `01_retrieval.png` : comparaison BM25, E5 et RRF.
-2. `02_reranking_ndcg.png` : classement initial et trois rerankers.
-3. `03_latency.png` : temps CPU exploratoires.
-
-Pour suivre une question, filtrer `metrics_per_question.csv` par `question_id`, consulter les pages ordonnées dans `page_rankings.jsonl`, puis ouvrir les PDF de `data/raw/` à leurs pages physiques. `cases.jsonl` et le rapport présentent des exemples avant/après.
-
-## Exécuter dans PowerShell
+AppTest et HTTP ne remplacent pas une inspection graphique dans tous les navigateurs.
+Les dur?es CPU apr?s ?chauffement ne repr?sentent pas une requ?te interactive froide.
+Pour recalculer explicitement les scores provisoires et v?rifier leurs m?triques :
 
 ```powershell
-cd C:\Users\LENOVO\Desktop\VS_Codex\RAG_FOMC
-$env:HF_HUB_OFFLINE = "1"
-
-# Recalculer uniquement les métriques, graphiques et rapport avec les rangs existants
-.\.venv\Scripts\python.exe src/evaluate.py
-
-# Refaire la recherche puis le reranking et les métriques
-.\.venv\Scripts\python.exe run.py --from-step retrieve
-
-# Refaire les six étapes, y compris découpage et indexation
-.\.venv\Scripts\python.exe run.py
-
-# Tests
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe scripts/score_candidate.py --provisional
+.\.venv\Scripts\python.exe scripts/verify_candidate_scores.py results/candidate_provisional/20261120T151147Z
 ```
 
-Les index documentaires existants sont réutilisables : ils ne dépendent pas des questions. Le contrôle des index vérifie les empreintes du corpus et les paramètres, sans exiger la même taille de jeu de questions. Les métadonnées de construction du corpus/index peuvent conserver la taille du jeu historique ; le jeu actif est défini par `queries_145.jsonl` et vérifié dans chaque nouveau run.
+Chaque mesure cr?e un dossier s?par?. Les r?ponses et qrels ne sont pas transmis
+aux r?cup?rateurs/rerankers. La validation globale est dans
+[user_approval.json](data/holdout_candidate/assistant_review/completed_proposal/user_approval.json) ;
+la [grille actuelle](data/holdout_candidate/assistant_review/completed_proposal/human_review.csv)
+est dans `assistant_review/completed_proposal/`. La grille de niveau sup?rieur est historique.
 
-Le reranking réutilise un calcul terminé seulement si les empreintes des candidats et la configuration correspondent. Pour refaire ses mesures depuis zéro, archiver les fichiers de `results/reranking/` avant de relancer. Un cache incompatible est refusé. Le calcul sur CPU peut prendre plusieurs minutes, particulièrement pour le cross-encoder.
-
-Si les checkpoints sont absents, les télécharger avant l’exécution hors ligne :
+Reconstruction des figures, du rapport et du ZIP local :
 
 ```powershell
-Remove-Item Env:HF_HUB_OFFLINE -ErrorAction SilentlyContinue
-.\.venv\Scripts\python.exe src/build_indexes.py --download-models
+.\.venv\Scripts\python.exe scripts/plot_comparisons.py
+.\.venv\Scripts\python.exe scripts/build_project_review.py
+.\.venv\Scripts\python.exe scripts/finalize_delivery.py
 ```
 
-Cette commande télécharge les checkpoints publics à révision fixée et vérifie les poids par SHA-256. Les questions et les rapports restent sur le poste pendant les calculs.
+Le paquet est `output/delivery/RAG_FOMC_remise.zip` ; son
+[inventaire](results/finalization/delivery_manifest.json) indique les empreintes.
+L?environnement Python et les poids sont exclus. Les preuves sont autoris?es
+par `.gitignore`, sans publication/pouss?e effectu?e vers un d?p?t distant.
 
-## Méthodes
+## Emplacement des codes
 
-Les PDF sont lus en tenant compte des colonnes et des lignes à plusieurs polices. Les chiffres et les négations sont conservés. Les chunks comportent au plus 400 tokens E5 de corps, avec chevauchement de 60 tokens ; l’entrée complète reste sous 512 tokens. Les identifiants distinguent minutes et statements d’une même date.
+| ?tape | Fichier |
+|---|---|
+| Extraction PDF et d?coupage | `src/pdf_layout.py`, `src/chunk.py` |
+| Alignement des pages et r?f?rences | `src/align_references.py` |
+| Index BM25 et vectorisation E5 | `src/build_indexes.py` |
+| R?cup?ration BM25/E5/RRF | `src/retrieve.py` |
+| Reranking BM25/ColBERT/cross-encoder | `src/rerank.py` |
+| M?triques et contextes | `src/evaluate.py` |
+| Questions libres et g?n?ration | `src/rag_pipeline.py`, `src/generate.py` |
+| Interface | `app/streamlit_app.py` |
+| Figures, rapports et contr?les de remise | `scripts/` |
+| Annotations et tra?abilit? | `annotation_tools/` |
 
-- **BM25** : statistiques du corpus complet, k1=1,5 et b=0,75.
-- **Dense E5** : `intfloat/e5-small-v2`, vecteurs normalisés de 384 dimensions, cosinus exact, préfixes `query:` et `passage:`.
-- **Hybride RRF** : fusion des deux listes top-20, constante 60, puis sélection de 20 chunks.
-
-Chaque liste de 20 chunks est reclassée par :
-
-- **BM25**, avec les statistiques du corpus complet. BM25 sur sa propre liste est un contrôle d’identité.
-- **ColBERT**, checkpoint `answerdotai/answerai-colbert-small-v1` : poids BERT et projection apprise à 96 dimensions, marqueurs de rôle, normalisation des vecteurs de tokens, masquage de la ponctuation documentaire et somme MaxSim. Limites fixées à 64 tokens par question et 512 par document, sans expansion de requête.
-- **Cross-encoder**, `cross-encoder/ms-marco-MiniLM-L6-v2` : score de chaque paire question/passage ; limite 512 tokens, troncature du document uniquement si nécessaire.
-
-Les révisions exactes sont dans `common.py` et les fichiers `*_run.json`. Les mêmes 20 identifiants sont contrôlés avant et après chaque reranking.
-
-## Pourquoi évaluer des pages ?
-
-Les **279 jugements silver** fournis concernent **169 pages distinctes dans les 93 documents** : 188 grades 2 et 91 grades 1. Les grades sont conservés exactement. Le programme vérifie les questions, doublons, fichiers, numéros physiques de pages et présence des pages dans le texte indexé. Il ne prétend pas avoir réannoté leur pertinence sémantique.
-
-Un chunk peut couvrir plusieurs pages et plusieurs chunks peuvent provenir d’une même page. La projection utilisée est :
-
-1. Parcourir les chunks dans leur ordre de classement.
-2. Pour chaque chunk, prendre les pages de ses paragraphes, par ordre physique.
-3. Garder chaque page à sa première apparition seulement.
-
-Cette convention est indépendante des qrels. Elle impose un ordre physique aux pages d’un même chunk et peut donc influencer les métriques aux coupures. Aucun jugement de pertinence de chunk n’est inventé à partir d’une page pertinente.
-
-**Recall@5/10/20** mesure la proportion des pages pertinentes annotées retrouvées dans les premières pages uniques. **nDCG@10** utilise le gain `2^grade - 1`, la décote `log2(rang + 1)` et un idéal calculé sur tous les qrels de la question. **MRR@10** mesure l’inverse du rang de la première page pertinente, ou zéro si aucune n’apparaît dans les dix premières.
-
-**`pool_page_recall`** mesure la couverture de l’ensemble des pages présentes dans les 20 chunks candidats. Cette couverture reste identique après reranking. En revanche, Recall@20 peut changer si les 20 chunks couvrent plus de 20 pages uniques : ces deux coupures ne désignent pas la même chose.
-
-Une page pertinente peut contenir un chunk qui ne répond pas à la question. Les métriques de pages sont donc plus grossières que des métriques reposant sur des preuves localisées dans les passages. Les pages non annotées valent zéro pour le calcul, sans être prouvées non pertinentes. Le caractère silver et la couverture potentiellement incomplète des annotations limitent les conclusions.
-
-Les 145 questions forment un jeu unique de comparaison descriptive à paramètres fixés. Les scores ne constituent pas une évaluation indépendante après optimisation et ne sont pas directement comparables aux anciens scores de chunks.
-
-## Temps et reproductibilité
-
-Les durées correspondent à un passage CPU après échauffement, sans chargement des modèles. ColBERT préencode les passages candidats : ce coût est enregistré séparément dans `colbert_run.json`, puis exclu du temps en ligne. L’encodage de la question et MaxSim sont inclus dans le reranking. Le cross-encoder calcule les paires de chaque configuration sans cache partagé de scores. Les mesures restent exploratoires.
-
-Les fichiers de run et `verification.json` conservent les paramètres, versions, empreintes des entrées et contrôles de candidats.
+Toute modification du syst?me fig? doit ?tre d?clar?e dans une nouvelle version ;
+le verrou historique ne doit pas ?tre r??crit pour masquer une modification.

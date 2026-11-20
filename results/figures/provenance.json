@@ -1,0 +1,33 @@
+{
+  "population": "145 exploratory questions; type-specific figure restricted to 85 dev questions",
+  "figures_include_new_holdout": false,
+  "this_script_runs_models": false,
+  "input_sha256": {
+    "results/context_top6/comparison.csv": "91d2cd5040c006d85d6d80173513f7143d01156773da1a9c1884ced539c89087",
+    "results/context_top5/comparison.csv": "5c9ae18abe0865ad96344f277d7ed4932986d8b9f3e673d05dc04b531ae61767",
+    "results/context_top6/metrics_per_question.csv": "40999dc47465ba83d3523702acc1c73e1df11f5831a210580148914c45ad3658",
+    "results/audit_project/scores_by_question_type.csv": "28e158006896833c0cc7c7123fa2e46b6ba830c733f4ffc0788100204adf01f8"
+  },
+  "figures": [
+    "01_recuperation",
+    "02_reranking",
+    "03_effet_reranking",
+    "04_budget_contexte",
+    "05_types_dev"
+  ],
+  "points_derived_from_existing_metrics": true,
+  "files_sha256": {
+    "01_recuperation.png": "4dfb8eea7ea13be21d947bf7e12d38a574a5ca6ca8157c6b8eccfbe21116164d",
+    "01_recuperation.svg": "480fc5029f7c2151630e65d34df8685704fd7c6df302f799ba076e2b52283760",
+    "02_reranking.png": "a581c452d65bfbd70afca2430dd64a8a87e2b468aa3a7d0a6ade8a7286a07efd",
+    "02_reranking.svg": "4c30df7f75eccfc49144f0ad5dfed6bb45741725850b6d3600e3b378ed474fc9",
+    "03_effet_reranking.png": "ea239bd0ed2f7ec91d194a86db1481f9513844d9ee79dc665e6e250e3e67e997",
+    "03_effet_reranking.svg": "1b1bdfdff3a70f85ac195471c1d8379e534000f40da7ef75b1662a8230158bc2",
+    "04_budget_contexte.png": "035e7e879eac0d682ad1e9a55e1bd656aba62d4ba354c1467f441a4872f4cfdd",
+    "04_budget_contexte.svg": "f10f6bdf45d63855fb57d73e0f25ec2531db528c83f0b20ba68a8a23e4f1ebdb",
+    "05_types_dev.png": "fedc12a1f3b4e9912fdba04ebe5798ee265e7b0054a3f2736699aa88e979fad8",
+    "05_types_dev.svg": "2867fa47e5e46810a430e78deeb093a2f4d3e383d7eb3199223b3d129f83c56e",
+    "INDEX.md": "4993a07275eed82ca00bea89f0cfac529ec1c013f0ffec1f47f6f148af4d8c61",
+    "paired_changes_context6.csv": "93565ab8ee34cbb9cc3dc6e7b25d17fd20bb95132c98fefb88c2bea5fa8bd571"
+  }
+}

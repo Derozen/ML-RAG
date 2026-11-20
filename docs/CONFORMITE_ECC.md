@@ -12,15 +12,15 @@ technique partielle ne constitue pas une validation pédagogique ou une remise f
 | Baseline simple et méthodes avancées | Présentes | BM25, E5 et RRF ; absence de reranking, BM25, ColBERT et cross-encoder. Comparaison des 12 configurations au même budget de six chunks. |
 | Graphiques de comparaison demandés | Présents et intégrés au rapport | [Cinq figures PNG/SVG](../results/figures/INDEX.md) : récupération, 12 configurations, gains/pertes, budget 5/6, types sur dev. Données exploratoires explicitement étiquetées. |
 | Prévention des fuites ; lots entraînement/validation/test | Adaptation documentée, pas conformité littérale revendiquée | Aucun poids ajusté localement : pas de lot d’entraînement supervisé nécessaire. Les 145 questions déjà consultées sont exploratoires, seules les 85 dev servent aux diagnostics détaillés. Le corpus documentaire partagé est normal pour la recherche. Cette justification doit être présentée à l’évaluateur au regard de la consigne générale de séparation. |
-| Évaluation indépendante après choix des paramètres | Non achevée ; mesure provisoire séparée | Code, poids, index et paramètres figés. La mesure des 20 questions sur les 294 grades proposés est conservée dans `results/candidate_provisional/`. Elle ne constitue pas un test final validé : contrôles sémantiques, validation des grades et adjudication des réponses restent requis. |
+| Évaluation indépendante après choix des paramètres | Non achevée ; grades acceptés globalement par l’utilisateur | Code, poids, index et paramètres figés. La mesure des 20 questions est conservée dans `results/candidate_provisional/`. L’utilisateur a accepté les 294 grades proposés sans modification ; la revue sémantique des anciennes questions et l’adjudication des réponses/facettes restent à consigner avant de revendiquer un test final indépendant. |
 | Interprétabilité par une méthode adaptée | Analyse d’erreurs documentée | Diagnostic automatique sur 85 dev × 12 configurations, complété par [trois cas relus dans les sources](../results/audit_project/ANALYSE_QUALITATIVE_DEV.md). Cela répond à l’option « analyse détaillée des erreurs » de la capture ; SHAP n’est pas présenté comme obligatoire pour ce moteur. |
 | Sources ouvertes et préparation traçable | Présentes ; annotations à confirmer | 93 publications FOMC enregistrées avec URL et empreinte. Les qrels silver de l’utilisateur ne sont pas des jugements officiels certifiés. Deux références dev manquantes sont proposées séparément, sans modifier les scores historiques. |
 | Solution automatisée et déployée si possible | Démonstration locale disponible | Streamlit + recherche/reranking + génération optionnelle Ollama. Le contrôle top-6 en ligne est enregistré. Un déploiement public et une évaluation complète des réponses générées ne sont pas établis. |
 | Vérification réelle de la génération | Fonctionnement observé, qualité insuffisamment validée | Un démarrage à froid a expiré ; préchargement réussi puis réponse structurée réelle en environ 96 s. La réponse dev est partielle et cite aussi d’autres réunions : contrôle temporel/complétude à corriger dans une version déclarée, sans modifier silencieusement le système figé. |
-| Dépôt Git | Dépôt local et origine configurée | URL distante configurée, sans vérification distante de sa synchronisation. Des fichiers de travail restent à intégrer à la version remise ; aucune publication effectuée par cette revue. |
+| Dépôt Git | Preuves autorisées, paquet local préparé | `.gitignore` autorise désormais figures, résultats, analyses et traces. URL distante configurée, sans publication/poussée effectuée par cette revue ; paquet local avec inventaire SHA-256. |
 | README installation/exécution/reproduction | Présent, liens actualisés | [README](../README.md), versions et commandes. Le verrou contrôle la reproductibilité du système figé. |
-| Code et fichiers nécessaires à la reproduction | Présents localement | Modèles/index/PDF disponibles localement, certains ignorés par Git. Pour un autre poste, vérifier leur disponibilité et les instructions d’obtention ; l’URL du dépôt seule ne fournit pas ces fichiers. |
-| Rapport écrit : contexte, objectifs, fondements, méthode, résultats, discussion | Assemblé, version de travail à relire | [RAPPORT_PROJET.md](RAPPORT_PROJET.md) rassemble ces éléments, avec limites explicites et bibliographie. Mise en forme académique et validation finale restent à faire. |
+| Code et fichiers nécessaires à la reproduction | Paquet local assemblé ; installation vierge non confirmée | PDF, index, code et preuves sont inclus dans le paquet ; poids et environnement Python exclus. [Reproduction](REPRODUCTION.md) distingue reconstruction isolée avec dépendances réutilisées et échecs d’installation/acquisition distante. |
+| Rapport écrit : contexte, objectifs, fondements, méthode, résultats, discussion | Relu et consolidé techniquement | [RAPPORT_PROJET.md](RAPPORT_PROJET.md) contient équations, tableaux des 145/20 questions, résultats par type, trois cas qualitatifs et limites. Les exigences de format académique restent à appliquer si demandées. |
 | PowerPoint | Non identifié dans le projet actif | Préparer les diapositives à partir du rapport ; ne pas confondre rapport Markdown et présentation remise. |
 | Vidéo et démonstration de 15–20 minutes | Non identifiées dans le projet actif | Enregistrer une présentation avec démonstration réelle ; ne pas inventer une vidéo ni une preuve de fonctionnement non observée. |
 | Données accompagnées de sources et traitements | Documentées localement | Manifeste, méthodologie et profils ; compléter le paquet de remise pour un autre poste. |
@@ -42,18 +42,20 @@ pas le test final indépendant sur le nouveau lot.
    absence de preuve : les cas dev 004 et 035 contiennent des passages répondants
    sur des pages absentes des références silver. Les propositions de correction
    sont séparées dans `data/evaluation/audit/dev_qrels_proposals.trec`.
-4. Les 294 propositions du nouveau lot restent distinctes des annotations humaines.
-   La dernière passe négative repose sur un examen structuré, non une lecture humaine
-   exhaustive : son exhaustivité et son indépendance ne sont pas revendiquées.
+4. Les 294 propositions ont été acceptées globalement par l’utilisateur, sans changement.
+   Cet accord ne déclare pas une lecture indépendante page par page ni la comparaison
+   sémantique complète. La grille initiale et la trace de validation sont préservées.
 5. Le pipeline et les données historiques restent figés. Une mesure provisoire
-   des nouvelles questions est lancée séparément, sans réglage des paramètres.
+   des nouvelles questions a été exécutée séparément, sans réglage des paramètres.
    Ce lot est désormais exposé aux scores : une correction guidée par ceux-ci
    exigera une nouvelle confirmation.
 
 ## Ordre de finalisation
 
-Confirmer et adjuger les annotations du nouveau lot ; relire le rapport et sa
-présentation des limites ; préparer les diapositives et la vidéo ; vérifier la
-démonstration et le paquet de reproduction. La mesure finale du système figé
-attend les annotations approuvées. La capture mentionne le 30 novembre : cette
+Le [plan de finalisation](FINALISATION.md) clôt le lot supplémentaire comme
+évaluation descriptive à scores provisoires, avec grades acceptés globalement.
+Une confirmation indépendante est requise pour une conclusion confirmatoire,
+pas pour présenter honnêtement cette comparaison. L’installation vierge et la
+qualité de la génération restent limitées ; diapositives et vidéo sont distinctes.
+La capture mentionne le 30 novembre : cette
 information provient de la capture et n’a pas été confirmée auprès de l’établissement.

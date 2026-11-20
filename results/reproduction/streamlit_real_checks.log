@@ -1,0 +1,15 @@
+Gel vérifié: code, paramètres, données historiques, index et poids identiques.
+PASS python_syntax
+2026-11-20 16:14:04.216 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+PASS streamlit_startup
+PASS empty_question_guard
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2870.60it/s]
+16:14:18 | ColBERT encode 8/20 passages
+PASS real_classic_rrf_colbert_top6
+16:14:23 | ColBERT encode 8/20 passages
+PASS real_classic_rrf_colbert_top5
+PASS real_explainability_panel
+16:14:29 | ColBERT encode 8/20 passages
+PASS temporal_fallback_without_period
+PASS real_streamlit_http_server
+Gel vérifié: code, paramètres, données historiques, index et poids identiques.

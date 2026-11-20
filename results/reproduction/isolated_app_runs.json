@@ -1,0 +1,219 @@
+{
+  "6": {
+    "answer": "Local generation is disabled. Explore the retrieved evidence.",
+    "model": null,
+    "abstained": false,
+    "question": "Which two factors did the FOMC identify as holding down consumer price inflation at the beginning of the pandemic-era recovery?",
+    "periods": [],
+    "mode": "classic",
+    "retrieval": "hybrid_rrf",
+    "reranking": "colbert",
+    "structured": false,
+    "passages": [
+      {
+        "rank": 1,
+        "chunk_id": "MIN_2021-04-28_C0028",
+        "text": "health concerns, childcare responsibilities, and expanded unemployment insurance benefits. Many participants noted as well that these factors were depressing the labor force participation rate, relative to its pre-pandemic level. Some of these factors were seen as likely to remain significant while pandemic-related risks persisted. Based on reports from business contacts, some participants noted that the step-up in demand for labor had started to put some upward pressure on wages.\n\nMoreover, over the medium term, participants expected labor market conditions to continue to improve, supported by accommodative fiscal and monetary policies as well as continued progress on vaccinations, unwind- ing of social distancing, and the associated recovery in economic activity. A couple of participants remarked that businesses in industries severely affected by the pandemic were downsizing or that some businesses were focused on cutting costs or increasing productivity, particularly through automation.\n\nIn their comments about inflation, participants anticipated that inflation as measured by the 12-month change of the PCE price index would move above 2 percent in the near term as very low readings from early in the pandemic fall out of the calculation. In addition, increases in oil prices were expected to pass through to consumer energy prices. Participants also noted that the expected surge in demand as the economy reopens further, along with some transitory supply chain bottlenecks, would contribute to PCE price inflation temporarily running somewhat above 2 percent. After the transitory effects of these factors fade, participants generally expected measured inflation to ease. Looking further ahead, participants expected inflation to be at levels consistent with achieving the Committee’s objectives over time. A number of participants remarked that supply chain bottlenecks and input shortages may not be resolved quickly and, if so, these factors could put upward pressure on prices beyond this year. They noted that in some industries, supply chain disruptions appeared to be more persistent than originally anticipated and reportedly had led to higher input costs.",
+        "document": "fomcminutes20210428.pdf",
+        "meeting_end": "2021-04-28",
+        "pages": [
+          9
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210428.pdf#page=9",
+        "retrieval_score": 0.027650648360030512,
+        "rerank_score": 28.2672176361084,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "MIN_2021-06-16_C0014",
+        "text": "Staff Review of the Economic Situation\n\nThe information available at the time of the June 15–16 meeting suggested that U.S. real gross domestic product (GDP) was expanding in the second quarter at a pace that was faster than in the first quarter of the year. More-over, labor market conditions had improved further in\n\nApril and May. Consumer price inflation through April—as measured by the 12-month percentage change in the PCE price index—had picked up notably, largely reflecting transitory factors.\n\nTotal nonfarm payroll employment increased solidly over April and May, though at a slower monthly pace than over February and March. As of May, total payroll employment had retraced two-thirds of the job losses seen at the onset of the pandemic, although employment in the leisure and hospitality sector and in the education sector (including both public and private education) had bounced back by less. Over April and May, the unemployment rate edged down and stood at 5.8 percent in May. The unemployment rates for African Americans, Asians, and Hispanics also moved down, although the rates for African Americans and Hispanics remained well above the national average. Both the labor force participation rate and the employment-to-population ratio moved up slightly, and both measures had recovered only partially from their lows during the pandemic. Initial claims for regular state unemployment insurance benefits had moved down further since mid-April and were at the lowest level since the beginning of the pandemic, though they remained high relative to their pre-pandemic level. Weekly estimates of private-sector pay-rolls constructed by Federal Reserve Board staff using data provided by the payroll processor ADP, which were available through May, suggested that the pace of private employment gains had stepped up late in that month.\n\nThe pace of increases in several measures of labor compensation had moved up in recent months.",
+        "document": "fomcminutes20210616.pdf",
+        "meeting_end": "2021-06-16",
+        "pages": [
+          5
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210616.pdf#page=5",
+        "retrieval_score": 0.029051670471052088,
+        "rerank_score": 28.248294830322266,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "STA_2021-01-27_C0001",
+        "text": "For release at 2 p.m. EST\n\nJanuary 27, 2021\n\nThe Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals. The COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices have been holding down consumer price inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses. The path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook. The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer- run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee’s assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its\n\n(more)\n\nFor release at 2 p.m.",
+        "document": "monetary20210127a1.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          1,
+          2
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20210127a1.pdf#page=1",
+        "retrieval_score": 0.014492753623188406,
+        "rerank_score": 28.232677459716797,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "MIN_2021-01-27_C0048",
+        "text": "Committee Policy Action\n\nIn their discussion of monetary policy for this meeting, members agreed that the COVID-19 pandemic was causing tremendous human and economic hardship across the United States and around the world. They\n\nnoted that the pace of recovery in economic activity and employment had moderated in recent months, with weakness concentrated in sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices had been holding down consumer price inflation. Overall financial conditions remained accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses. Members also stated that the path of the economy would depend significantly on the course of the virus, including progress on vaccinations. In addition, members agreed that the ongoing public health crisis had continued to weigh on economic activity, employment, and inflation and was posing consider-able risks to the economic outlook.\n\nMembers agreed that the pandemic continued to pose considerable risks to the outlook. Nonetheless, in light of the expected progress on vaccinations and the change in the outlook for fiscal policy, the medium-term prospects for the economy had improved enough that members decided that the reference in previous post-meeting statements to risks to the economic outlook over the medium term was no longer warranted.\n\nMembers agreed that the Federal Reserve was committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum-employment and price-stability goals. All members reaffirmed that, in accordance with the Committee’s goals to achieve maximum employment and inflation at the rate of 2 percent over the longer run and with inflation running persistently below this longer-run goal, they would aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+        "document": "fomcminutes20210127.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          17
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210127.pdf#page=17",
+        "retrieval_score": 0.014285714285714285,
+        "rerank_score": 28.20184898376465,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "MIN_2021-01-27_C0051",
+        "text": "agency debt and agency MBS in agency MBS.\n\n• Allow modest deviations from stated amounts for purchases and reinvestments, if needed for operational reasons.\n\n• Engage in dollar roll and coupon swap transactions as necessary to facilitate settlement of the Federal Reserve’s agency MBS transactions.”\n\nThe vote also encompassed approval of the statement below for release at 2:00 p.m.:\n\n“The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\n\nThe COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices have been holding down consumer price inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\n\nThe path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\n\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so\n\nthat inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+        "document": "fomcminutes20210127.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          18,
+          19
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210127.pdf#page=18",
+        "retrieval_score": 0.015873015873015872,
+        "rerank_score": 28.126388549804688,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 6,
+        "chunk_id": "MIN_2022-06-15_C0021",
+        "text": "be slowing, and activity in the housing sector appeared to be softening, in part as a result of a sharp rise in mortgage rates. Correspondingly, participants indicated that they had revised down their projections of real GDP growth for this year, consistent with ongoing supply chain disruptions and tighter financial conditions. Participants noted that the imbalance between supply and demand across a wide range of product markets was contributing to upward pressure on inflation. They saw an appropriate firming of monetary policy and associated tighter financial conditions as playing a central role in helping address this imbalance and in supporting the Federal Reserve’s goals of maximum employment and price stability. An easing of supply bottlenecks, a further rise in labor force participation, and the waning effects of pandemic-related fiscal policy support were cited as additional factors that could help reduce the supply– demand imbalances in the economy and therefore lower inflation over the next few years. That said, the timing and magnitude of these effects were uncertain. Participants saw little evidence to date of a substantial improvement in supply constraints, and some of them judged that the economic effects of these constraints were likely to persist longer than they had previously anticipated.\n\nParticipants stressed the need to adjust the stance of policy in response to incoming information regarding the evolution of these and other factors.\n\nIn their discussion of the household sector, participants indicated that consumption spending had remained robust, in part reflecting strong balance sheets in the household sector and a tight labor market. Several participants noted that household spending patterns appeared to be shifting away from goods to services. Several participants indicated that some of their contacts reported that the pace of consumer spending, though strong, was beginning to moderate. One reason cited for this moderation was that the purchasing power of households was being reduced by higher prices for food, energy, and other essentials. Participants generally expected higher mortgage interest rates to contribute to further declines in home sales, and a couple of participants noted that housing activity in their Districts had begun to slow noticeably.",
+        "document": "fomcminutes20220615.pdf",
+        "meeting_end": "2022-06-15",
+        "pages": [
+          7
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20220615.pdf#page=7",
+        "retrieval_score": 0.015384615384615385,
+        "rerank_score": 28.11750602722168,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      }
+    ],
+    "timings": {
+      "assets_s": 11.094,
+      "retrieval_s": 0.042,
+      "reranking_s": 4.27,
+      "retrieval_total_s": 15.407,
+      "candidate_count": 20,
+      "selected_count": 6,
+      "context_k": 6,
+      "generation_s": 0,
+      "total_s": 15.449
+    }
+  },
+  "5": {
+    "answer": "Local generation is disabled. Explore the retrieved evidence.",
+    "model": null,
+    "abstained": false,
+    "question": "Which two factors did the FOMC identify as holding down consumer price inflation at the beginning of the pandemic-era recovery?",
+    "periods": [],
+    "mode": "classic",
+    "retrieval": "hybrid_rrf",
+    "reranking": "colbert",
+    "structured": false,
+    "passages": [
+      {
+        "rank": 1,
+        "chunk_id": "MIN_2021-04-28_C0028",
+        "text": "health concerns, childcare responsibilities, and expanded unemployment insurance benefits. Many participants noted as well that these factors were depressing the labor force participation rate, relative to its pre-pandemic level. Some of these factors were seen as likely to remain significant while pandemic-related risks persisted. Based on reports from business contacts, some participants noted that the step-up in demand for labor had started to put some upward pressure on wages.\n\nMoreover, over the medium term, participants expected labor market conditions to continue to improve, supported by accommodative fiscal and monetary policies as well as continued progress on vaccinations, unwind- ing of social distancing, and the associated recovery in economic activity. A couple of participants remarked that businesses in industries severely affected by the pandemic were downsizing or that some businesses were focused on cutting costs or increasing productivity, particularly through automation.\n\nIn their comments about inflation, participants anticipated that inflation as measured by the 12-month change of the PCE price index would move above 2 percent in the near term as very low readings from early in the pandemic fall out of the calculation. In addition, increases in oil prices were expected to pass through to consumer energy prices. Participants also noted that the expected surge in demand as the economy reopens further, along with some transitory supply chain bottlenecks, would contribute to PCE price inflation temporarily running somewhat above 2 percent. After the transitory effects of these factors fade, participants generally expected measured inflation to ease. Looking further ahead, participants expected inflation to be at levels consistent with achieving the Committee’s objectives over time. A number of participants remarked that supply chain bottlenecks and input shortages may not be resolved quickly and, if so, these factors could put upward pressure on prices beyond this year. They noted that in some industries, supply chain disruptions appeared to be more persistent than originally anticipated and reportedly had led to higher input costs.",
+        "document": "fomcminutes20210428.pdf",
+        "meeting_end": "2021-04-28",
+        "pages": [
+          9
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210428.pdf#page=9",
+        "retrieval_score": 0.027650648360030512,
+        "rerank_score": 28.2672176361084,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "MIN_2021-06-16_C0014",
+        "text": "Staff Review of the Economic Situation\n\nThe information available at the time of the June 15–16 meeting suggested that U.S. real gross domestic product (GDP) was expanding in the second quarter at a pace that was faster than in the first quarter of the year. More-over, labor market conditions had improved further in\n\nApril and May. Consumer price inflation through April—as measured by the 12-month percentage change in the PCE price index—had picked up notably, largely reflecting transitory factors.\n\nTotal nonfarm payroll employment increased solidly over April and May, though at a slower monthly pace than over February and March. As of May, total payroll employment had retraced two-thirds of the job losses seen at the onset of the pandemic, although employment in the leisure and hospitality sector and in the education sector (including both public and private education) had bounced back by less. Over April and May, the unemployment rate edged down and stood at 5.8 percent in May. The unemployment rates for African Americans, Asians, and Hispanics also moved down, although the rates for African Americans and Hispanics remained well above the national average. Both the labor force participation rate and the employment-to-population ratio moved up slightly, and both measures had recovered only partially from their lows during the pandemic. Initial claims for regular state unemployment insurance benefits had moved down further since mid-April and were at the lowest level since the beginning of the pandemic, though they remained high relative to their pre-pandemic level. Weekly estimates of private-sector pay-rolls constructed by Federal Reserve Board staff using data provided by the payroll processor ADP, which were available through May, suggested that the pace of private employment gains had stepped up late in that month.\n\nThe pace of increases in several measures of labor compensation had moved up in recent months.",
+        "document": "fomcminutes20210616.pdf",
+        "meeting_end": "2021-06-16",
+        "pages": [
+          5
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210616.pdf#page=5",
+        "retrieval_score": 0.029051670471052088,
+        "rerank_score": 28.248294830322266,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "STA_2021-01-27_C0001",
+        "text": "For release at 2 p.m. EST\n\nJanuary 27, 2021\n\nThe Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals. The COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices have been holding down consumer price inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses. The path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook. The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer- run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee’s assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its\n\n(more)\n\nFor release at 2 p.m.",
+        "document": "monetary20210127a1.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          1,
+          2
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20210127a1.pdf#page=1",
+        "retrieval_score": 0.014492753623188406,
+        "rerank_score": 28.232677459716797,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "MIN_2021-01-27_C0048",
+        "text": "Committee Policy Action\n\nIn their discussion of monetary policy for this meeting, members agreed that the COVID-19 pandemic was causing tremendous human and economic hardship across the United States and around the world. They\n\nnoted that the pace of recovery in economic activity and employment had moderated in recent months, with weakness concentrated in sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices had been holding down consumer price inflation. Overall financial conditions remained accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses. Members also stated that the path of the economy would depend significantly on the course of the virus, including progress on vaccinations. In addition, members agreed that the ongoing public health crisis had continued to weigh on economic activity, employment, and inflation and was posing consider-able risks to the economic outlook.\n\nMembers agreed that the pandemic continued to pose considerable risks to the outlook. Nonetheless, in light of the expected progress on vaccinations and the change in the outlook for fiscal policy, the medium-term prospects for the economy had improved enough that members decided that the reference in previous post-meeting statements to risks to the economic outlook over the medium term was no longer warranted.\n\nMembers agreed that the Federal Reserve was committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum-employment and price-stability goals. All members reaffirmed that, in accordance with the Committee’s goals to achieve maximum employment and inflation at the rate of 2 percent over the longer run and with inflation running persistently below this longer-run goal, they would aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+        "document": "fomcminutes20210127.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          17
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210127.pdf#page=17",
+        "retrieval_score": 0.014285714285714285,
+        "rerank_score": 28.20184898376465,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "MIN_2021-01-27_C0051",
+        "text": "agency debt and agency MBS in agency MBS.\n\n• Allow modest deviations from stated amounts for purchases and reinvestments, if needed for operational reasons.\n\n• Engage in dollar roll and coupon swap transactions as necessary to facilitate settlement of the Federal Reserve’s agency MBS transactions.”\n\nThe vote also encompassed approval of the statement below for release at 2:00 p.m.:\n\n“The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\n\nThe COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices have been holding down consumer price inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\n\nThe path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\n\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so\n\nthat inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+        "document": "fomcminutes20210127.pdf",
+        "meeting_end": "2021-01-27",
+        "pages": [
+          18,
+          19
+        ],
+        "source_url": "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20210127.pdf#page=18",
+        "retrieval_score": 0.015873015873015872,
+        "rerank_score": 28.126388549804688,
+        "retriever": "hybrid_rrf",
+        "reranker": "colbert"
+      }
+    ],
+    "timings": {
+      "assets_s": 0.0,
+      "retrieval_s": 0.046,
+      "reranking_s": 5.118,
+      "retrieval_total_s": 5.164,
+      "candidate_count": 20,
+      "selected_count": 5,
+      "context_k": 5,
+      "generation_s": 0,
+      "total_s": 5.204
+    }
+  }
+}

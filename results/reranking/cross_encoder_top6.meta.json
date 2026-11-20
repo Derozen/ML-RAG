@@ -1,0 +1,7 @@
+{
+  "candidates_per_query": 20,
+  "final_context_k": 6,
+  "source_sha256": "73acd759b167f62aca041a235a9fa9ee56bd900aae49f1296c0f3b4695fdca27",
+  "output_sha256": "7bb4642d881be910c184cb924495b96bff0e609380d2fd2775657ec52075546c",
+  "rows": 2610
+}

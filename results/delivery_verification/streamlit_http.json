@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-20T14:47:56.309375+00:00",
+  "frozen_protocol_sha256": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+  "tests": [
+    {
+      "name": "real_streamlit_http_server",
+      "passed": true,
+      "health": "ok",
+      "homepage_http": 200,
+      "port": 53202
+    }
+  ],
+  "new_holdout_scored": false,
+  "final_independent_test_executed": false,
+  "browser_visual_layout_verified": false,
+  "real_retrieval_models": false,
+  "mocked_model_calls": false,
+  "status": "passed",
+  "finished_utc": "2026-11-20T14:48:13.667322+00:00"
+}

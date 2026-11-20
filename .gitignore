@@ -19,3 +19,35 @@ tmp/
 experiments/
 data/import_backups/
 src/*_backup.py
+
+# Reviewable evidence belongs in the delivery, unlike models and raw PDF binaries.
+!results/audit_project/
+!results/audit_project/**
+!results/context_top5/
+!results/context_top5/**
+!results/context_top6/
+!results/context_top6/**
+!results/figures/
+!results/figures/**
+!results/candidate_provisional/
+!results/candidate_provisional/**
+!results/delivery_verification/
+!results/delivery_verification/**
+!results/reproduction/
+!results/reproduction/**
+!results/finalization/
+!results/finalization/**
+!results/retrieval/
+!results/retrieval/**
+!results/reranking/
+!results/reranking/**
+!results/plots/
+!results/plots/**
+!results/*.md
+!results/*.csv
+!results/*.json
+!results/*.jsonl
+
+# Small source manifest required to obtain the exact supplied PDF corpus.
+!data/processed/manifest.json
+output/delivery/

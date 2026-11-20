@@ -3,6 +3,12 @@
 Étude comparative des stratégies de récupération et de reranking — rapport de travail consolidé.
 **Résultats exploratoires ; confirmation indépendante et validation de la génération non achevées.**
 
+## Validation utilisateur enregistrée
+
+L’utilisateur a accepté globalement les **294 grades proposés**, sans changement de grade. Les champs de la grille et la trace de cet accord sont enregistrés dans [user_approval.json](../data/holdout_candidate/assistant_review/completed_proposal/user_approval.json). Les scores calculés restent numériquement valables pour ces annotations acceptées.
+
+Cet accord global ne déclare ni une lecture indépendante page par page, ni la revue sémantique des 145 questions antérieures, ni l’adjudication des réponses et facettes. Ces décisions restent non renseignées. Le statut de test final indépendant n’est donc pas établi. Le [statut retenu pour la remise](STATUT_HOLDOUT.md) est une évaluation complémentaire descriptive, sans conclusion confirmatoire.
+
 ## Quels résultats conserver ?
 
 Les tableaux de récupération et de reranking restent nécessaires : ils constituent
@@ -13,7 +19,7 @@ La révision des annotations du lot candidat ne produit pas de nouveaux scores.
 |---|---|
 | 145 questions, corpus actuel de 93 PDF et 1 692 chunks | Comparaison exploratoire conservée, avec un contexte de sortie de six chunks. |
 | Anciennes versions à 200 ou 110 questions, ou autre découpage | Non reprises dans les tableaux et graphiques ci-dessous. |
-| Nouveau lot candidat de 20 questions | Scores provisoires disponibles ; annotations et indépendance toujours non validées. |
+| Nouveau lot candidat de 20 questions | Scores provisoires disponibles ; grades acceptés globalement, indépendance non établie. |
 | Essais Streamlit et génération sur dev | Vérifications fonctionnelles et analyse qualitative, distinctes du benchmark de récupération. |
 
 Les fichiers de résultats sources sont conservés pour la traçabilité. Les graphiques
@@ -71,10 +77,11 @@ l’absence d’un lot d’entraînement supervisé local, mais ne supprime pas 
 de sélection de paramètres sur les scores déjà observés.
 
 Le code, les paramètres, modèles et index ont été figés avant la préparation d’un
-nouveau lot candidat. Celui-ci compte 20 questions et 294 propositions de grades de
-pages, dont 78 positives. **Ce ne sont pas encore des annotations indépendantes
-approuvées** : les négatifs de la dernière passe doivent notamment être relus sur
-les pages complètes. Une mesure provisoire est désormais disponible, sans statut de test final validé.
+nouveau lot candidat. Celui-ci compte 20 questions et 294 grades de pages,
+dont 78 positifs. Les grades proposés par l’assistant ont été acceptés globalement
+par l’utilisateur après le calcul, sans modification. La relecture indépendante
+page par page et l’adjudication sémantique des questions/réponses ne sont pas attestées.
+Les scores de ce lot restent ceux d’une évaluation complémentaire provisoire.
 
 ## Prétraitement et analyse exploratoire
 
@@ -119,6 +126,29 @@ Le chemin classique fournit les 5 ou 6 passages à Ollama, avec leurs identifian
 Le module temporel est une variante exploratoire : il détecte les périodes demandées, recherche des preuves par période et ajoute des heuristiques de décision ou de justification. Il est plafonné à 6 passages au total. Cette politique ajoute des règles au pipeline classique ; elle ne doit pas être présentée comme le même système que celui mesuré dans le benchmark standard. Le mode utilisé est affiché dans l’application.
 
 ## Évaluation et interprétation
+
+### Définitions exactes et agrégation
+
+Pour une question q, R(q) est l’ensemble des pages annotées de grade strictement
+positif. P@K(q) désigne les K premières pages uniques du classement, et C_B(q)
+les pages de tous les B chunks sélectionnés, avec B = 5 ou 6.
+
+- `Recall@K(q) = |P@K(q) ∩ R(q)| / |R(q)|`.
+- `Couverture_contexte_B(q) = |C_B(q) ∩ R(q)| / |R(q)|`.
+- `Toutes_références_B(q) = 1` si `R(q) ⊆ C_B(q)`, sinon 0.
+- `DCG@K(q) = somme_{r=1..K} (2^grade(page_r) − 1) / log2(r+1)` ;
+  `nDCG@K(q) = DCG@K(q) / IDCG@K(q)`, avec l’idéal trié sur tous les grades.
+- `RR@K(q) = 1/r` pour le premier rang positif `r ≤ K`, sinon 0 ;
+  `MRR@K = moyenne_q RR@K(q)`.
+
+Tous les tableaux agrègent par moyenne **par question**, sans pondération par
+nombre de pages. Les questions possèdent au moins une référence positive :
+aucun dénominateur nul n’est traité comme un échec de récupération. Les jeux
+actuels n’évaluent donc pas une politique d’abstention sur des questions sans réponse.
+Dans le tableau top-6, nDCG et MRR sont tronqués à six pages uniques, alors que
+la couverture parcourt toutes les pages de six chunks. Dans le tableau top-5,
+les colonnes nDCG@5 et nDCG@6 restent deux coupures distinctes ; MRR utilise le
+budget de cinq pages. Les métriques du pool complet ne sont pas substituées à celles du contexte.
 
 Les 279 annotations silver portent sur des pages, avec grades 1 et 2. Les grades sont conservés. Les pages des chunks sont dédoublonnées dans leur ordre d’apparition, avec ordre physique à l’intérieur d’un chunk multipage. Cette convention impose un ordre aux pages d’un même chunk et doit être indiquée dans le rapport.
 
@@ -175,9 +205,26 @@ dans l’application, qui peut réencoder les documents ColBERT.
 
 ## Évaluation provisoire supplémentaire — 20 questions
 
-[Tableaux, graphique et limites du calcul](../results/candidate_provisional/20261120T151147Z/RAPPORT.md). Les 12 configurations sont évaluées sur les grades proposés, aux budgets de cinq et six chunks. Aucun paramètre du système figé n’est modifié. Ce calcul ne remplace pas la validation indépendante des annotations.
+[Tableaux, graphique et limites du calcul](../results/candidate_provisional/20261120T151147Z/RAPPORT.md). Les 12 configurations sont évaluées sur les grades proposés puis acceptés globalement par l’utilisateur, aux budgets de cinq et six chunks. Aucun paramètre du système figé n’est modifié. Cet accord ne démontre pas l’indépendance sémantique.
 
 **Le lot est désormais exposé aux scores.** Tout réglage guidé par ces résultats nécessite une autre confirmation. La qualité des réponses générées reste à évaluer séparément.
+
+| Recherche | Reranker | Couverture | nDCG pages@6 | MRR pages@6 |
+|---|---|---:|---:|---:|
+| bm25 | none | 0.419 | 0.361 | 0.446 |
+| bm25 | bm25 | 0.419 | 0.361 | 0.446 |
+| bm25 | colbert | 0.511 | 0.470 | 0.631 |
+| bm25 | cross_encoder | 0.511 | 0.504 | 0.717 |
+| dense | none | 0.498 | 0.395 | 0.514 |
+| dense | bm25 | 0.542 | 0.459 | 0.635 |
+| dense | colbert | 0.550 | 0.508 | 0.618 |
+| dense | cross_encoder | 0.535 | 0.521 | 0.667 |
+| hybrid_rrf | none | 0.478 | 0.440 | 0.577 |
+| hybrid_rrf | bm25 | 0.419 | 0.361 | 0.446 |
+| hybrid_rrf | colbert | 0.557 | 0.506 | 0.645 |
+| hybrid_rrf | cross_encoder | 0.532 | 0.520 | 0.692 |
+
+Dense E5 + cross-encoder obtient ici le meilleur nDCG observé (0,521), devant RRF + cross-encoder (0,520). RRF + ColBERT, choisi avant cette mesure, obtient 0,506 et la meilleure couverture moyenne (55,7 %). Ce changement de classement entre jeux souligne la dépendance aux questions et annotations ; aucun changement de modèle ni test statistique confirmatoire ne résulte de ces écarts. Les deux jeux ne sont pas fusionnés en un prétendu test indépendant de 165 questions.
 
 ## Graphiques de comparaison
 
@@ -223,6 +270,17 @@ L’analyse détaillée porte seulement sur les 85 questions dev, avec les effec
 affichés. La catégorie multi-documents n’a que trois questions dans ce sous-ensemble :
 sa moyenne ne permet pas une conclusion robuste sur toutes les comparaisons documentaires.
 
+### Résultats vérifiés par type — RRF + ColBERT sur dev
+
+| Type | Questions | Couverture | nDCG pages@6 |
+|---|---:|---:|---:|
+| explanatory | 21 | 0.595 | 0.408 |
+| factual | 40 | 0.579 | 0.465 |
+| multi_document | 3 | 0.333 | 0.412 |
+| comparative | 21 | 0.313 | 0.229 |
+
+[Catégories des 1 020 observations et analyse consolidée](../results/finalization/ANALYSE_ERREURS.md). Les catégories décrivent la couverture silver ; elles ne prouvent pas une cause sémantique.
+
 ## Interprétabilité par analyse des erreurs
 
 Le diagnostic automatique existant comporte 1 020 lignes : 85 questions dev × 12
@@ -265,7 +323,9 @@ configurée ne prouve pas que les dernières modifications y ont été publiées
 Le protocole figé vérifie les empreintes des sources, code, paramètres, index et
 révisions de modèles. Les tests contrôlent notamment les métriques, l’alignement
 des pages, l’identité des candidats avant/après reranking et le budget de contexte.
-Les artefacts de revue sont produits hors du code figé, sans appel des modèles.
+L’assemblage documentaire utilise les fichiers existants, hors du code figé et sans
+nouvelle inférence. Les essais Streamlit et la reconstruction des index ont appelé
+les vrais modèles ; leurs traces sont présentées séparément.
 
 ## Limites et travaux nécessaires avant la conclusion finale
 
@@ -273,17 +333,17 @@ Les qrels silver sont incomplets dans certains cas observés ; les pages ne juge
 pas directement le contenu de chaque chunk. Les questions partagent des sources et
 les scores déjà vus ne sont pas indépendants. Les résultats ne prouvent pas que la
 génération est correcte ou que les citations impliquent toutes les affirmations.
-Le nouveau jeu reste à confirmer sur les plans sémantique et documentaire.
+La décision de remise est de conserver le lot supplémentaire comme évaluation
+descriptive, sans prétendre qu’il constitue un test indépendant validé. La comparaison
+actuelle peut être présentée avec ces limites ; une nouvelle confirmation est requise
+pour soutenir une conclusion confirmatoire ou valider un réglage guidé par ces scores.
+La validation humaine globale est consignée, sans inventer de décisions sémantiques.
 
-Avant une évaluation finale : faire confirmer les annotations et réponses, résoudre
-les désaccords, contrôler les doublons sémantiques et figer une version approuvée.
-Une seule mesure du pipeline figé pourra alors être présentée comme confirmation
-de ce système, avec ses limites. Toute optimisation guidée par ces nouveaux scores
-exigera un autre jeu de confirmation.
-
-Le présent rapport rassemble contexte, méthode, résultats et discussion ; il reste
-à relire et à mettre en forme selon les attentes académiques. Les diapositives et
-la vidéo de démonstration de 15–20 minutes restent des livrables distincts à préparer.
+Le rapport rassemble contexte, méthode, résultats et discussion. Sa relecture technique
+porte sur les équations, les unités, les moyennes, les tables et les limites de génération.
+L’[état des cinq actions](FINALISATION.md) et les [preuves de reproduction](REPRODUCTION.md)
+précisent ce qui a été exécuté et ce qui demeure limité. Le format académique exigé par
+l’établissement, les diapositives et la vidéo de 15–20 minutes sont des livrables distincts.
 
 ## Traçabilité des documents de travail
 

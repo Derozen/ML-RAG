@@ -1,0 +1,13 @@
+﻿retrieval,reranker,questions,no_annotated_page,partial_coverage,all_annotated_pages
+bm25,none,85,40,22,23
+bm25,bm25,85,40,22,23
+bm25,colbert,85,31,21,33
+bm25,cross_encoder,85,30,25,30
+dense,none,85,40,23,22
+dense,bm25,85,34,25,26
+dense,colbert,85,29,25,31
+dense,cross_encoder,85,31,24,30
+hybrid_rrf,none,85,35,20,30
+hybrid_rrf,bm25,85,40,22,23
+hybrid_rrf,colbert,85,28,26,31
+hybrid_rrf,cross_encoder,85,32,24,29

@@ -34,6 +34,22 @@ def provisional_run():
     return sorted(completed)[-1] if completed else None
 
 
+def approval_notice():
+    p = ROOT / 'data/holdout_candidate/assistant_review/completed_proposal/user_approval.json'
+    if not p.exists():
+        return ''
+    return ('## Validation utilisateur enregistrée\n\n'
+            'L’utilisateur a accepté globalement les **294 grades proposés**, sans changement de grade. '
+            'Les champs de la grille et la trace de cet accord sont enregistrés dans '
+            '[user_approval.json](../data/holdout_candidate/assistant_review/completed_proposal/user_approval.json). '
+            'Les scores calculés restent numériquement valables pour ces annotations acceptées.\n\n'
+            'Cet accord global ne déclare ni une lecture indépendante page par page, ni la revue '
+            'sémantique des 145 questions antérieures, ni l’adjudication des réponses et facettes. '
+            'Ces décisions restent non renseignées. Le statut de test final indépendant n’est donc '
+            'pas établi. Le [statut retenu pour la remise](STATUT_HOLDOUT.md) est une '
+            'évaluation complémentaire descriptive, sans conclusion confirmatoire.\n\n')
+
+
 def technical_report():
     base = ROOT / 'results/delivery_verification'
     def read_optional(name):
@@ -106,10 +122,10 @@ def technical_report():
               f"Le dernier contrôle de la grille consolidée indique **{readiness.get('pending_page_pairs')} "
               'jugements de pages sans grade humain/relecteur** et '
               f"**{readiness.get('completed_question_adjudications')}/20 décisions par question complètes**. "
-              'L’accord pour poursuivre le travail ne remplit pas ces annotations. Les grades proposés par '
-              'l’assistant et la recherche par fragments ne prouvent ni l’exhaustivité des qrels ni '
+              'L’accord global de l’utilisateur accepte les grades, sans attester les décisions sémantiques par question. '
+              'La recherche par fragments ne prouve ni l’exhaustivité des qrels ni '
               'la nouveauté sémantique par rapport aux 145 anciennes questions.', '',
-              'Une mesure sur ces propositions serait provisoire et ne pourrait pas être annoncée '
+              'La mesure complémentaire réalisée reste provisoire et ne peut pas être annoncée '
               'comme un test final indépendant validé. Le contrôle conserve donc le statut '
               '`annotation_pending`. Les données historiques, les modèles, paramètres et index restent figés.', '',
               '## Graphiques et reproduction', '',
@@ -130,10 +146,15 @@ def technical_report():
         link = '../' + candidate_run.relative_to(ROOT).as_posix() + '/RAPPORT.md'
         lines += ['', '## Mesure provisoire supplémentaire des 20 questions', '',
                   f'[Scores et graphique]({link}) : 12 configurations, budgets 5/6. '
-                  'Les grades restent proposés par l’assistant. Ce calcul ne valide ni '
-                  'les annotations, ni l’indépendance du lot, ni la génération. '
+                  'Les grades initialement proposés par l’assistant ont été acceptés globalement par l’utilisateur. '
+                  'L’indépendance du lot et la génération ne sont pas validées par ce calcul. '
                   'Le lot a désormais été exposé aux scores ; une correction guidée par ceux-ci '
                   'nécessitera une autre confirmation.', '']
+    lines.insert(2, approval_notice())
+    lines += ['', '## Reproduction isolée et dossier de remise', '',
+              '[Reproduction : exécutions, journaux et limites](REPRODUCTION.md). '
+              'Une copie isolée avec poids/dépendances réutilisés ne constitue pas une installation vierge. '
+              '[Plan de finalisation et preuves](FINALISATION.md).', '']
     (ROOT / 'docs/VERIFICATION_TECHNIQUE.md').write_text('\n'.join(lines), encoding='utf-8')
 
 
@@ -149,9 +170,16 @@ def main():
     source_names += [str(p.relative_to(ROOT)).replace('\\', '/') for p in
                      (ROOT / 'results/delivery_verification').glob('*.json')]
     source_names += ['data/holdout_candidate/assistant_review/completed_proposal/review_readiness.json']
+    approval_path = ROOT / 'data/holdout_candidate/assistant_review/completed_proposal/user_approval.json'
+    if approval_path.exists():
+        source_names.append(approval_path.relative_to(ROOT).as_posix())
     candidate_run = provisional_run()
     if candidate_run:
         source_names += [str(p.relative_to(ROOT)).replace('\\', '/') for p in candidate_run.iterdir() if p.is_file()]
+    source_names += [p.relative_to(ROOT).as_posix() for p in (
+        ROOT/'docs/STATUT_HOLDOUT.md', ROOT/'docs/REPRODUCTION.md', ROOT/'docs/FINALISATION.md',
+        ROOT/'results/finalization/error_categories_dev.csv', ROOT/'results/finalization/scores_by_type_dev_verified.csv',
+        ROOT/'results/reproduction/run.json', ROOT/'results/reproduction/clean_environment.json') if p.exists()]
     before = {n: digest(ROOT / n) for n in source_names}
     cases = json.loads((ROOT / source_names[0]).read_text(encoding='utf-8'))
     questions = {q['question_id']: q for q in jl('data/evaluation/queries_145.jsonl')}
@@ -302,10 +330,11 @@ l’absence d’un lot d’entraînement supervisé local, mais ne supprime pas 
 de sélection de paramètres sur les scores déjà observés.
 
 Le code, les paramètres, modèles et index ont été figés avant la préparation d’un
-nouveau lot candidat. Celui-ci compte 20 questions et 294 propositions de grades de
-pages, dont 78 positives. **Ce ne sont pas encore des annotations indépendantes
-approuvées** : les négatifs de la dernière passe doivent notamment être relus sur
-les pages complètes. Aucune performance n’a été calculée sur ce nouveau lot.
+nouveau lot candidat. Celui-ci compte 20 questions et 294 grades de pages,
+dont 78 positifs. Les grades proposés par l’assistant ont été acceptés globalement
+par l’utilisateur après le calcul, sans modification. La relecture indépendante
+page par page et l’adjudication sémantique des questions/réponses ne sont pas attestées.
+Les scores de ce lot restent ceux d’une évaluation complémentaire provisoire.
 
 {methods}
 ## Comparaison exploratoire actuelle — 145 questions, six chunks en sortie
@@ -419,7 +448,9 @@ configurée ne prouve pas que les dernières modifications y ont été publiées
 Le protocole figé vérifie les empreintes des sources, code, paramètres, index et
 révisions de modèles. Les tests contrôlent notamment les métriques, l’alignement
 des pages, l’identité des candidats avant/après reranking et le budget de contexte.
-Les artefacts de revue sont produits hors du code figé, sans appel des modèles.
+L’assemblage documentaire utilise les fichiers existants, hors du code figé et sans
+nouvelle inférence. Les essais Streamlit et la reconstruction des index ont appelé
+les vrais modèles ; leurs traces sont présentées séparément.
 
 ## Limites et travaux nécessaires avant la conclusion finale
 
@@ -427,17 +458,17 @@ Les qrels silver sont incomplets dans certains cas observés ; les pages ne juge
 pas directement le contenu de chaque chunk. Les questions partagent des sources et
 les scores déjà vus ne sont pas indépendants. Les résultats ne prouvent pas que la
 génération est correcte ou que les citations impliquent toutes les affirmations.
-Le nouveau jeu reste à confirmer sur les plans sémantique et documentaire.
+La décision de remise est de conserver le lot supplémentaire comme évaluation
+descriptive, sans prétendre qu’il constitue un test indépendant validé. La comparaison
+actuelle peut être présentée avec ces limites ; une nouvelle confirmation est requise
+pour soutenir une conclusion confirmatoire ou valider un réglage guidé par ces scores.
+La validation humaine globale est consignée, sans inventer de décisions sémantiques.
 
-Avant une évaluation finale : faire confirmer les annotations et réponses, résoudre
-les désaccords, contrôler les doublons sémantiques et figer une version approuvée.
-Une seule mesure du pipeline figé pourra alors être présentée comme confirmation
-de ce système, avec ses limites. Toute optimisation guidée par ces nouveaux scores
-exigera un autre jeu de confirmation.
-
-Le présent rapport rassemble contexte, méthode, résultats et discussion ; il reste
-à relire et à mettre en forme selon les attentes académiques. Les diapositives et
-la vidéo de démonstration de 15–20 minutes restent des livrables distincts à préparer.
+Le rapport rassemble contexte, méthode, résultats et discussion. Sa relecture technique
+porte sur les équations, les unités, les moyennes, les tables et les limites de génération.
+L’[état des cinq actions](FINALISATION.md) et les [preuves de reproduction](REPRODUCTION.md)
+précisent ce qui a été exécuté et ce qui demeure limité. Le format académique exigé par
+l’établissement, les diapositives et la vidéo de 15–20 minutes sont des livrables distincts.
 
 ## Traçabilité des documents de travail
 
@@ -458,18 +489,43 @@ La liste et son format bibliographique restent à relire selon les exigences de 
     if candidate_run:
         link = '../' + candidate_run.relative_to(ROOT).as_posix() + '/RAPPORT.md'
         report = report.replace('Aucun score disponible : annotations et indépendance restent à valider avant l’évaluation.',
-            'Scores provisoires disponibles ; annotations et indépendance toujours non validées.')
+            'Scores provisoires disponibles ; grades acceptés globalement, indépendance non établie.')
         report = report.replace('Aucun résultat final indépendant ne peut encore les remplacer.',
             'Les nouveaux scores provisoires sont présentés séparément et ne remplacent pas ces résultats exploratoires.')
         report = report.replace('les pages complètes. Aucune performance n’a été calculée sur ce nouveau lot.',
             'les pages complètes. Une mesure provisoire est désormais disponible, sans statut de test final validé.')
         section = '\n'.join(['## Évaluation provisoire supplémentaire — 20 questions', '',
             f'[Tableaux, graphique et limites du calcul]({link}). Les 12 configurations sont évaluées '
-            'sur les grades proposés, aux budgets de cinq et six chunks. Aucun paramètre du système figé '
-            'n’est modifié. Ce calcul ne remplace pas la validation indépendante des annotations.', '',
+            'sur les grades proposés puis acceptés globalement par l’utilisateur, aux budgets de cinq et six chunks. '
+            'Aucun paramètre du système figé n’est modifié. Cet accord ne démontre pas l’indépendance sémantique.', '',
             '**Le lot est désormais exposé aux scores.** Tout réglage guidé par ces résultats nécessite '
             'une autre confirmation. La qualité des réponses générées reste à évaluer séparément.', '', ''])
         report = report.replace('## Graphiques de comparaison', section + '## Graphiques de comparaison')
+        six = [r for r in rows(candidate_run.relative_to(ROOT).as_posix()+'/comparison.csv') if r['budget']=='6']
+        values = ['| Recherche | Reranker | Couverture | nDCG pages@6 | MRR pages@6 |',
+                  '|---|---|---:|---:|---:|']
+        for r in six:
+            values.append(f"| {r['retrieval']} | {r['reranker']} | {float(r['context_page_recall']):.3f} | {float(r['ndcg_pages_at_budget']):.3f} | {float(r['mrr_pages_at_budget']):.3f} |")
+        extra = '\n'.join(values)+'\n\n'+(
+            'Dense E5 + cross-encoder obtient ici le meilleur nDCG observé (0,521), '
+            'devant RRF + cross-encoder (0,520). RRF + ColBERT, choisi avant cette mesure, '
+            'obtient 0,506 et la meilleure couverture moyenne (55,7 %). Ce changement de '
+            'classement entre jeux souligne la dépendance aux questions et annotations ; '
+            'aucun changement de modèle ni test statistique confirmatoire ne résulte de ces écarts. '
+            'Les deux jeux ne sont pas fusionnés en un prétendu test indépendant de 165 questions.\n\n')
+        report = report.replace('## Graphiques de comparaison',extra+'## Graphiques de comparaison')
+    typed_path=ROOT/'results/finalization/scores_by_type_dev_verified.csv'
+    if typed_path.exists():
+        type_lines=['### Résultats vérifiés par type — RRF + ColBERT sur dev','',
+            '| Type | Questions | Couverture | nDCG pages@6 |','|---|---:|---:|---:|']
+        for r in rows(typed_path.relative_to(ROOT).as_posix()):
+            if (r['retrieval'],r['reranker'])==('hybrid_rrf','colbert'):
+                type_lines.append(f"| {r['question_type']} | {r['questions']} | {float(r['context_page_recall']):.3f} | {float(r['ndcg_pages_at_6']):.3f} |")
+        type_lines += ['', '[Catégories des 1 020 observations et analyse consolidée](../results/finalization/ANALYSE_ERREURS.md). '
+            'Les catégories décrivent la couverture silver ; elles ne prouvent pas une cause sémantique.','']
+        report=report.replace('## Interprétabilité par analyse des erreurs','\n'.join(type_lines)+'\n## Interprétabilité par analyse des erreurs')
+    if approval_notice():
+        report = report.replace('## Quels résultats conserver ?', approval_notice() + '## Quels résultats conserver ?')
     (ROOT / 'docs/RAPPORT_PROJET.md').write_text(report, encoding='utf-8')
     technical_report()
     assert before == {n: digest(ROOT / n) for n in source_names}

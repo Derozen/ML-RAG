@@ -1,0 +1,71 @@
+[
+  {
+    "question_id": "FOMC_004",
+    "chunk_id": "MIN_2021-03-17_C0024",
+    "page_id": "fomcminutes20210317.pdf#p8",
+    "quote": "Following a moderation in the pace of the recovery, indicators of economic activity and employment had turned up recently, although the sectors most adversely affected by the pandemic remained weak.",
+    "diagnosis": "Référence silver alternative manquante : le passage de mars 2021 contient explicitement l'amélioration de l'activité et de l'emploi demandée, mais le seul qrel désigne la page 1 du Statement. Un score de couverture nul ne démontre donc pas l'absence de preuve dans le contexte.",
+    "proposed_new_reference_grade": 2,
+    "split": "dev",
+    "chunk_ranks": {
+      "none": 1,
+      "colbert": 1
+    },
+    "page_ranks": {
+      "none": 1,
+      "colbert": 1
+    },
+    "original_reference": false,
+    "paragraph_ids": [
+      "MIN_2021-03-17_P0099"
+    ],
+    "source_sha256": "14117b1314428b3b2f1683cf480a6bce507ee8211273f77641e89c031d86d8ad",
+    "raw_pdf_quote_verified": true
+  },
+  {
+    "question_id": "FOMC_035",
+    "chunk_id": "MIN_2022-01-26_C0048",
+    "page_id": "fomcminutes20220126.pdf#p17",
+    "quote": "In discussing why beginning to remove policy accommodation could soon be warranted, participants noted that inflation continued to run well above 2 percent and generally judged the risks to the outlook for inflation as tilted to the upside. Participants also assessed that the labor market was strong, having made substantial, broad-based progress over the past year.",
+    "diagnosis": "La baisse de métrique après ColBERT s'accompagne pourtant de la promotion au rang 1 d'un passage de la bonne réunion donnant inflation élevée et marché du travail solide. Les pages silver 18 des Minutes et 1 du Statement disparaissent du contexte ; la page 17 également pertinente n'est pas annotée. On constate une perte de couverture silver, pas une preuve suffisante d'une perte de capacité à répondre. Plusieurs autres passages retenus concernent d'autres réunions : ces distracteurs temporels restent un risque réel.",
+    "proposed_new_reference_grade": 2,
+    "split": "dev",
+    "chunk_ranks": {
+      "none": 3,
+      "colbert": 1
+    },
+    "page_ranks": {
+      "none": 4,
+      "colbert": 1
+    },
+    "original_reference": false,
+    "paragraph_ids": [
+      "MIN_2022-01-26_P0226"
+    ],
+    "source_sha256": "e61e77936225aac1ca428e7ae835e151a9659011d751604116801e4ef07c6855",
+    "raw_pdf_quote_verified": true
+  },
+  {
+    "question_id": "FOMC_064",
+    "chunk_id": "MIN_2024-07-31_C0013",
+    "page_id": "fomcminutes20240731.pdf#p7",
+    "quote": "Some participants noted that the recent data corroborated reports from their business contacts that firms’ pricing power was waning, as consumers appeared to be more sensitive to price increases.",
+    "diagnosis": "Le même passage contenant la preuve passe du rang 4 au rang 1. Sa page est déjà présente dans les six chunks avant reranking, mais arrive au rang 7 des pages uniques à cause des chunks multipages précédents. Le nDCG pages@6 passe donc de 0 à 1 alors que la couverture de toutes les pages du contexte reste 1. C'est une amélioration de priorité et de classement, pas l'acquisition d'une preuve auparavant absente.",
+    "proposed_new_reference_grade": null,
+    "split": "dev",
+    "chunk_ranks": {
+      "none": 4,
+      "colbert": 1
+    },
+    "page_ranks": {
+      "none": 7,
+      "colbert": 1
+    },
+    "original_reference": true,
+    "paragraph_ids": [
+      "MIN_2024-07-31_P0040"
+    ],
+    "source_sha256": "0e9f28328ab6bf08b75527b3a68712c03981f93a64d945aae40e75c18874a04c",
+    "raw_pdf_quote_verified": true
+  }
+]

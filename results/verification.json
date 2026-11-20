@@ -1,0 +1,21 @@
+{
+  "questions": 145,
+  "configurations": 12,
+  "question_configuration_checks": 1740,
+  "corpus_documents": 93,
+  "candidate_chunks_unchanged": true,
+  "candidate_pages_unchanged": true,
+  "pool_page_recall_invariant": true,
+  "bm25_control_identical": true,
+  "candidate_pools_exceeding_20_pages": 413,
+  "candidate_pages_min": 18,
+  "candidate_pages_max": 38,
+  "evaluation_unit": "unique PDF page",
+  "qrels_quality": "silver",
+  "questions_sha256": "64e01b38fee175fb63f67909429752227588fd27538388b365dcd8537ca04df8",
+  "source_qrels_sha256": "923dad53af8cbcea42c10bce5be52d1fb8480ace834fc6983bb618e5c17dfb0d",
+  "chunks_sha256": "91d72a7ec0b73f9db9731a081c37fb6f68d1055ecc2e70065caf39bf24ea5cf4",
+  "split": "all",
+  "projection": "First occurrence of page in chunk ranking; physical page order within each chunk; deduplicated.",
+  "note": "Recall@20 counts up to 20 unique pages, not 20 chunks; it need not be invariant if a pool contains more than 20 pages."
+}

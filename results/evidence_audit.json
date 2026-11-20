@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "decision": {
+      "claim": "The FOMC decided to raise the target range for the federal funds rate to 3 to 3.25 percent.",
+      "source_ids": [
+        1
+      ],
+      "required_periods": [
+        "2022-09"
+      ],
+      "claimed_ranges": [
+        [
+          3.0,
+          3.25
+        ]
+      ],
+      "source_ranges": {
+        "1": [
+          [
+            3.0,
+            3.25
+          ]
+        ]
+      },
+      "issues": [],
+      "warnings": [],
+      "heuristic_checks_pass": true,
+      "semantic_support_verified": false,
+      "requires_human_review": true
+    },
+    "reasons": {
+      "claim": "The FOMC decided to raise the federal funds rate to address inflation that remained elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+      "source_ids": [
+        1,
+        2
+      ],
+      "required_periods": [
+        "2022-09"
+      ],
+      "claimed_ranges": [],
+      "source_ranges": {
+        "1": [
+          [
+            3.0,
+            3.25
+          ]
+        ],
+        "2": []
+      },
+      "issues": [],
+      "warnings": [
+        "Les justifications économiques nécessitent une revue sémantique."
+      ],
+      "heuristic_checks_pass": true,
+      "semantic_support_verified": false,
+      "requires_human_review": true
+    }
+  },
+  "total_sections": 2,
+  "sections_without_blocking_issues": 2,
+  "sections_with_warnings": 1,
+  "semantic_support_verified": false,
+  "conclusion": "Audit structurel et heuristique uniquement. La fidélité sémantique des affirmations n'a pas été vérifiée."
+}

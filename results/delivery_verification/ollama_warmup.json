@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "seconds": 183.957570700004,
+  "response": {
+    "model": "qwen2.5:3b",
+    "created_at": "2026-11-20T14:49:46.5797653Z",
+    "response": "",
+    "done": true,
+    "done_reason": "load"
+  },
+  "new_holdout_scored": false
+}

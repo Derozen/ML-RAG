@@ -1,0 +1,49 @@
+{
+  "started_utc": "2026-11-20T16:07:59.069630+00:00",
+  "workdir": "C:\\Users\\LENOVO\\Desktop\\VS_Codex\\RAG_FOMC\\tmp\\reproduction_rebuild",
+  "interpreter": "C:\\Users\\LENOVO\\Desktop\\VS_Codex\\RAG_FOMC\\.venv\\Scripts\\python.exe",
+  "clean_dependency_install": false,
+  "local_pretrained_weights_reused": true,
+  "steps": [
+    {
+      "name": "rebuild_corpus_indexes",
+      "exit_code": 0,
+      "seconds": 343.625,
+      "log": "results/reproduction/rebuild_corpus_indexes.log"
+    },
+    {
+      "name": "recompute_evaluation",
+      "exit_code": 0,
+      "seconds": 3.7969999999913853,
+      "log": "results/reproduction/recompute_evaluation.log"
+    },
+    {
+      "name": "unit_tests",
+      "exit_code": 0,
+      "seconds": 3.2660000000032596,
+      "log": "results/reproduction/unit_tests.log"
+    },
+    {
+      "name": "streamlit_real_checks",
+      "exit_code": 0,
+      "seconds": 46.921999999991385,
+      "log": "results/reproduction/streamlit_real_checks.log"
+    }
+  ],
+  "status": "passed_with_reused_dependencies",
+  "local_acquisition": {
+    "documents": 93,
+    "hashes_verified": true,
+    "network_download": false
+  },
+  "rebuilt_comparisons": {
+    "data/processed/chunks.jsonl": true,
+    "data/processed/paragraphs.jsonl": true,
+    "indexes/bm25/tokens.jsonl": true,
+    "indexes/dense/chunk_ids.json": true,
+    "dense_vectors_numerically_equal": true
+  },
+  "fresh_retrieval_reranking_benchmark": false,
+  "streamlit_evidence": "results/reproduction/isolated_streamlit_functional.json",
+  "finished_utc": "2026-11-20T16:14:37.729344+00:00"
+}

@@ -1,5 +1,12 @@
 # Vérifications techniques et statut du test final
 
+## Validation utilisateur enregistrée
+
+L’utilisateur a accepté globalement les **294 grades proposés**, sans changement de grade. Les champs de la grille et la trace de cet accord sont enregistrés dans [user_approval.json](../data/holdout_candidate/assistant_review/completed_proposal/user_approval.json). Les scores calculés restent numériquement valables pour ces annotations acceptées.
+
+Cet accord global ne déclare ni une lecture indépendante page par page, ni la revue sémantique des 145 questions antérieures, ni l’adjudication des réponses et facettes. Ces décisions restent non renseignées. Le statut de test final indépendant n’est donc pas établi. Le [statut retenu pour la remise](STATUT_HOLDOUT.md) est une évaluation complémentaire descriptive, sans conclusion confirmatoire.
+
+
 Les essais ci-dessous portent sur le code figé et des questions dev déjà explorées. Ils ne constituent pas une nouvelle évaluation indépendante de qualité.
 
 | Contrôle | Observation |
@@ -41,9 +48,9 @@ Une correction des règles de génération ou de citations devra être développ
 
 ## Pourquoi le test final attend
 
-Le dernier contrôle de la grille consolidée indique **294 jugements de pages sans grade humain/relecteur** et **0/20 décisions par question complètes**. L’accord pour poursuivre le travail ne remplit pas ces annotations. Les grades proposés par l’assistant et la recherche par fragments ne prouvent ni l’exhaustivité des qrels ni la nouveauté sémantique par rapport aux 145 anciennes questions.
+Le dernier contrôle de la grille consolidée indique **0 jugements de pages sans grade humain/relecteur** et **0/20 décisions par question complètes**. L’accord global de l’utilisateur accepte les grades, sans attester les décisions sémantiques par question. La recherche par fragments ne prouve ni l’exhaustivité des qrels ni la nouveauté sémantique par rapport aux 145 anciennes questions.
 
-Une mesure sur ces propositions serait provisoire et ne pourrait pas être annoncée comme un test final indépendant validé. Le contrôle conserve donc le statut `annotation_pending`. Les données historiques, les modèles, paramètres et index restent figés.
+La mesure complémentaire réalisée reste provisoire et ne peut pas être annoncée comme un test final indépendant validé. Le contrôle conserve donc le statut `annotation_pending`. Les données historiques, les modèles, paramètres et index restent figés.
 
 ## Graphiques et reproduction
 
@@ -56,4 +63,9 @@ La conformité complète n’est pas revendiquée : restent la validation indép
 
 ## Mesure provisoire supplémentaire des 20 questions
 
-[Scores et graphique](../results/candidate_provisional/20261120T151147Z/RAPPORT.md) : 12 configurations, budgets 5/6. Les grades restent proposés par l’assistant. Ce calcul ne valide ni les annotations, ni l’indépendance du lot, ni la génération. Le lot a désormais été exposé aux scores ; une correction guidée par ceux-ci nécessitera une autre confirmation.
+[Scores et graphique](../results/candidate_provisional/20261120T151147Z/RAPPORT.md) : 12 configurations, budgets 5/6. Les grades initialement proposés par l’assistant ont été acceptés globalement par l’utilisateur. L’indépendance du lot et la génération ne sont pas validées par ce calcul. Le lot a désormais été exposé aux scores ; une correction guidée par ceux-ci nécessitera une autre confirmation.
+
+
+## Reproduction isolée et dossier de remise
+
+[Reproduction : exécutions, journaux et limites](REPRODUCTION.md). Une copie isolée avec poids/dépendances réutilisés ne constitue pas une installation vierge. [Plan de finalisation et preuves](FINALISATION.md).

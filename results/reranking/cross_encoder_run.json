@@ -1,0 +1,47 @@
+{
+  "config": {
+    "corpus": "93-fomc-minutes-statements-2021-2026",
+    "questions": 145,
+    "chunk_tokens": 400,
+    "overlap_tokens": 60,
+    "max_model_tokens": 512,
+    "top_k": 20,
+    "rrf_constant": 60,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "batch_size": 8,
+    "cpu_threads": 2,
+    "seed": 42,
+    "dense_model": "intfloat/e5-small-v2",
+    "dense_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "colbert_model": "answerdotai/answerai-colbert-small-v1",
+    "colbert_revision": "934fa8bb4ce2284f4c2baa232d81aca4d076fa5e",
+    "cross_encoder_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "cross_encoder_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "colbert_query_length": 64,
+    "colbert_document_length": 512,
+    "cross_encoder_max_length": 512
+  },
+  "questions": 145,
+  "rankings": 8700,
+  "input_rankings_sha256": "5ecb97b306304d960816ddf132fa990b4657a43f2450f6085fb84a793882e0ae",
+  "output_sha256": "73acd759b167f62aca041a235a9fa9ee56bd900aae49f1296c0f3b4695fdca27",
+  "candidate_set_checks": 435,
+  "model_notes": {
+    "truncation_counts": 0
+  },
+  "environment": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "1.26.4",
+      "torch": "2.15.0",
+      "transformers": "5.22.1",
+      "sentence-transformers": "5.7.0",
+      "rank-bm25": "0.2.2",
+      "pymupdf": "1.28.2",
+      "safetensors": "0.8.0"
+    }
+  },
+  "timing": "One sequential pass after warm-up. ColBERT document preencoding excluded. BM25/ColBERT shared query costs logged in shared_query_seconds and included in seconds for each pool as an estimated standalone cost. Cross-encoder scores pairs within seconds. Do not compare timings directly without accounting for these differences."
+}

@@ -1,5 +1,14 @@
 # Lot candidat V2 — couverture diversifiée et annotation traçable
 
+> **Décision actuelle :** les 294 grades proposés ont été acceptés globalement
+> par l’utilisateur, sans modification. Les champs humains de la grille consolidée
+> sont renseignés et la trace est conservée dans
+> [user_approval.json](assistant_review/completed_proposal/user_approval.json).
+> Le lot est remis comme évaluation complémentaire à scores provisoires ;
+> [la décision documentée](../../docs/STATUT_HOLDOUT.md) distingue cet accord
+> de la vérification sémantique des questions. Les anciennes descriptions ci-dessous
+> et la grille située à la racine décrivent les étapes historiques de préparation.
+
 > **Mise à jour :** une évaluation provisoire sur les qrels proposés est lancée
 > dans `results/candidate_provisional/`. Les mentions « non scoré » ci-dessous
 > décrivent l’historique de préparation. Les champs humains restent vides :

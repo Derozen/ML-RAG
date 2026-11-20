@@ -1,0 +1,32 @@
+{
+  "status": "completed_provisional",
+  "final_independent_test": false,
+  "human_approved": false,
+  "input_sha256": {
+    "data\\holdout_candidate\\queries_20.jsonl": "70a76fe0e4d7fe03e31f1ec50b762768827aba493890101755144e25e01ed5c5",
+    "data\\holdout_candidate\\assistant_review\\completed_proposal\\qrels_PAGES_proposed.trec": "20d69aab519cd2dbe7422b11859bbdbabd1cf38f6504b2b152c82ee5d722b3e8",
+    "data\\evaluation\\chunk_pages.jsonl": "aafe108f702640180d584113a26829d92c51e6c5abd25f368c0eb0763b87ff4a",
+    "protocol\\frozen_pipeline_20261120.json": "31d1ef6d1ae422eb6310eaa8bebbe9e0bb1b3cf07052c6642b273db4b034ed06",
+    "scripts\\score_candidate.py": "435615335f832030e21a3910a3b0d0244e2fb63d1fb735c5f981695c53329279"
+  },
+  "questions": 20,
+  "configurations": 12,
+  "contexts": 480,
+  "candidates": 20,
+  "budgets": [
+    5,
+    6
+  ],
+  "selected_before_scoring": "hybrid_rrf + colbert",
+  "generation_evaluated": false,
+  "source_inputs_unchanged": true,
+  "output_sha256": {
+    "comparison.csv": "1579d7a06caf6432a67655fee5f7e83deba5e64520e2160645959ff87d506830",
+    "comparison.png": "565b2435be0d8b2e5c39d1a4e3096f73149e7d09fbd0e156c244eb047be0b397",
+    "contexts.jsonl": "c858f556fd67294d1fb1ba1c6212d50ac5ebc5de58c5055919e5d1f3895556d9",
+    "metrics_per_question.csv": "1221be667dac70b9cc38f18cb4e9a0f96cbefa13564d8f130fd9327bbe046219",
+    "questions_only.jsonl": "10fff9a52db6f4e348b2492b06f851fbcf165db93b85d22fc00553768a277ac1",
+    "rankings.jsonl": "f628ca8f1e6dde1089e16714fb1a52e22dc0d9c284fd6e59773b662916480312",
+    "RAPPORT.md": "b113294cb8e307de5c06b5b7dc9573c9800a09ff86ff6228150e01c1577f508d"
+  }
+}

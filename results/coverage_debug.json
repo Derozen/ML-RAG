@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-11-19T17:28:00.669785",
+  "question": "How did the FOMC's monetary policy stance evolve between March 2022 and July 2023, and what were the main reasons for these changes?",
+  "raw_model_output": "{\n  \"sections\": {\n    \"march_decision\": {\n      \"claim\": \"In March 2022, the FOMC decided to raise the federal funds target range to ¼ to ½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.\",\n      \"source_ids\": [1, 2]\n    },\n    \"march_reasons\": {\n      \"claim\": \"The Committee decided to raise the target range to ¼ to ½ percent to support inflation returning to its 2 percent objective and to maintain strong labor market conditions, as evidenced by the expectation of ongoing increases in the target range.\",\n      \"source_ids\": [1, 2]\n    },\n    \"july_decision\": {\n      \"claim\": \"In July 2023, the FOMC decided to raise the federal funds target range to 5¼ to 5½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.\",\n      \"source_ids\": [3, 4]\n    },\n    \"july_reasons\": {\n      \"claim\": \"Participants at the July meeting judged it appropriate to raise the target range to 5¼ to 5½ percent to further restrict the economy and help restore price stability, given the Committee’s goal of bringing inflation down to 2 percent over time.\",\n      \"source_ids\": [3, 4]\n    },\n    \"overall_change\": {\n      \"claim\": \"Between March 2022 and July 2023, the FOMC's monetary policy stance became more restrictive, as evidenced by the increase in the federal funds target range from ¼ to ½ percent to 5¼ to 5½ percent.\",\n      \"source_ids\": [1, 2, 3, 4]\n    }\n  }\n}",
+  "parsed_json": {
+    "sections": {
+      "march_decision": {
+        "claim": "In March 2022, the FOMC decided to raise the federal funds target range to ¼ to ½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.",
+        "source_ids": [
+          1,
+          2
+        ]
+      },
+      "march_reasons": {
+        "claim": "The Committee decided to raise the target range to ¼ to ½ percent to support inflation returning to its 2 percent objective and to maintain strong labor market conditions, as evidenced by the expectation of ongoing increases in the target range.",
+        "source_ids": [
+          1,
+          2
+        ]
+      },
+      "july_decision": {
+        "claim": "In July 2023, the FOMC decided to raise the federal funds target range to 5¼ to 5½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.",
+        "source_ids": [
+          3,
+          4
+        ]
+      },
+      "july_reasons": {
+        "claim": "Participants at the July meeting judged it appropriate to raise the target range to 5¼ to 5½ percent to further restrict the economy and help restore price stability, given the Committee’s goal of bringing inflation down to 2 percent over time.",
+        "source_ids": [
+          3,
+          4
+        ]
+      },
+      "overall_change": {
+        "claim": "Between March 2022 and July 2023, the FOMC's monetary policy stance became more restrictive, as evidenced by the increase in the federal funds target range from ¼ to ½ percent to 5¼ to 5½ percent.",
+        "source_ids": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  },
+  "coverage_audit": {
+    "sections": {
+      "march_decision": {
+        "label": "March 2022 — Policy decision",
+        "claim": "In March 2022, the FOMC decided to raise the federal funds target range to ¼ to ½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.",
+        "raw_source_ids": [
+          1,
+          2
+        ],
+        "source_ids": [
+          1,
+          2
+        ],
+        "invalid_ids": [],
+        "cited_months": [
+          "2022-03"
+        ],
+        "expected_months": [
+          "2022-03"
+        ],
+        "month_consistent": true,
+        "has_claim": true,
+        "has_valid_sources": true,
+        "complete": true,
+        "errors": []
+      },
+      "march_reasons": {
+        "label": "March 2022 — Economic reasons",
+        "claim": "The Committee decided to raise the target range to ¼ to ½ percent to support inflation returning to its 2 percent objective and to maintain strong labor market conditions, as evidenced by the expectation of ongoing increases in the target range.",
+        "raw_source_ids": [
+          1,
+          2
+        ],
+        "source_ids": [
+          1,
+          2
+        ],
+        "invalid_ids": [],
+        "cited_months": [
+          "2022-03"
+        ],
+        "expected_months": [
+          "2022-03"
+        ],
+        "month_consistent": true,
+        "has_claim": true,
+        "has_valid_sources": true,
+        "complete": true,
+        "errors": []
+      },
+      "july_decision": {
+        "label": "July 2023 — Policy decision",
+        "claim": "In July 2023, the FOMC decided to raise the federal funds target range to 5¼ to 5½ percent, with unanimous support from the Board of Governors of the Federal Reserve System.",
+        "raw_source_ids": [
+          3,
+          4
+        ],
+        "source_ids": [
+          3,
+          4
+        ],
+        "invalid_ids": [],
+        "cited_months": [
+          "2023-07"
+        ],
+        "expected_months": [
+          "2023-07"
+        ],
+        "month_consistent": true,
+        "has_claim": true,
+        "has_valid_sources": true,
+        "complete": true,
+        "errors": []
+      },
+      "july_reasons": {
+        "label": "July 2023 — Economic reasons",
+        "claim": "Participants at the July meeting judged it appropriate to raise the target range to 5¼ to 5½ percent to further restrict the economy and help restore price stability, given the Committee’s goal of bringing inflation down to 2 percent over time.",
+        "raw_source_ids": [
+          3,
+          4
+        ],
+        "source_ids": [
+          3,
+          4
+        ],
+        "invalid_ids": [],
+        "cited_months": [
+          "2023-07"
+        ],
+        "expected_months": [
+          "2023-07"
+        ],
+        "month_consistent": true,
+        "has_claim": true,
+        "has_valid_sources": true,
+        "complete": true,
+        "errors": []
+      },
+      "overall_change": {
+        "label": "Overall monetary policy evolution",
+        "claim": "Between March 2022 and July 2023, the FOMC's monetary policy stance became more restrictive, as evidenced by the increase in the federal funds target range from ¼ to ½ percent to 5¼ to 5½ percent.",
+        "raw_source_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "invalid_ids": [],
+        "cited_months": [
+          "2022-03",
+          "2023-07"
+        ],
+        "expected_months": [
+          "2022-03",
+          "2023-07"
+        ],
+        "month_consistent": true,
+        "has_claim": true,
+        "has_valid_sources": true,
+        "complete": true,
+        "errors": []
+      }
+    },
+    "coverage_complete": true,
+    "complete_sections": 5,
+    "total_sections": 5,
+    "semantic_support_verified": false
+  },
+  "source_metadata": [
+    {
+      "rank": 1,
+      "chunk_id": "MIN_2022-03-16_C0036",
+      "document": "fomcminutes20220316.pdf",
+      "meeting_end": "2022-03-16",
+      "target_month": "2022-03"
+    },
+    {
+      "rank": 2,
+      "chunk_id": "MIN_2022-03-16_C0035",
+      "document": "fomcminutes20220316.pdf",
+      "meeting_end": "2022-03-16",
+      "target_month": "2022-03"
+    },
+    {
+      "rank": 3,
+      "chunk_id": "MIN_2023-07-26_C0024",
+      "document": "fomcminutes20230726.pdf",
+      "meeting_end": "2023-07-26",
+      "target_month": "2023-07"
+    },
+    {
+      "rank": 4,
+      "chunk_id": "MIN_2023-07-26_C0006",
+      "document": "fomcminutes20230726.pdf",
+      "meeting_end": "2023-07-26",
+      "target_month": "2023-07"
+    }
+  ]
+}

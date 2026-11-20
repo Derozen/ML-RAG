@@ -1,0 +1,23 @@
+{
+  "question_id": "FOMC_035",
+  "split": "dev",
+  "reviewer_type": "assistant_editorial_review_not_independent_human_validation",
+  "functional_generation_passed": true,
+  "returned_structural_citation_pass": true,
+  "answer_adequacy": "partial",
+  "observed_issues": [
+    "The generated answer discusses inflation but omits the strong labor market explicitly reported in source 1 as another reason for removing accommodation soon.",
+    "Citations include sources 5 and 6 from December and July 2022, although the question concerns January 2022. Existing classic-mode structural checks do not enforce the question's temporal scope."
+  ],
+  "correct_support_already_retrieved": {
+    "source_id": 1,
+    "chunk_id": "MIN_2022-01-26_C0048",
+    "meeting_end": "2022-01-26",
+    "verified_by": "results/audit_project/qualitative_dev_review.json"
+  },
+  "proposed_manual_answer_for_explanation_only": "In January 2022, inflation was well above 2 percent, inflation risks were tilted to the upside, and the labor market was strong after substantial, broad-based progress. These conditions supported raising the target range soon. [SOURCE 1]",
+  "proposal_is_model_output": false,
+  "frozen_generation_pipeline_changed": false,
+  "final_independent_test_executed": false,
+  "required_followup": "Develop and validate any stricter temporal citation or answer-coverage policy as an explicitly versioned change on development questions. Do not silently change the frozen pipeline or claim semantic validation from structural pass alone."
+}

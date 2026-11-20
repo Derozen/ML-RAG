@@ -1,0 +1,13 @@
+{
+  "status": "not_fully_reproduced_in_clean_environment",
+  "clean_venv_created": true,
+  "pip_install_exit_code": 1,
+  "network_acquisition_exit_code": 1,
+  "clean_install_succeeded": false,
+  "network_pdf_acquisition_succeeded": false,
+  "limitation": "Dependency installation did not resolve numpy==1.26.4; direct official PDF request was denied by socket permissions. No clean dependency installation or remote acquisition success is claimed.",
+  "logs": [
+    "clean_install.log",
+    "network_acquisition.log"
+  ]
+}
