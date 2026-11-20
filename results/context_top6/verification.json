@@ -1,0 +1,9 @@
+{
+  "questions": 145,
+  "configurations": 12,
+  "contexts": 1740,
+  "final_chunks": 6,
+  "candidates": 20,
+  "source_rankings_sha256": "5ecb97b306304d960816ddf132fa990b4657a43f2450f6085fb84a793882e0ae",
+  "qrels_sha256": "13f4e5a254d2f89cd213fea0315c56a28857b37cc7120e5b396095d63721dbbf"
+}

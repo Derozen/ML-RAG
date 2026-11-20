@@ -1,0 +1,48 @@
+{
+  "documents": 93,
+  "physical_pages": 838,
+  "chunks": 1692,
+  "questions": 145,
+  "qrels": 279,
+  "raw_source_hashes_verified": true,
+  "document_types": {
+    "minutes": 46,
+    "statements": 47
+  },
+  "years": {
+    "2021": 16,
+    "2022": 16,
+    "2023": 16,
+    "2024": 16,
+    "2025": 16,
+    "2026": 13
+  },
+  "question_types": {
+    "factual": 68,
+    "explanatory": 42,
+    "multi_document": 4,
+    "comparative": 31
+  },
+  "source_splits": {
+    "test": 30,
+    "dev": 85,
+    "validation": 30
+  },
+  "chunk_tokens": {
+    "min": 33,
+    "median": 378.0,
+    "max": 400,
+    "mean": 334.8628841607565
+  },
+  "empty_chunks": 0,
+  "duplicate_chunk_ids": 0,
+  "multipage_chunks": 800,
+  "shared_judged_pages_between_source_splits": {
+    "dev / test": 22,
+    "dev / validation": 27,
+    "test / validation": 11
+  },
+  "exact_duplicate_question_groups": [],
+  "protocol": "All 145 questions exploratory; detailed error analysis restricted to supplied dev subset; no existing split claimed independent.",
+  "warning": "Shared corpus pages across query splits are not by themselves training leakage. They indicate dependence to inspect; test results have already been examined."
+}
