@@ -34,29 +34,28 @@ def ndcg_at_k(rankings, gold, k):
 
 
 if __name__ == "__main__":
-    mreranks = ['norerank','cohere','bge']
-    tabs = ['FOMC1','FOMC2']
+    mreranks = ['norerank']
     mrets = ['vectorielle','hybride','bm25']
     columns = ['TABLE','RETRIEVAL','RERANKING','RECALL@5','RECALL@10','nDCG@5','nDCG@10']
     scores = {c:[] for c in columns}
-    for tab in tabs:
-        for mrrk in mreranks:
-            for mrxt in mrets:
-                with open(f'data/test/{tab}/{mrrk}-{mrxt}.json', 'r', encoding='utf-8') as f:
-                    samples = json.load(f)
-                rankings = {s['qid']: [ext['chunk_id'] for ext in s['extractions']]  for s in samples}
-                gold =  {s['qid']:set( s['solution']['chunks'] ) for s in samples } 
-                rc_5 = recall_at_k(rankings,gold,5)
-                rc_10 = recall_at_k(rankings,gold,10)
-                ndc_5 = ndcg_at_k(rankings,gold,5)
-                ndc_10 = ndcg_at_k(rankings,gold,10)
-                scores['TABLE'].append(tab)
-                scores['RETRIEVAL'].append(mrxt)
-                scores['RERANKING'].append(mrrk)
-                scores['RECALL@5'].append(rc_5)
-                scores['RECALL@10'].append(rc_10)
-                scores['nDCG@5'].append(ndc_5)
-                scores['nDCG@10'].append(ndc_10)
+    tab = 'WIKIDOCS'
+    for mrrk in mreranks:
+        for mrxt in mrets:
+            with open(f'data/test/{tab}/{mrrk}-{mrxt}.json', 'r', encoding='utf-8') as f:
+                samples = json.load(f)
+            rankings = {s['qid']: [ext['id'] for ext in s['extractions']]  for s in samples}
+            gold =  {s['qid']:set( s['solution']['ch_ids'] ) for s in samples } 
+            rc_5 = recall_at_k(rankings,gold,5)
+            rc_10 = recall_at_k(rankings,gold,10)
+            ndc_5 = ndcg_at_k(rankings,gold,5)
+            ndc_10 = ndcg_at_k(rankings,gold,10)
+            scores['TABLE'].append(tab)
+            scores['RETRIEVAL'].append(mrxt)
+            scores['RERANKING'].append(mrrk)
+            scores['RECALL@5'].append(rc_5)
+            scores['RECALL@10'].append(rc_10)
+            scores['nDCG@5'].append(ndc_5)
+            scores['nDCG@10'].append(ndc_10)
 
-    data = pd.DataFrame(scores)
-    data.to_csv('data/scores.csv')
+data = pd.DataFrame(scores)
+data.to_csv('data/scores2.csv')

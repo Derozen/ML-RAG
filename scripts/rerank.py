@@ -32,8 +32,11 @@ def rank_cohere(query,texts, top_k):
   indexs = [result['index'] for result in results["results"]]
   scores = [result['relevance_score'] for result in results["results"]]
   return indexs, scores
-model_lists_1 = ["BAAI/bge-reranker-v2-m3"]
-model_lists_2 = ["jinaai/jina-reranker-v3"]
+model_lists_1 = ["BAAI/bge-reranker-v2-m3",
+                 "Alibaba-NLP/gte-reranker-modernbert-base",
+                 "mixedbread-ai/mxbai-rerank-xsmall-v1",
+                 "jinaai/jina-reranker-v2-base-multilingual"]
+model_lists_2 = []
 def rrf(rankings: list[list[int]], k: int = 60, weights=None, top_n: int = 10):
     """rankings : une liste d'identifiants triés par pertinence décroissante, par méthode."""
     scores: dict[int, float] = {}

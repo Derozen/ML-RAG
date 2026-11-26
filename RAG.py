@@ -4,10 +4,15 @@ import pickle
 from dotenv import load_dotenv
 import json
 import requests
+import numpy as np
 from openai import OpenAI
+from scripts.rerank import tokenize
+from sentence_transformers import CrossEncoder, SentenceTransformer
 load_dotenv()
 
-def rerank(query,rows,TOP_K=5):
+model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+
+def rerank_cohere(query,rows,TOP_K=5):
     if rows==[]:
         return []
     if TOP_K>len(rows):
@@ -31,6 +36,12 @@ def rerank(query,rows,TOP_K=5):
     rows = [rows[idx] for idx in indexs]
     return [r[0] for r in rows]
     
+def rerank(query,rows,TOP_K=4):
+    tokenized_query = tokenize(query)
+    pairs = [[query, text[0]] for text in rows]
+    scores = model.predict(pairs)
+    top_indices = np.argsort(scores)[::-1][:TOP_K]
+    return [rows[i][0] for i in top_indices]
 
 def retrieve(question,embedding,threshold=0.47):
     conn = psycopg2.connect(
@@ -49,7 +60,7 @@ def retrieve(question,embedding,threshold=0.47):
                         ORDER BY embedding <=> %s::vector
                     ) AS rank,
             embedding <=> %s::vector AS distance
-        FROM FOMCv2
+        FROM {os.getenv('TABNAME')}
         ORDER BY rank ASC LIMIT 10;
         """,(embedding,embedding,))
     rows = cur.fetchall()

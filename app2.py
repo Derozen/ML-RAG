@@ -9,10 +9,12 @@ import streamlit as st
 from RAG import retrieve, answer
 #from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
+from langchain_experimental.text_splitter import SemanticChunker
+from langchain_huggingface import HuggingFaceEmbeddings
 load_dotenv()
 
 MODEL_LLM = "claude-sonnet-5-5"
-MODEL_EMBED = "paraphrase-multilingual-MiniLM-L12-v2"  # multilingue, bon en français
+#MODEL_EMBED = "paraphrase-multilingual-MiniLM-L12-v2"  # multilingue, bon en français
 
 st.set_page_config(page_title="Chatbot RAG", page_icon="📚")
 st.title("📚 Chatbot RAG")
@@ -20,7 +22,11 @@ st.title("📚 Chatbot RAG")
 
 @st.cache_resource
 def load_embedder():
-    return SentenceTransformer(MODEL_EMBED)
+    encode_kwargs = {'normalize_embeddings': True}
+    return  HuggingFaceEmbeddings(
+                    model_name="BAAI/bge-base-en-v1.5",
+                    encode_kwargs=encode_kwargs
+                )
 
 
 def read_file(f) -> str:
@@ -63,12 +69,12 @@ if question := st.chat_input("Pose ta question sur tes documents..."):
         else:
             with st.spinner("Réflexion..."):
                 embedder = load_embedder()
-                q = embedder.encode([question], normalize_embeddings=True).tolist()[0]
+                q = embedder.embed_documents([question])[0]
                 sources = retrieve(question,q)
                 print(sources)
-                sources = " ".join(sources)
-                print(sources)
-                reply = answer(question, sources)
+                texts = " ".join(sources)
+                #print(sources)
+                reply = answer(question, texts)
             st.markdown(reply)
             with st.expander("Sources"):
                 for s in sources:

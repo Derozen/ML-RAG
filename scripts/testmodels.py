@@ -7,11 +7,12 @@ import psycopg2
 from sentence_transformers import CrossEncoder, SentenceTransformer
 from transformers import AutoModel
 from rank_bm25 import BM25Okapi
+from langchain_experimental.text_splitter import SemanticChunker
+from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 from rerank import rank, rrf, tokenize, model_lists_1, model_lists_2
 load_dotenv()
 
-EMBED_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 TEST_SIZE = 0.8
 TOP_K = 15
 CHUNK_SIZE = 300     # caractères
@@ -32,7 +33,7 @@ def testpipeline(questions,answers,embeddings,
     qids = [q['qid'] for q in questions]
     #extractions = {tabname: {RETRIEVAL:{qid:[] for qid in qids[:N]}  for RETRIEVAL in RETRIEVALS[:N]} for tabname in tabs}
     if method=="bm25" or method=='hybride':
-        with open(f"models/{tabname}bm25.pkl", "rb") as f:
+        with open(f"models/{tabname}_bm25.pkl", "rb") as f:
             bm25 = pickle.load(f)
     results = []
     print(f"method {method}")
@@ -104,23 +105,24 @@ def testpipeline(questions,answers,embeddings,
         jsol.write(json.dumps(results, indent=4, ensure_ascii=False))
 
 if __name__ == "__main__":
-    MODEL_NAMES = {"norerank":"norerank","cohere":"cohere","BAAI/bge-reranker-v2-m3":"bge",
-                     "jinaai/jina-reranker-v3":"jina"}
-    dataset_json_path = 'data/squad_fomc_statements.json'
-    method = 'hybride'
-    rrk_model = 'norerank'
-    tabname = 'FOMC2'
-    if len(sys.argv)>1:
-        dataset_json_path = sys.argv[1]
-    if len(sys.argv)>2:
-        method = sys.argv[2]
-    if len(sys.argv)>3:
-        rrk_model = sys.argv[3]
-    try:
-        name = MODEL_NAMES[rrk_model]
-    except:
-        raise ValueError("Modèle de Reranking doit être dans MODEL_NAMES")
-    encoder = SentenceTransformer(EMBED_MODEL)
+    MODEL_NAMES = {"norerank":"norerank","Alibaba-NLP/gte-reranker-modernbert-base":"gte",
+                 "mixedbread-ai/mxbai-rerank-xsmall-v1":"mxbai",
+                 "jinaai/jina-reranker-v2-base-multilingual":"jina"}#"cohere":"cohere","BAAI/bge-reranker-v2-m3":"bge"
+                    # }#"jinaai/jina-reranker-v3":"jina"}
+    dataset_json_path = 'data/articles_with_qasv2.json'
+    methods = ['hybride','bm25','vectorielle']
+    #rrk_model = 'norerank'
+    tabname = 'WIKIDOCS'
+    # if len(sys.argv)>1:
+    #     dataset_json_path = sys.argv[1]
+    # if len(sys.argv)>2:
+    #     method = sys.argv[2]
+    # if len(sys.argv)>3:
+    #     rrk_model = sys.argv[3]
+    # try:
+    #     name = MODEL_NAMES[rrk_model]
+    # except:
+    #     raise ValueError("Modèle de Reranking doit être dans MODEL_NAMES")
     with open(dataset_json_path, 'r', encoding='utf-8') as f:
         dataset = json.load(f)
     questions = []
@@ -144,35 +146,42 @@ if __name__ == "__main__":
     answers = [answers[i] for i in idxs]
 
     N = int(len(questions) * TEST_SIZE)
-
-    embeddings = encoder.encode([q['question'] for q in questions[:N]], normalize_embeddings=True).tolist()
-
-    if rrk_model in model_lists_1:
-        model = CrossEncoder(rrk_model)
-    elif rrk_model in model_lists_2:
-        model = AutoModel.from_pretrained(rrk_model)
-    else:
-        model = None
-    sql1 = f"""
-        SELECT
-            id,
-            title,
-            content,
-            ROW_NUMBER() OVER (
-                        ORDER BY embedding <=> %s::vector
-                    ) AS rank,
-            embedding <=> %s::vector AS distance
-        FROM {tabname}
-        ORDER BY rank ASC LIMIT {TOP_K};
-        """
-    sql2 = f"""
-        SELECT
-            id,
-            title,
-            content
-        FROM {tabname};
-        """
-    testpipeline(questions[:N],answers[:N],
-                 embeddings,rrk_model,name,
-                 tabname,method,sql1,sql2,model,
-                 TOP_K)
+    N = 120
+    encode_kwargs = {'normalize_embeddings': True}
+    embed_model = HuggingFaceEmbeddings(
+                    model_name="BAAI/bge-base-en-v1.5",
+                    encode_kwargs=encode_kwargs
+                )
+    #embeddings = encoder.encode([q['question'] for q in questions[:N]], normalize_embeddings=True).tolist()
+    embeddings = embed_model.embed_documents([q['question'] for q in questions[:N]])
+    for rrk_model,name in MODEL_NAMES.items():
+      if rrk_model in model_lists_1:
+          model = CrossEncoder(rrk_model)
+      elif rrk_model in model_lists_2:
+          model = AutoModel.from_pretrained(rrk_model)
+      else:
+          model = None
+      sql1 = f"""
+          SELECT
+              id,
+              title,
+              content,
+              ROW_NUMBER() OVER (
+                          ORDER BY embedding <=> %s::vector
+                      ) AS rank,
+              embedding <=> %s::vector AS distance
+          FROM {tabname}
+          ORDER BY rank ASC LIMIT {TOP_K};
+          """
+      sql2 = f"""
+          SELECT
+              id,
+              title,
+              content
+          FROM {tabname};
+          """
+      for method in methods:
+        testpipeline(questions[:N],answers[:N],
+                  embeddings,rrk_model,name,
+                  tabname,method,sql1,sql2,model,
+                  TOP_K)

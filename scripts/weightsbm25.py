@@ -28,13 +28,13 @@ def savebm25(tabname,model_folder_path):
     documents = [r[2] for r in rows]
     tokenized_corpus = [tokenize(text) for text in documents]
     bm25 = BM25Okapi(tokenized_corpus)
-    with open(os.path.join(model_folder_path,f"{tabname}bm25.pkl"), "wb") as f:
+    with open(os.path.join(model_folder_path,f"{tabname}_bm25.pkl"), "wb") as f:
         pickle.dump(bm25, f)
 if __name__ == "__main__":
-    tabname = "FOMC2"
+    tabname = "WIKIDOCS"
     model_folder_path = "models"
-    if len(sys.argv)>1:
-        tabname = sys.argv[1]
-    if len(sys.argv)>2:
-        model_folder_path=sys.argv[2]
+    # if len(sys.argv)>1:
+    #     tabname = sys.argv[1]
+    # if len(sys.argv)>2:
+    #     model_folder_path=sys.argv[2]
     savebm25(tabname,model_folder_path)
