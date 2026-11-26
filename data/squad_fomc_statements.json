@@ -1,0 +1,2475 @@
+{
+  "version": "1.1",
+  "data": [
+    {
+      "title": "FOMC Statement – January 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nThe COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic. Weaker demand and earlier declines in oil prices have been holding down consumer price inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-01-01",
+              "question": "What target range for the federal funds rate did the Committee keep in the January 2021 statement?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1586
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-01-02",
+              "question": "In January 2021, by at least how much per month did the Federal Reserve plan to increase its holdings of Treasury securities?",
+              "answers": [
+                {
+                  "text": "at least $80 billion per month",
+                  "answer_start": 1981
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-01-03",
+              "question": "In January 2021, by at least how much per month did the Federal Reserve plan to increase its holdings of agency mortgage-backed securities?",
+              "answers": [
+                {
+                  "text": "at least $40 billion per month",
+                  "answer_start": 2056
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-01-04",
+              "question": "What level of inflation did the Committee aim to achieve for some time in the January 2021 statement?",
+              "answers": [
+                {
+                  "text": "moderately above 2 percent",
+                  "answer_start": 1235
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nThe COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak. Inflation continues to run below 2 percent. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-03-01",
+              "question": "What did the March 2021 statement say about indicators of economic activity and employment recently?",
+              "answers": [
+                {
+                  "text": "turned up recently",
+                  "answer_start": 411
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-03-02",
+              "question": "Which sectors remained weak in the March 2021 statement?",
+              "answers": [
+                {
+                  "text": "the sectors most adversely affected by the pandemic",
+                  "answer_start": 440
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-03-03",
+              "question": "What did the March 2021 statement say inflation continues to run below?",
+              "answers": [
+                {
+                  "text": "2 percent",
+                  "answer_start": 538
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-03-04",
+              "question": "What target range for the federal funds rate did the Committee decide to keep in March 2021?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1554
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – April 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nThe COVID-19 pandemic is causing tremendous human and economic hardship across the United States and around the world. Amid progress on vaccinations and strong policy support, indicators of economic activity and employment have strengthened. The sectors most adversely affected by the pandemic remain weak but have shown improvement. Inflation has risen, largely reflecting transitory factors. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy will depend significantly on the course of the virus, including progress on vaccinations. The ongoing public health crisis continues to weigh on the economy, and risks to the economic outlook remain.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-04-01",
+              "question": "In April 2021, what was inflation said to be largely reflecting?",
+              "answers": [
+                {
+                  "text": "transitory factors",
+                  "answer_start": 562
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-04-02",
+              "question": "How did the April 2021 statement describe the sectors most adversely affected by the pandemic?",
+              "answers": [
+                {
+                  "text": "remain weak but have shown improvement",
+                  "answer_start": 482
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-04-03",
+              "question": "What target range for the federal funds rate did the Committee keep in April 2021?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1542
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-04-04",
+              "question": "In April 2021, by at least how much per month did the Fed plan to increase its Treasury holdings?",
+              "answers": [
+                {
+                  "text": "at least $80 billion per month",
+                  "answer_start": 1937
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nProgress on vaccinations has reduced the spread of COVID-19 in the United States. Amid this progress and strong policy support, indicators of economic activity and employment have strengthened. The sectors most adversely affected by the pandemic remain weak but have shown improvement. Inflation has risen, largely reflecting transitory factors. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy will depend significantly on the course of the virus. Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation having run persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-06-01",
+              "question": "In June 2021, what had reduced the spread of COVID-19 in the United States?",
+              "answers": [
+                {
+                  "text": "Progress on vaccinations",
+                  "answer_start": 188
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-06-02",
+              "question": "In June 2021, what was inflation said to be largely reflecting?",
+              "answers": [
+                {
+                  "text": "transitory factors",
+                  "answer_start": 514
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-06-03",
+              "question": "What target range for the federal funds rate did the Committee keep in June 2021?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1505
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-06-04",
+              "question": "Why did the Committee aim for inflation moderately above 2 percent for some time in June 2021?",
+              "answers": [
+                {
+                  "text": "inflation averages 2 percent over time",
+                  "answer_start": 1203
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nWith progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen. The sectors most adversely affected by the pandemic have shown improvement but have not fully recovered. Inflation has risen, largely reflecting transitory factors. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy continues to depend on the course of the virus. Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation having run persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals. Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-07-01",
+              "question": "When did the Committee first indicate it would continue increasing its Treasury and agency MBS holdings, according to the July 2021 statement?",
+              "answers": [
+                {
+                  "text": "Last December",
+                  "answer_start": 1749
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-07-02",
+              "question": "What had the economy made since December, according to the July 2021 statement?",
+              "answers": [
+                {
+                  "text": "progress toward these goals",
+                  "answer_start": 2107
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-07-03",
+              "question": "How were the sectors most adversely affected by the pandemic described in July 2021?",
+              "answers": [
+                {
+                  "text": "have shown improvement but have not fully recovered",
+                  "answer_start": 374
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-07-04",
+              "question": "What target range for the federal funds rate did the Committee keep in July 2021?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1452
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nWith progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen. The sectors most adversely affected by the pandemic have improved in recent months, but the rise in COVID-19 cases has slowed their recovery. Inflation is elevated, largely reflecting transitory factors. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy continues to depend on the course of the virus. Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation having run persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals. Since then, the economy has made progress toward these goals. If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted. These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-09-01",
+              "question": "In September 2021, what had slowed the recovery of the sectors most adversely affected by the pandemic?",
+              "answers": [
+                {
+                  "text": "the rise in COVID-19 cases",
+                  "answer_start": 410
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-09-02",
+              "question": "How was inflation described in the September 2021 statement?",
+              "answers": [
+                {
+                  "text": "elevated",
+                  "answer_start": 477
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-09-03",
+              "question": "What did the Committee judge may soon be warranted in September 2021?",
+              "answers": [
+                {
+                  "text": "a moderation in the pace of asset purchases",
+                  "answer_start": 2244
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-09-04",
+              "question": "What target range for the federal funds rate did the Committee keep in September 2021?",
+              "answers": [
+                {
+                  "text": "0 to 1/4 percent",
+                  "answer_start": 1491
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – November 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nWith progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen. The sectors most adversely affected by the pandemic have improved in recent months, but the summer's rise in COVID-19 cases has slowed their recovery. Inflation is elevated, largely reflecting factors that are expected to be transitory. Supply and demand imbalances related to the pandemic and the reopening of the economy have contributed to sizable price increases in some sectors. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy continues to depend on the course of the virus. Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With inflation having run persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved. The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time. In light of the substantial further progress the economy has made toward the Committee's goals since last December, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities. Beginning later this month, the Committee will increase its holdings of Treasury securities by at least $70 billion per month and of agency mortgage-backed securities by at least $35 billion per month. Beginning in December, the Committee will increase its holdings of Treasury securities by at least $60 billion per month and of agency mortgage-backed securities by at least $30 billion per month. The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook. The Federal Reserve's ongoing purchases and holdings of securities will continue to foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-11-01",
+              "question": "By how much did the Committee begin reducing its monthly net purchases of Treasury securities in November 2021?",
+              "answers": [
+                {
+                  "text": "$10 billion",
+                  "answer_start": 2229
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-11-02",
+              "question": "By how much did the Committee begin reducing its monthly net purchases of agency mortgage-backed securities in November 2021?",
+              "answers": [
+                {
+                  "text": "$5 billion",
+                  "answer_start": 2269
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-11-03",
+              "question": "In the November 2021 statement, how much per month would Treasury holdings increase beginning in December?",
+              "answers": [
+                {
+                  "text": "at least $60 billion per month",
+                  "answer_start": 2611
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-11-04",
+              "question": "What contributed to sizable price increases in some sectors, according to the November 2021 statement?",
+              "answers": [
+                {
+                  "text": "Supply and demand imbalances related to the pandemic and the reopening of the economy",
+                  "answer_start": 559
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – December 2021",
+      "paragraphs": [
+        {
+          "context": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\nWith progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen. The sectors most adversely affected by the pandemic have improved in recent months but continue to be affected by COVID-19. Job gains have been solid in recent months, and the unemployment rate has declined substantially. Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy continues to depend on the course of the virus. Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain, including from new variants of the virus.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent. With inflation having exceeded 2 percent for some time, the Committee expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment. In light of inflation developments and the further improvement in the labor market, the Committee decided to reduce the monthly pace of its net asset purchases by $20 billion for Treasury securities and $10 billion for agency mortgage-backed securities. Beginning in January, the Committee will increase its holdings of Treasury securities by at least $40 billion per month and of agency mortgage-backed securities by at least $20 billion per month. The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook. The Federal Reserve's ongoing purchases and holdings of securities will continue to foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2021-12-01",
+              "question": "By how much did the Committee reduce its monthly net purchases of Treasury securities in December 2021?",
+              "answers": [
+                {
+                  "text": "$20 billion",
+                  "answer_start": 1828
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-12-02",
+              "question": "By how much did the Committee reduce its monthly net purchases of agency mortgage-backed securities in December 2021?",
+              "answers": [
+                {
+                  "text": "$10 billion",
+                  "answer_start": 1868
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-12-03",
+              "question": "In December 2021, how much per month would Treasury holdings increase beginning in January?",
+              "answers": [
+                {
+                  "text": "at least $40 billion per month",
+                  "answer_start": 2008
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2021-12-04",
+              "question": "What had declined substantially, according to the December 2021 statement?",
+              "answers": [
+                {
+                  "text": "the unemployment rate",
+                  "answer_start": 494
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – January 2022",
+      "paragraphs": [
+        {
+          "context": "Indicators of economic activity and employment have continued to strengthen. The sectors most adversely affected by the pandemic have improved in recent months but are being affected by the recent sharp rise in COVID-19 cases. Job gains have been solid in recent months, and the unemployment rate has declined substantially. Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation. Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\nThe path of the economy continues to depend on the course of the virus. Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain, including from new variants of the virus.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent. With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate. The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March. Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage-backed securities by at least $10 billion per month. The Federal Reserve's ongoing purchases and holdings of securities will continue to foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-01-01",
+              "question": "When did the January 2022 statement say net asset purchases would come to an end?",
+              "answers": [
+                {
+                  "text": "early March",
+                  "answer_start": 1481
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-01-02",
+              "question": "In January 2022, how much per month would Treasury holdings increase beginning in February?",
+              "answers": [
+                {
+                  "text": "at least $20 billion per month",
+                  "answer_start": 1584
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-01-03",
+              "question": "What did the Committee expect would soon be appropriate in January 2022?",
+              "answers": [
+                {
+                  "text": "raise the target range for the federal funds rate",
+                  "answer_start": 1314
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-01-04",
+              "question": "What recent development was affecting the hardest-hit sectors in January 2022?",
+              "answers": [
+                {
+                  "text": "the recent sharp rise in COVID-19 cases",
+                  "answer_start": 186
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2022",
+      "paragraphs": [
+        {
+          "context": "Indicators of economic activity and employment have continued to strengthen. Job gains have been strong in recent months, and the unemployment rate has declined substantially. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.\nThe invasion of Ukraine by Russia is causing tremendous human and economic hardship. The implications for the U.S. economy are highly uncertain, but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-03-01",
+              "question": "To what target range did the Committee raise the federal funds rate in March 2022?",
+              "answers": [
+                {
+                  "text": "1/4 to 1/2 percent",
+                  "answer_start": 993
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-03-02",
+              "question": "What event was causing tremendous human and economic hardship in the March 2022 statement?",
+              "answers": [
+                {
+                  "text": "The invasion of Ukraine by Russia",
+                  "answer_start": 320
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-03-03",
+              "question": "What did the Committee expect to begin reducing at a coming meeting in March 2022?",
+              "answers": [
+                {
+                  "text": "its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+                  "answer_start": 1145
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-03-04",
+              "question": "What was elevated inflation reflecting in March 2022?",
+              "answers": [
+                {
+                  "text": "supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures",
+                  "answer_start": 215
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – May 2022",
+      "paragraphs": [
+        {
+          "context": "Although overall economic activity edged down in the first quarter, household spending and business fixed investment remained strong. Job gains have been robust in recent months, and the unemployment rate has declined substantially. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.\nThe invasion of Ukraine by Russia is causing tremendous human and economic hardship. The implications for the U.S. economy are highly uncertain. The invasion and related events are creating additional upward pressure on inflation and are likely to weigh on economic activity. In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee decided to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities on June 1, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in conjunction with this statement.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee’s goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-05-01",
+              "question": "To what target range did the Committee raise the federal funds rate in May 2022?",
+              "answers": [
+                {
+                  "text": "3/4 to 1 percent",
+                  "answer_start": 1186
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-05-02",
+              "question": "On what date did the Committee begin reducing its securities holdings, according to the May 2022 statement?",
+              "answers": [
+                {
+                  "text": "June 1",
+                  "answer_start": 1429
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-05-03",
+              "question": "What in China was expected to exacerbate supply chain disruptions in May 2022?",
+              "answers": [
+                {
+                  "text": "COVID-related lockdowns",
+                  "answer_start": 666
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-05-04",
+              "question": "What did overall economic activity do in the first quarter, according to the May 2022 statement?",
+              "answers": [
+                {
+                  "text": "edged down",
+                  "answer_start": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2022",
+      "paragraphs": [
+        {
+          "context": "Overall economic activity appears to have picked up after edging down in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.\nThe invasion of Ukraine by Russia is causing tremendous human and economic hardship. The invasion and related events are creating additional upward pressure on inflation and are weighing on global economic activity. In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-06-01",
+              "question": "To what target range did the Committee raise the federal funds rate in June 2022?",
+              "answers": [
+                {
+                  "text": "1-1/2 to 1-3/4 percent",
+                  "answer_start": 907
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-06-02",
+              "question": "In which month were the balance sheet reduction plans issued, according to the June 2022 statement?",
+              "answers": [
+                {
+                  "text": "May",
+                  "answer_start": 1258
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-06-03",
+              "question": "What was the Committee strongly committed to in June 2022?",
+              "answers": [
+                {
+                  "text": "returning inflation to its 2 percent objective",
+                  "answer_start": 1302
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-06-04",
+              "question": "What did overall economic activity appear to have done after edging down in the first quarter, according to the June 2022 statement?",
+              "answers": [
+                {
+                  "text": "picked up",
+                  "answer_start": 42
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2022",
+      "paragraphs": [
+        {
+          "context": "Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\nRussia's war against Ukraine is causing tremendous human and economic hardship. The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-07-01",
+              "question": "To what target range did the Committee raise the federal funds rate in July 2022?",
+              "answers": [
+                {
+                  "text": "2-1/4 to 2-1/2 percent",
+                  "answer_start": 790
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-07-02",
+              "question": "Which indicators had softened, according to the July 2022 statement?",
+              "answers": [
+                {
+                  "text": "spending and production",
+                  "answer_start": 21
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-07-03",
+              "question": "What kind of price increases was inflation reflecting in July 2022, alongside supply and demand imbalances?",
+              "answers": [
+                {
+                  "text": "higher food and energy prices",
+                  "answer_start": 255
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-07-04",
+              "question": "What was causing tremendous human and economic hardship in the July 2022 statement?",
+              "answers": [
+                {
+                  "text": "Russia's war against Ukraine",
+                  "answer_start": 315
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2022",
+      "paragraphs": [
+        {
+          "context": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\nRussia's war against Ukraine is causing tremendous human and economic hardship. The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent and anticipates that ongoing increases in the target range will be appropriate. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-09-01",
+              "question": "To what target range did the Committee raise the federal funds rate in September 2022?",
+              "answers": [
+                {
+                  "text": "3 to 3-1/4 percent",
+                  "answer_start": 786
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-09-02",
+              "question": "What did recent indicators point to in September 2022?",
+              "answers": [
+                {
+                  "text": "modest growth in spending and production",
+                  "answer_start": 27
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-09-03",
+              "question": "How was the unemployment rate described in September 2022?",
+              "answers": [
+                {
+                  "text": "has remained low",
+                  "answer_start": 140
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-09-04",
+              "question": "How were job gains described in September 2022?",
+              "answers": [
+                {
+                  "text": "robust",
+                  "answer_start": 89
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – November 2022",
+      "paragraphs": [
+        {
+          "context": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\nRussia's war against Ukraine is causing tremendous human and economic hardship. The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent. The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the pace of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lael Brainard; James Bullard; Susan M. Collins; Lisa D. Cook; Esther L. George; Philip N. Jefferson; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-11-01",
+              "question": "To what target range did the Committee raise the federal funds rate in November 2022?",
+              "answers": [
+                {
+                  "text": "3-3/4 to 4 percent",
+                  "answer_start": 786
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-11-02",
+              "question": "What factors would the Committee take into account in determining the pace of future increases in November 2022?",
+              "answers": [
+                {
+                  "text": "the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments",
+                  "answer_start": 1121
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-11-03",
+              "question": "Who was the Vice Chair voting on the November 2022 monetary policy action?",
+              "answers": [
+                {
+                  "text": "John C. Williams",
+                  "answer_start": 2253
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-11-04",
+              "question": "What did the Committee anticipate would be appropriate in November 2022?",
+              "answers": [
+                {
+                  "text": "ongoing increases in the target range",
+                  "answer_start": 837
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – December 2022",
+      "paragraphs": [
+        {
+          "context": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\nRussia's war against Ukraine is causing tremendous human and economic hardship. The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent. The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the pace of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on public health, labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lael Brainard; James Bullard; Susan M. Collins; Lisa D. Cook; Esther L. George; Philip N. Jefferson; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2022-12-01",
+              "question": "To what target range did the Committee raise the federal funds rate in December 2022?",
+              "answers": [
+                {
+                  "text": "4-1/4 to 4-1/2 percent",
+                  "answer_start": 782
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-12-02",
+              "question": "What level of policy stance did the Committee want to attain in December 2022?",
+              "answers": [
+                {
+                  "text": "sufficiently restrictive to return inflation to 2 percent over time",
+                  "answer_start": 950
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-12-03",
+              "question": "What was the war in Ukraine contributing to, according to the December 2022 statement?",
+              "answers": [
+                {
+                  "text": "upward pressure on inflation",
+                  "answer_start": 438
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2022-12-04",
+              "question": "Who was the Vice Chair voting on the December 2022 monetary policy action?",
+              "answers": [
+                {
+                  "text": "John C. Williams",
+                  "answer_start": 2253
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – February 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation has eased somewhat but remains elevated.\nRussia's war against Ukraine is causing tremendous human and economic hardship and is contributing to elevated global uncertainty. The Committee is highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/2 to 4-3/4 percent. The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the extent of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lael Brainard; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-02-01",
+              "question": "To what target range did the Committee raise the federal funds rate in February 2023?",
+              "answers": [
+                {
+                  "text": "4-1/2 to 4-3/4 percent",
+                  "answer_start": 609
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-02-02",
+              "question": "How was inflation described in February 2023?",
+              "answers": [
+                {
+                  "text": "has eased somewhat but remains elevated",
+                  "answer_start": 168
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-02-03",
+              "question": "What was contributing to elevated global uncertainty in February 2023?",
+              "answers": [
+                {
+                  "text": "Russia's war against Ukraine",
+                  "answer_start": 209
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-02-04",
+              "question": "How did the February 2023 statement refer to the plans for reducing securities holdings?",
+              "answers": [
+                {
+                  "text": "its previously announced plans",
+                  "answer_start": 1271
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators point to modest growth in spending and production. Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation. The extent of these effects is uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-3/4 to 5 percent. The Committee will closely monitor incoming information and assess the implications for monetary policy. The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the extent of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-03-01",
+              "question": "To what target range did the Committee raise the federal funds rate in March 2023?",
+              "answers": [
+                {
+                  "text": "4-3/4 to 5 percent",
+                  "answer_start": 735
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-03-02",
+              "question": "What did the March 2023 statement describe as sound and resilient?",
+              "answers": [
+                {
+                  "text": "The U.S. banking system",
+                  "answer_start": 213
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-03-03",
+              "question": "What were recent developments likely to result in, according to the March 2023 statement?",
+              "answers": [
+                {
+                  "text": "tighter credit conditions for households and businesses",
+                  "answer_start": 305
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-03-04",
+              "question": "What did the Committee anticipate may be appropriate in March 2023?",
+              "answers": [
+                {
+                  "text": "some additional policy firming",
+                  "answer_start": 891
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – May 2023",
+      "paragraphs": [
+        {
+          "context": "Economic activity expanded at a modest pace in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent. The Committee will closely monitor incoming information and assess the implications for monetary policy. In determining the extent to which additional policy firming may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-05-01",
+              "question": "To what target range did the Committee raise the federal funds rate in May 2023?",
+              "answers": [
+                {
+                  "text": "5 to 5-1/4 percent",
+                  "answer_start": 673
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-05-02",
+              "question": "At what pace did economic activity expand in the first quarter, according to the May 2023 statement?",
+              "answers": [
+                {
+                  "text": "a modest pace",
+                  "answer_start": 30
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-05-03",
+              "question": "What were tighter credit conditions likely to weigh on in May 2023?",
+              "answers": [
+                {
+                  "text": "economic activity, hiring, and inflation",
+                  "answer_start": 310
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-05-04",
+              "question": "How did the May 2023 statement describe the extent of the effects of tighter credit conditions?",
+              "answers": [
+                {
+                  "text": "uncertain",
+                  "answer_start": 388
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a modest pace. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5 to 5-1/4 percent. Holding the target range steady at this meeting allows the Committee to assess additional information and its implications for monetary policy. In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-06-01",
+              "question": "What did the Committee decide to do with the target range in June 2023?",
+              "answers": [
+                {
+                  "text": "maintain the target range for the federal funds rate at 5 to 5-1/4 percent",
+                  "answer_start": 645
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-06-02",
+              "question": "Why did the Committee hold the target range steady in June 2023?",
+              "answers": [
+                {
+                  "text": "assess additional information and its implications for monetary policy",
+                  "answer_start": 793
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-06-03",
+              "question": "At what pace had economic activity continued to expand in June 2023?",
+              "answers": [
+                {
+                  "text": "a modest pace",
+                  "answer_start": 76
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-06-04",
+              "question": "How was inflation described in the June 2023 statement?",
+              "answers": [
+                {
+                  "text": "elevated",
+                  "answer_start": 198
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has been expanding at a moderate pace. Job gains have been robust in recent months, and the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5-1/4 to 5-1/2 percent. The Committee will continue to assess additional information and its implications for monetary policy. In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-07-01",
+              "question": "To what target range did the Committee raise the federal funds rate in July 2023?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 695
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-07-02",
+              "question": "At what pace had economic activity been expanding in July 2023?",
+              "answers": [
+                {
+                  "text": "a moderate pace",
+                  "answer_start": 71
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-07-03",
+              "question": "What would the Committee continue to assess in July 2023?",
+              "answers": [
+                {
+                  "text": "additional information and its implications for monetary policy",
+                  "answer_start": 757
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-07-04",
+              "question": "Did the Committee raise or maintain the target range in July 2023?",
+              "answers": [
+                {
+                  "text": "raise",
+                  "answer_start": 642
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have slowed in recent months but remain strong, and the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. The Committee will continue to assess additional information and its implications for monetary policy. In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Adriana D. Kugler; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-09-01",
+              "question": "What target range did the Committee maintain in September 2023?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 708
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-09-02",
+              "question": "At what pace had economic activity been expanding in September 2023?",
+              "answers": [
+                {
+                  "text": "a solid pace",
+                  "answer_start": 71
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-09-03",
+              "question": "How had job gains changed in recent months, according to the September 2023 statement?",
+              "answers": [
+                {
+                  "text": "slowed in recent months but remain strong",
+                  "answer_start": 100
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-09-04",
+              "question": "Who is listed between Neel Kashkari and Lorie K. Logan among the September 2023 voters?",
+              "answers": [
+                {
+                  "text": "Adriana D. Kugler",
+                  "answer_start": 2201
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – November 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity expanded at a strong pace in the third quarter. Job gains have moderated since earlier in the year but remain strong, and the unemployment rate has remained low. Inflation remains elevated.\nThe U.S. banking system is sound and resilient. Tighter financial and credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. The Committee will continue to assess additional information and its implications for monetary policy. In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Adriana D. Kugler; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-11-01",
+              "question": "At what pace did economic activity expand in the third quarter, according to the November 2023 statement?",
+              "answers": [
+                {
+                  "text": "a strong pace",
+                  "answer_start": 61
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-11-02",
+              "question": "How had job gains changed since earlier in the year, according to the November 2023 statement?",
+              "answers": [
+                {
+                  "text": "moderated since earlier in the year but remain strong",
+                  "answer_start": 112
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-11-03",
+              "question": "What conditions were likely to weigh on economic activity, hiring, and inflation in November 2023?",
+              "answers": [
+                {
+                  "text": "Tighter financial and credit conditions for households and businesses",
+                  "answer_start": 287
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-11-04",
+              "question": "What did the November 2023 statement call the U.S. banking system?",
+              "answers": [
+                {
+                  "text": "sound and resilient",
+                  "answer_start": 266
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – December 2023",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter. Job gains have moderated since earlier in the year but remain strong, and the unemployment rate has remained low. Inflation has eased over the past year but remains elevated.\nThe U.S. banking system is sound and resilient. Tighter financial and credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain. The Committee remains highly attentive to inflation risks.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. The Committee will continue to assess additional information and its implications for monetary policy. In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Austan D. Goolsbee; Patrick Harker; Philip N. Jefferson; Neel Kashkari; Adriana D. Kugler; Lorie K. Logan; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2023-12-01",
+              "question": "How had growth of economic activity changed in December 2023?",
+              "answers": [
+                {
+                  "text": "slowed from its strong pace in the third quarter",
+                  "answer_start": 63
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-12-02",
+              "question": "How had inflation changed over the past year, according to the December 2023 statement?",
+              "answers": [
+                {
+                  "text": "eased",
+                  "answer_start": 241
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-12-03",
+              "question": "What target range did the Committee maintain in December 2023?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 795
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2023-12-04",
+              "question": "What kind of policy firming did the December 2023 statement say the Committee would consider the extent of?",
+              "answers": [
+                {
+                  "text": "any additional policy firming",
+                  "answer_start": 951
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – January 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have moderated since early last year but remain strong, and the unemployment rate has remained low. Inflation has eased over the past year but remains elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals are moving into better balance. The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Philip N. Jefferson; Adriana D. Kugler; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-01-01",
+              "question": "What did the Committee judge was moving into better balance in January 2024?",
+              "answers": [
+                {
+                  "text": "the risks to achieving its employment and inflation goals",
+                  "answer_start": 392
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-01-02",
+              "question": "What did the Committee need before reducing the target range, according to the January 2024 statement?",
+              "answers": [
+                {
+                  "text": "greater confidence that inflation is moving sustainably toward 2 percent",
+                  "answer_start": 988
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-01-03",
+              "question": "What target range did the Committee maintain in January 2024?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 686
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-01-04",
+              "question": "Who is listed right after Vice Chair John C. Williams among the January 2024 voters?",
+              "answers": [
+                {
+                  "text": "Thomas I. Barkin",
+                  "answer_start": 1981
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained strong, and the unemployment rate has remained low. Inflation has eased over the past year but remains elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals are moving into better balance. The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in its previously announced plans. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Philip N. Jefferson; Adriana D. Kugler; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-03-01",
+              "question": "How were job gains described in March 2024?",
+              "answers": [
+                {
+                  "text": "remained strong",
+                  "answer_start": 100
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-03-02",
+              "question": "What target range did the Committee maintain in March 2024?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 652
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-03-03",
+              "question": "How was the unemployment rate described in March 2024?",
+              "answers": [
+                {
+                  "text": "has remained low",
+                  "answer_start": 143
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-03-04",
+              "question": "What would the Committee continue reducing in March 2024?",
+              "answers": [
+                {
+                  "text": "its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+                  "answer_start": 1078
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – May 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Job gains have remained strong, and the unemployment rate has remained low. Inflation has eased over the past year but remains elevated. In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals have moved toward better balance over the past year. The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. Beginning in June, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion. The Committee will maintain the monthly redemption cap on agency debt and agency mortgage-backed securities at $35 billion and will reinvest any principal payments in excess of this cap into Treasury securities. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Philip N. Jefferson; Adriana D. Kugler; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-05-01",
+              "question": "By how much was the monthly redemption cap on Treasury securities reduced in May 2024?",
+              "answers": [
+                {
+                  "text": "$60 billion to $25 billion",
+                  "answer_start": 1466
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-05-02",
+              "question": "When would the slower pace of decline in securities holdings begin, according to the May 2024 statement?",
+              "answers": [
+                {
+                  "text": "June",
+                  "answer_start": 1322
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-05-03",
+              "question": "What was the monthly redemption cap on agency debt and agency MBS in May 2024?",
+              "answers": [
+                {
+                  "text": "$35 billion",
+                  "answer_start": 1605
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-05-04",
+              "question": "What had there been in recent months in progress toward the 2 percent inflation objective, according to the May 2024 statement?",
+              "answers": [
+                {
+                  "text": "a lack of further progress",
+                  "answer_start": 260
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-05-05",
+              "question": "Into what would excess agency principal payments be reinvested in May 2024?",
+              "answers": [
+                {
+                  "text": "Treasury securities",
+                  "answer_start": 1685
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Job gains have remained strong, and the unemployment rate has remained low. Inflation has eased over the past year but remains elevated. In recent months, there has been modest further progress toward the Committee's 2 percent inflation objective.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals have moved toward better balance over the past year. The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Philip N. Jefferson; Adriana D. Kugler; Loretta J. Mester; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-06-01",
+              "question": "What kind of progress toward the 2 percent inflation objective was noted in June 2024?",
+              "answers": [
+                {
+                  "text": "modest further progress",
+                  "answer_start": 260
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-06-02",
+              "question": "What target range did the Committee maintain in June 2024?",
+              "answers": [
+                {
+                  "text": "5-1/4 to 5-1/2 percent",
+                  "answer_start": 789
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-06-03",
+              "question": "What did the Committee need before reducing the target range, according to the June 2024 statement?",
+              "answers": [
+                {
+                  "text": "greater confidence that inflation is moving sustainably toward 2 percent",
+                  "answer_start": 1091
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-06-04",
+              "question": "At what pace had economic activity continued to expand in June 2024?",
+              "answers": [
+                {
+                  "text": "a solid pace",
+                  "answer_start": 76
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Job gains have moderated, and the unemployment rate has moved up but remains low. Inflation has eased over the past year but remains somewhat elevated. In recent months, there has been some further progress toward the Committee's 2 percent inflation objective.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals continue to move into better balance. The economic outlook is uncertain, and the Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent. In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Austan D. Goolsbee; Philip N. Jefferson; Adriana D. Kugler; and Christopher J. Waller. Austan D. Goolsbee voted as an alternate member at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-07-01",
+              "question": "How was the unemployment rate described in July 2024?",
+              "answers": [
+                {
+                  "text": "has moved up but remains low",
+                  "answer_start": 142
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-07-02",
+              "question": "What kind of progress toward the 2 percent inflation objective was noted in July 2024?",
+              "answers": [
+                {
+                  "text": "some further progress",
+                  "answer_start": 275
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-07-03",
+              "question": "What did the Committee say about risks to its employment and inflation goals in July 2024?",
+              "answers": [
+                {
+                  "text": "continue to move into better balance",
+                  "answer_start": 545
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-07-04",
+              "question": "Who voted as an alternate member at the July 2024 meeting?",
+              "answers": [
+                {
+                  "text": "Austan D. Goolsbee",
+                  "answer_start": 2239
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Job gains have slowed, and the unemployment rate has moved up but remains low. Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent, and judges that the risks to achieving its employment and inflation goals are roughly in balance. The economic outlook is uncertain, and the Committee is attentive to the risks to both sides of its dual mandate.\nIn light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent. In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Lisa D. Cook; Mary C. Daly; Beth M. Hammack; Philip N. Jefferson; Adriana D. Kugler; and Christopher J. Waller. Voting against this action was Michelle W. Bowman, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-09-01",
+              "question": "By how much did the Committee lower the federal funds target range in September 2024?",
+              "answers": [
+                {
+                  "text": "1/2 percentage point",
+                  "answer_start": 842
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-09-02",
+              "question": "What was the new target range after the September 2024 decision?",
+              "answers": [
+                {
+                  "text": "4-3/4 to 5 percent",
+                  "answer_start": 866
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-09-03",
+              "question": "Who voted against the September 2024 action?",
+              "answers": [
+                {
+                  "text": "Michelle W. Bowman",
+                  "answer_start": 2160
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-09-04",
+              "question": "What cut did Michelle W. Bowman prefer in September 2024?",
+              "answers": [
+                {
+                  "text": "lower the target range for the federal funds rate by 1/4 percentage point",
+                  "answer_start": 2197
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-09-05",
+              "question": "What had the Committee gained greater confidence in, according to the September 2024 statement?",
+              "answers": [
+                {
+                  "text": "inflation is moving sustainably toward 2 percent",
+                  "answer_start": 438
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – November 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Since earlier in the year, labor market conditions have generally eased, and the unemployment rate has moved up but remains low. Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance. The economic outlook is uncertain, and the Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent. In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Beth M. Hammack; Philip N. Jefferson; Adriana D. Kugler; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-11-01",
+              "question": "By how much did the Committee lower the federal funds target range in November 2024?",
+              "answers": [
+                {
+                  "text": "1/4 percentage point",
+                  "answer_start": 756
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-11-02",
+              "question": "What was the new target range after the November 2024 decision?",
+              "answers": [
+                {
+                  "text": "4-1/2 to 4-3/4 percent",
+                  "answer_start": 780
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-11-03",
+              "question": "How had labor market conditions changed since earlier in 2024, according to the November 2024 statement?",
+              "answers": [
+                {
+                  "text": "generally eased",
+                  "answer_start": 146
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-11-04",
+              "question": "How did the Committee describe the risks to its employment and inflation goals in November 2024?",
+              "answers": [
+                {
+                  "text": "roughly in balance",
+                  "answer_start": 519
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – December 2024",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. Since earlier in the year, labor market conditions have generally eased, and the unemployment rate has moved up but remains low. Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance. The economic outlook is uncertain, and the Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Thomas I. Barkin; Michael S. Barr; Raphael W. Bostic; Michelle W. Bowman; Lisa D. Cook; Mary C. Daly; Philip N. Jefferson; Adriana D. Kugler; and Christopher J. Waller. Voting against the action was Beth M. Hammack, who preferred to maintain the target range for the federal funds rate at 4-1/2 to 4-3/4 percent.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2024-12-01",
+              "question": "What was the target range after the December 2024 cut?",
+              "answers": [
+                {
+                  "text": "4-1/4 to 4-1/2 percent",
+                  "answer_start": 780
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-12-02",
+              "question": "Who voted against the December 2024 action?",
+              "answers": [
+                {
+                  "text": "Beth M. Hammack",
+                  "answer_start": 2105
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-12-03",
+              "question": "What did Beth M. Hammack prefer in December 2024?",
+              "answers": [
+                {
+                  "text": "maintain the target range for the federal funds rate at 4-1/2 to 4-3/4 percent",
+                  "answer_start": 2139
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2024-12-04",
+              "question": "What would the Committee carefully consider in adjusting the target range in December 2024?",
+              "answers": [
+                {
+                  "text": "the extent and timing of additional adjustments",
+                  "answer_start": 819
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – January 2025",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance. The economic outlook is uncertain, and the Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Adriana D. Kugler; Alberto G. Musalem; Jeffrey R. Schmid; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-01-01",
+              "question": "What target range did the Committee maintain in January 2025?",
+              "answers": [
+                {
+                  "text": "4-1/4 to 4-1/2 percent",
+                  "answer_start": 677
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-01-02",
+              "question": "How had the unemployment rate behaved in recent months, according to the January 2025 statement?",
+              "answers": [
+                {
+                  "text": "stabilized at a low level",
+                  "answer_start": 116
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-01-03",
+              "question": "Who is listed between Adriana D. Kugler and Jeffrey R. Schmid among the January 2025 voters?",
+              "answers": [
+                {
+                  "text": "Alberto G. Musalem",
+                  "answer_start": 1932
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-01-04",
+              "question": "How were labor market conditions described in January 2025?",
+              "answers": [
+                {
+                  "text": "solid",
+                  "answer_start": 195
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2025",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has continued to expand at a solid pace. The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty around the economic outlook has increased. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. Beginning in April, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $25 billion to $5 billion. The Committee will maintain the monthly redemption cap on agency debt and agency mortgage-backed securities at $35 billion. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Adriana D. Kugler; Alberto G. Musalem; and Jeffrey R. Schmid. Voting against this action was Christopher J. Waller, who supported no change for the federal funds target range but preferred to continue the current pace of decline in securities holdings.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-03-01",
+              "question": "By how much was the monthly Treasury redemption cap reduced in March 2025?",
+              "answers": [
+                {
+                  "text": "$25 billion to $5 billion",
+                  "answer_start": 1105
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-03-02",
+              "question": "When would the slower pace of securities decline begin, according to the March 2025 statement?",
+              "answers": [
+                {
+                  "text": "April",
+                  "answer_start": 960
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-03-03",
+              "question": "Who voted against the March 2025 action?",
+              "answers": [
+                {
+                  "text": "Christopher J. Waller",
+                  "answer_start": 2223
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-03-04",
+              "question": "What did Waller prefer to continue in March 2025?",
+              "answers": [
+                {
+                  "text": "the current pace of decline in securities holdings",
+                  "answer_start": 2331
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-03-05",
+              "question": "What had happened to uncertainty around the economic outlook in March 2025?",
+              "answers": [
+                {
+                  "text": "increased",
+                  "answer_start": 393
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – May 2025",
+      "paragraphs": [
+        {
+          "context": "Although swings in net exports have affected the data, recent indicators suggest that economic activity has continued to expand at a solid pace. The unemployment rate has stabilized at a low level in recent months, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook has increased further. The Committee is attentive to the risks to both sides of its dual mandate and judges that the risks of higher unemployment and higher inflation have risen.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Neel Kashkari; Adriana D. Kugler; Alberto G. Musalem; and Christopher J. Waller. Neel Kashkari voted as an alternate member at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-05-01",
+              "question": "What was affecting the data in May 2025, according to the statement?",
+              "answers": [
+                {
+                  "text": "swings in net exports",
+                  "answer_start": 9
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-05-02",
+              "question": "Which risks did the Committee judge had risen in May 2025?",
+              "answers": [
+                {
+                  "text": "the risks of higher unemployment and higher inflation",
+                  "answer_start": 556
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-05-03",
+              "question": "Who voted as an alternate member in May 2025?",
+              "answers": [
+                {
+                  "text": "Neel Kashkari",
+                  "answer_start": 2045
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-05-04",
+              "question": "How had uncertainty about the economic outlook changed in May 2025?",
+              "answers": [
+                {
+                  "text": "increased further",
+                  "answer_start": 447
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2025",
+      "paragraphs": [
+        {
+          "context": "Although swings in net exports have affected the data, recent indicators suggest that economic activity has continued to expand at a solid pace. The unemployment rate remains low, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook has diminished but remains elevated. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Adriana D. Kugler; Alberto G. Musalem; Jeffrey R. Schmid; and Christopher J. Waller.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-06-01",
+              "question": "How was uncertainty about the economic outlook described in June 2025?",
+              "answers": [
+                {
+                  "text": "diminished but remains elevated",
+                  "answer_start": 412
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-06-02",
+              "question": "What had affected the data in June 2025?",
+              "answers": [
+                {
+                  "text": "swings in net exports",
+                  "answer_start": 9
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-06-03",
+              "question": "How was the unemployment rate described in June 2025?",
+              "answers": [
+                {
+                  "text": "remains low",
+                  "answer_start": 167
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-06-04",
+              "question": "How was inflation described in June 2025?",
+              "answers": [
+                {
+                  "text": "somewhat elevated",
+                  "answer_start": 240
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2025",
+      "paragraphs": [
+        {
+          "context": "Although swings in net exports continue to affect the data, recent indicators suggest that growth of economic activity moderated in the first half of the year. The unemployment rate remains low, and labor market conditions remain solid. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Alberto G. Musalem; and Jeffrey R. Schmid. Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Absent and not voting was Adriana D. Kugler.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-07-01",
+              "question": "Who voted against the July 2025 action?",
+              "answers": [
+                {
+                  "text": "Michelle W. Bowman and Christopher J. Waller",
+                  "answer_start": 1913
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-07-02",
+              "question": "What did the July 2025 dissenters prefer?",
+              "answers": [
+                {
+                  "text": "lower the target range for the federal funds rate by 1/4 percentage point",
+                  "answer_start": 1976
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-07-03",
+              "question": "Who was absent and not voting at the July 2025 meeting?",
+              "answers": [
+                {
+                  "text": "Adriana D. Kugler",
+                  "answer_start": 2093
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-07-04",
+              "question": "When had growth of economic activity moderated, according to the July 2025 statement?",
+              "answers": [
+                {
+                  "text": "in the first half of the year",
+                  "answer_start": 129
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2025",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that growth of economic activity moderated in the first half of the year. Job gains have slowed, and the unemployment rate has edged up but remains low. Inflation has moved up and remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment have risen.\nIn support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4-1/4 percent. In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Alberto G. Musalem; Jeffrey R. Schmid; and Christopher J. Waller. Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-09-01",
+              "question": "What was the target range after the September 2025 cut?",
+              "answers": [
+                {
+                  "text": "4 to 4-1/4 percent",
+                  "answer_start": 708
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-09-02",
+              "question": "Who voted against the September 2025 action?",
+              "answers": [
+                {
+                  "text": "Stephen I. Miran",
+                  "answer_start": 2012
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-09-03",
+              "question": "What size of cut did Miran prefer in September 2025?",
+              "answers": [
+                {
+                  "text": "1/2 percentage point",
+                  "answer_start": 2100
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-09-04",
+              "question": "Which risks did the Committee judge had risen in September 2025?",
+              "answers": [
+                {
+                  "text": "downside risks to employment",
+                  "answer_start": 490
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-09-05",
+              "question": "How had job gains changed in September 2025?",
+              "answers": [
+                {
+                  "text": "slowed",
+                  "answer_start": 115
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – October 2025",
+      "paragraphs": [
+        {
+          "context": "Available indicators suggest that economic activity has been expanding at a moderate pace. Job gains have slowed this year, and the unemployment rate has edged up but remained low through August; more recent indicators are consistent with these developments. Inflation has moved up since earlier in the year and remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.\nIn support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent. In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee decided to conclude the reduction of its aggregate securities holdings on December 1. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Alberto G. Musalem; and Christopher J. Waller. Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-10-01",
+              "question": "What was the target range after the October 2025 cut?",
+              "answers": [
+                {
+                  "text": "3-3/4 to 4 percent",
+                  "answer_start": 825
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-10-02",
+              "question": "When would the Committee conclude the reduction of its securities holdings, according to the October 2025 statement?",
+              "answers": [
+                {
+                  "text": "December 1",
+                  "answer_start": 1118
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-10-03",
+              "question": "Who preferred no change to the target range in October 2025?",
+              "answers": [
+                {
+                  "text": "Jeffrey R. Schmid",
+                  "answer_start": 2213
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-10-04",
+              "question": "Who preferred a 1/2 percentage point cut in October 2025?",
+              "answers": [
+                {
+                  "text": "Stephen I. Miran",
+                  "answer_start": 2083
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-10-05",
+              "question": "Through which month had the unemployment rate remained low, according to the October 2025 statement?",
+              "answers": [
+                {
+                  "text": "August",
+                  "answer_start": 188
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – December 2025",
+      "paragraphs": [
+        {
+          "context": "Available indicators suggest that economic activity has been expanding at a moderate pace. Job gains have slowed this year, and the unemployment rate has edged up through September. More recent indicators are consistent with these developments. Inflation has moved up since earlier in the year and remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.\nIn support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3-3/4 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nThe Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Philip N. Jefferson; Alberto G. Musalem; and Christopher J. Waller. Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2025-12-01",
+              "question": "What was the target range after the December 2025 cut?",
+              "answers": [
+                {
+                  "text": "3-1/2 to 3-3/4 percent",
+                  "answer_start": 811
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-12-02",
+              "question": "What would the Committee initiate purchases of in December 2025?",
+              "answers": [
+                {
+                  "text": "shorter-term Treasury securities",
+                  "answer_start": 1815
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-12-03",
+              "question": "To what level had reserve balances declined, according to the December 2025 statement?",
+              "answers": [
+                {
+                  "text": "ample levels",
+                  "answer_start": 1771
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-12-04",
+              "question": "Who preferred no change to the target range in December 2025?",
+              "answers": [
+                {
+                  "text": "Austan D. Goolsbee and Jeffrey R. Schmid",
+                  "answer_start": 2316
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2025-12-05",
+              "question": "Who preferred a 1/2 percentage point cut in December 2025?",
+              "answers": [
+                {
+                  "text": "Stephen I. Miran",
+                  "answer_start": 2186
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – January 2026",
+      "paragraphs": [
+        {
+          "context": "Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has shown some signs of stabilization. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Beth M. Hammack; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; and Anna Paulson. Voting against this action were Stephen I. Miran and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-01-01",
+              "question": "What target range did the Committee maintain in January 2026?",
+              "answers": [
+                {
+                  "text": "3-1/2 to 3-3/4 percent",
+                  "answer_start": 567
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-01-02",
+              "question": "How were job gains described in January 2026?",
+              "answers": [
+                {
+                  "text": "remained low",
+                  "answer_start": 103
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-01-03",
+              "question": "Who voted against the January 2026 action?",
+              "answers": [
+                {
+                  "text": "Stephen I. Miran and Christopher J. Waller",
+                  "answer_start": 1735
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-01-04",
+              "question": "Who is listed last among the January 2026 voting members?",
+              "answers": [
+                {
+                  "text": "Anna Paulson",
+                  "answer_start": 1689
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-01-05",
+              "question": "What had the unemployment rate shown in January 2026?",
+              "answers": [
+                {
+                  "text": "some signs of stabilization",
+                  "answer_start": 153
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – March 2026",
+      "paragraphs": [
+        {
+          "context": "Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has been little changed in recent months. Inflation remains somewhat elevated.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Beth M. Hammack; Philip N. Jefferson; Neel Kashkari; Lorie K. Logan; Anna Paulson; and Christopher J. Waller. Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-03-01",
+              "question": "Developments in which region were creating uncertainty for the U.S. economy in March 2026?",
+              "answers": [
+                {
+                  "text": "the Middle East",
+                  "answer_start": 425
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-03-02",
+              "question": "Who voted against the March 2026 action?",
+              "answers": [
+                {
+                  "text": "Stephen I. Miran",
+                  "answer_start": 1848
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-03-03",
+              "question": "What target range did the Committee maintain in March 2026?",
+              "answers": [
+                {
+                  "text": "3-1/2 to 3-3/4 percent",
+                  "answer_start": 658
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-03-04",
+              "question": "How had the unemployment rate behaved in March 2026?",
+              "answers": [
+                {
+                  "text": "little changed in recent months",
+                  "answer_start": 152
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – April 2026",
+      "paragraphs": [
+        {
+          "context": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, on average, and the unemployment rate has been little changed in recent months. Inflation is elevated, in part reflecting the recent increase in global energy prices.\nThe Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Developments in the Middle East are contributing to a high level of uncertainty about the economic outlook. The Committee is attentive to the risks to both sides of its dual mandate.\nIn support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.\nIn assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.\nVoting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Lisa D. Cook; Philip N. Jefferson; Anna Paulson; and Christopher J. Waller. Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-04-01",
+              "question": "What was inflation partly reflecting in April 2026?",
+              "answers": [
+                {
+                  "text": "the recent increase in global energy prices",
+                  "answer_start": 236
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-04-02",
+              "question": "Who did not support an easing bias in the April 2026 statement?",
+              "answers": [
+                {
+                  "text": "Beth M. Hammack, Neel Kashkari, and Lorie K. Logan",
+                  "answer_start": 1953
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-04-03",
+              "question": "What cut did Stephen I. Miran prefer in April 2026?",
+              "answers": [
+                {
+                  "text": "lower the target range for the federal funds rate by 1/4 percentage point",
+                  "answer_start": 1858
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-04-04",
+              "question": "How was the uncertainty caused by Middle East developments described in April 2026?",
+              "answers": [
+                {
+                  "text": "a high level of uncertainty",
+                  "answer_start": 443
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – June 2026",
+      "paragraphs": [
+        {
+          "context": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:\nThe Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate. The Committee reaffirmed its policy of maintaining ample reserves in the banking system.\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong. Job gains have kept pace with the workforce, and the unemployment rate has changed little.\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-06-01",
+              "question": "What was the vote on the June 2026 statement?",
+              "answers": [
+                {
+                  "text": "12 – 0",
+                  "answer_start": 84
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-06-02",
+              "question": "What target range did the Committee maintain in June 2026?",
+              "answers": [
+                {
+                  "text": "3-1/2 to 3-3/4 percent",
+                  "answer_start": 178
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-06-03",
+              "question": "What policy did the Committee reaffirm in June 2026?",
+              "answers": [
+                {
+                  "text": "maintaining ample reserves in the banking system",
+                  "answer_start": 291
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-06-04",
+              "question": "What conflict contributed to elevated uncertainty in June 2026?",
+              "answers": [
+                {
+                  "text": "the conflict in the Middle East",
+                  "answer_start": 440
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-06-05",
+              "question": "What was strong in June 2026, according to the statement?",
+              "answers": [
+                {
+                  "text": "Productivity growth and capital investment",
+                  "answer_start": 473
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – July 2026",
+      "paragraphs": [
+        {
+          "context": "The Federal Open Market Committee approved the following statement for release by a 9 – 3 vote:\nThe Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's dual mandate. The Committee is continuing its policy of maintaining ample reserves in the banking system.\nEconomic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong. Job gains have kept pace with the workforce, and the unemployment rate has changed little.\nInflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability.\n\nVoting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-07-01",
+              "question": "What was the vote on the July 2026 statement?",
+              "answers": [
+                {
+                  "text": "9 – 3",
+                  "answer_start": 84
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-07-02",
+              "question": "Who voted against the July 2026 action?",
+              "answers": [
+                {
+                  "text": "Beth M. Hammack, Neel Kashkari, and Lorie K. Logan",
+                  "answer_start": 888
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-07-03",
+              "question": "What did the July 2026 dissenters prefer?",
+              "answers": [
+                {
+                  "text": "raise the target range for the federal funds rate by 1/4 percentage point",
+                  "answer_start": 957
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-07-04",
+              "question": "What target range did the Committee maintain in July 2026?",
+              "answers": [
+                {
+                  "text": "3-1/2 to 3-3/4 percent",
+                  "answer_start": 177
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-07-05",
+              "question": "What policy was the Committee continuing in July 2026?",
+              "answers": [
+                {
+                  "text": "maintaining ample reserves in the banking system",
+                  "answer_start": 293
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – September 2026",
+      "paragraphs": [
+        {
+          "context": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:\nThe Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate. The Committee is continuing its policy of maintaining ample reserves in the banking system.\nEconomic activity is expanding at a solid pace. While uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient. Productivity growth is strong, and capital investment is robust. Job gains have kept pace with the workforce, and the unemployment rate has changed little.\nInflation remains elevated. Today's policy action will support a timelier return to the Committee's 2 percent goal. The Committee will deliver price stability.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-09-01",
+              "question": "What did the Committee decide to do in September 2026?",
+              "answers": [
+                {
+                  "text": "raise the target range for the federal funds rate by 1/4 percentage point",
+                  "answer_start": 122
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-09-02",
+              "question": "How was capital investment described in September 2026?",
+              "answers": [
+                {
+                  "text": "robust",
+                  "answer_start": 585
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-09-03",
+              "question": "What had job gains kept pace with, according to the September 2026 statement?",
+              "answers": [
+                {
+                  "text": "the workforce",
+                  "answer_start": 623
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-09-04",
+              "question": "What would the September 2026 policy action support?",
+              "answers": [
+                {
+                  "text": "a timelier return to the Committee's 2 percent goal",
+                  "answer_start": 747
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-09-05",
+              "question": "How was domestic spending described in September 2026?",
+              "answers": [
+                {
+                  "text": "resilient",
+                  "answer_start": 517
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-09-06",
+              "question": "What did the Committee say it would deliver in September 2026?",
+              "answers": [
+                {
+                  "text": "price stability",
+                  "answer_start": 827
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FOMC Statement – October 2026",
+      "paragraphs": [
+        {
+          "context": "The Federal Open Market Committee approved the following statement for release by a 10 – 2 vote:\nThe Committee decided to maintain the target range for the federal funds rate at 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate. The Committee is continuing its policy of maintaining ample reserves in the banking system.\nEconomic activity is expanding at a strong pace. While uncertainty remains elevated owing, in part, to geopolitical developments, domestic spending has been resilient. Productivity growth is strong, and capital investment is robust. Job gains have kept pace with the workforce, and the unemployment rate has changed little.\nInflation remains elevated. The accumulation of more information will help the Committee determine the policy stance appropriate to ensure a timely return of inflation to the Committee's 2 percent goal. The Committee will deliver price stability.\n\nVoting against the monetary policy action were Lisa D. Cook and Beth M. Hammack, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.\n",
+          "qas": [
+            {
+              "id": "fomc-stmt-2026-10-01",
+              "question": "What was the vote on the October 2026 statement?",
+              "answers": [
+                {
+                  "text": "10 – 2",
+                  "answer_start": 84
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-10-02",
+              "question": "What target range did the Committee maintain in October 2026?",
+              "answers": [
+                {
+                  "text": "3-3/4 to 4 percent",
+                  "answer_start": 178
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-10-03",
+              "question": "Who voted against the October 2026 action?",
+              "answers": [
+                {
+                  "text": "Lisa D. Cook and Beth M. Hammack",
+                  "answer_start": 959
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-10-04",
+              "question": "At what pace was economic activity expanding in October 2026?",
+              "answers": [
+                {
+                  "text": "a strong pace",
+                  "answer_start": 374
+                }
+              ]
+            },
+            {
+              "id": "fomc-stmt-2026-10-05",
+              "question": "What would more information help the Committee determine in October 2026?",
+              "answers": [
+                {
+                  "text": "the policy stance",
+                  "answer_start": 763
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
