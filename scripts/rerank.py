@@ -34,9 +34,9 @@ def rank_cohere(query,texts, top_k):
   return indexs, scores
 model_lists_1 = ["BAAI/bge-reranker-v2-m3",
                  "Alibaba-NLP/gte-reranker-modernbert-base",
-                 "mixedbread-ai/mxbai-rerank-xsmall-v1",
-                 "jinaai/jina-reranker-v2-base-multilingual"]
-model_lists_2 = []
+                 "mixedbread-ai/mxbai-rerank-xsmall-v1"
+                 ]
+model_lists_2 = ["jinaai/jina-reranker-v2-base-multilingual"]
 def rrf(rankings: list[list[int]], k: int = 60, weights=None, top_n: int = 10):
     """rankings : une liste d'identifiants triés par pertinence décroissante, par méthode."""
     scores: dict[int, float] = {}
@@ -56,10 +56,9 @@ def rank(query,texts,top_k,model,model_name):
       top_indices = np.argsort(scores)[::-1][:top_k]
       return top_indices, [scores[i] for i in top_indices]
     elif model_name in model_lists_2:
-      results = model.rerank(query, texts)
-      indexs = [result['index'] for result in results["results"]]
-      scores = [result['relevance_score'] for result in results["results"]]
-      return indexs, scores
+      scores = model.compute_score(pairs, max_length=1024)
+      top_indices = np.argsort(scores)[::-1][:top_k]
+      return top_indices, scores
     else:
       raise ValueError(f"Model {model_name} not supported")
     # print(f"Index: {result['index']}, Score: {result['relevance_score']}")

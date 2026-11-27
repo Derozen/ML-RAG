@@ -5,7 +5,8 @@ import pickle
 import sys
 import psycopg2
 from sentence_transformers import CrossEncoder, SentenceTransformer
-from transformers import AutoModel
+#from transformers import AutoModel
+from transformers import AutoModelForSequenceClassification
 from rank_bm25 import BM25Okapi
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -107,7 +108,8 @@ def testpipeline(questions,answers,embeddings,
 if __name__ == "__main__":
     MODEL_NAMES = {"norerank":"norerank","Alibaba-NLP/gte-reranker-modernbert-base":"gte",
                  "mixedbread-ai/mxbai-rerank-xsmall-v1":"mxbai",
-                 "jinaai/jina-reranker-v2-base-multilingual":"jina"}#"cohere":"cohere","BAAI/bge-reranker-v2-m3":"bge"
+                 "cross-encoder/ms-marco-MiniLM-L-6-v2":"marco"}
+                 #"jinaai/jina-reranker-v2-base-multilingual":"jina"}#"cohere":"cohere","BAAI/bge-reranker-v2-m3":"bge"
                     # }#"jinaai/jina-reranker-v3":"jina"}
     dataset_json_path = 'data/articles_with_qasv2.json'
     methods = ['hybride','bm25','vectorielle']
@@ -158,7 +160,8 @@ if __name__ == "__main__":
       if rrk_model in model_lists_1:
           model = CrossEncoder(rrk_model)
       elif rrk_model in model_lists_2:
-          model = AutoModel.from_pretrained(rrk_model)
+          model = AutoModelForSequenceClassification.from_pretrained(rrk_model,trust_remote_code=True)
+          model.eval()
       else:
           model = None
       sql1 = f"""
